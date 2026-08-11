@@ -400,3 +400,39 @@ def get_rejected_questions():
         "count": len(questions),
         "questions": questions
     }
+
+# ============================================================
+# STUDENT QUESTION BANK
+# ============================================================
+
+@app.get("/questions")
+def get_student_questions():
+    """
+    Return only approved questions that are safe for students.
+    Administrative and AI-review metadata are intentionally removed.
+    """
+
+    questions = load_questions(APPROVED_FILE)
+
+    student_questions = []
+
+    for question in questions:
+
+        student_question = {
+            "question": question.get("question"),
+            "options": question.get("options"),
+            "correct_answer": question.get("correct_answer"),
+            "explanations": question.get("explanations"),
+            "category": question.get("category"),
+            "topic": question.get("topic"),
+            "difficulty": question.get("difficulty"),
+            "question_type": question.get("question_type"),
+            "calculation": question.get("calculation")
+        }
+
+        student_questions.append(student_question)
+
+    return {
+        "count": len(student_questions),
+        "questions": student_questions
+    }

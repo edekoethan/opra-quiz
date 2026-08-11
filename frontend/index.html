@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1.0"
+    >
+
+    <title>OPRA Quiz</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<header class="topbar">
+
+    <div>
+        <h1>OPRA Quiz</h1>
+        <p>Pharmacy Knowledge Examination</p>
+    </div>
+
+    <div
+        id="timerContainer"
+        class="timer-container hidden"
+    >
+        <span class="timer-label">
+            TIME LEFT
+        </span>
+
+        <span id="timer">
+            02:00:00
+        </span>
+    </div>
+
+</header>
+
+
+<main class="container">
+
+    <!-- LOADING -->
+
+    <section
+        id="loading"
+        class="card"
+    >
+
+        <h2>Preparing your examination...</h2>
+
+        <p>
+            Please wait while your questions are loaded.
+        </p>
+
+    </section>
+
+
+    <!-- EXAM -->
+
+    <section
+        id="exam"
+        class="hidden"
+    >
+
+        <div class="exam-layout">
+
+
+            <!-- QUESTION -->
+
+            <div class="question-area card">
+
+                <div class="quiz-header">
+
+                    <span id="questionNumber">
+                        Question 1 of 120
+                    </span>
+
+                    <span id="score">
+                        Answered: 0
+                    </span>
+
+                </div>
+
+
+                <div class="progress-container">
+
+                    <div
+                        id="progress"
+                        class="progress"
+                    ></div>
+
+                </div>
+
+
+                <div
+                    id="category"
+                    class="category"
+                >
+                    Pharmacy
+                </div>
+
+
+                <h2
+                    id="questionText"
+                    class="question"
+                >
+                </h2>
+
+
+                <div
+                    id="options"
+                    class="options"
+                >
+                </div>
+
+
+                <div class="question-controls">
+
+                    <button
+                        id="previousButton"
+                        class="secondary-button"
+                    >
+                        ← Previous
+                    </button>
+
+
+                    <button
+                        id="nextButton"
+                        class="next-button"
+                    >
+                        Next →
+                    </button>
+
+                </div>
+
+            </div>
+
+
+            <!-- NAVIGATION -->
+
+            <aside class="navigation-card card">
+
+                <h3>
+                    Question Navigator
+                </h3>
+
+
+                <p class="navigation-help">
+                    Click a number to jump directly
+                    to that question.
+                </p>
+
+
+                <div
+                    id="questionNavigator"
+                    class="question-navigator"
+                >
+                </div>
+
+
+                <div class="legend">
+
+                    <div>
+                        <span class="legend-box answered-box"></span>
+                        Answered
+                    </div>
+
+                    <div>
+                        <span class="legend-box unanswered-box"></span>
+                        Unanswered
+                    </div>
+
+                    <div>
+                        <span class="legend-box current-box"></span>
+                        Current
+                    </div>
+
+                </div>
+
+
+                <div class="navigation-summary">
+
+                    <strong id="answeredCount">
+                        0
+                    </strong>
+
+                    <span>
+                        answered
+                    </span>
+
+                    <strong id="unansweredCount">
+                        0
+                    </strong>
+
+                    <span>
+                        unanswered
+                    </span>
+
+                </div>
+
+
+                <button
+                    id="submitButton"
+                    class="submit-button"
+                >
+                    Submit Exam
+                </button>
+
+            </aside>
+
+        </div>
+
+    </section>
+
+
+    <!-- RESULTS -->
+
+    <section
+        id="results"
+        class="card results hidden"
+    >
+
+        <div class="results-icon">
+            🎉
+        </div>
+
+        <h2>
+            Examination Complete
+        </h2>
+
+        <p>
+            Your final score:
+        </p>
+
+        <div
+            id="finalScore"
+            class="final-score"
+        >
+            0 / 120
+        </div>
+
+        <div
+            id="percentage"
+            class="percentage"
+        >
+            0%
+        </div>
+
+        <p id="resultMessage"></p>
+
+
+        <button
+            id="reviewButton"
+            class="next-button"
+        >
+            Review Answers
+        </button>
+
+    </section>
+
+
+    <!-- REVIEW -->
+
+    <section
+        id="review"
+        class="hidden"
+    >
+
+        <div class="review-header card">
+
+            <div>
+
+                <h2>
+                    Examination Review
+                </h2>
+
+                <p>
+                    Review your answers and explanations.
+                </p>
+
+            </div>
+
+            <button
+                id="backToResults"
+                class="secondary-button"
+            >
+                ← Results
+            </button>
+
+        </div>
+
+
+        <div
+            id="reviewQuestions"
+            class="review-questions"
+        >
+        </div>
+
+    </section>
+
+
+    <!-- ERROR -->
+
+    <section
+        id="error"
+        class="card error hidden"
+    >
+
+        <h2>
+            Unable to load examination
+        </h2>
+
+        <p id="errorMessage"></p>
+
+        <p>
+            Make sure FastAPI is running on:
+        </p>
+
+        <code>
+            http://127.0.0.1:8000
+        </code>
+
+    </section>
+
+</main>
+
+
+<script src="app.js"></script>
+
+</body>
+
+</html>
