@@ -1,0 +1,178 @@
+[
+    {
+        "status": "approved",
+        "category": "Biomedical Sciences",
+        "topic": "Atypical pneumonia pathogens",
+        "difficulty": "easy",
+        "question": "Which group of bacteria is classically associated with atypical pneumonia and is commonly treated with agents such as clarithromycin or doxycycline?",
+        "options": {
+            "A": "Mycoplasma pneumoniae, Chlamydophila pneumoniae, and Legionella pneumophila",
+            "B": "Streptococcus pneumoniae, Streptococcus pyogenes, and Staphylococcus aureus",
+            "C": "Haemophilus influenzae, Moraxella catarrhalis, and Klebsiella pneumoniae",
+            "D": "Escherichia coli, Proteus mirabilis, and Pseudomonas aeruginosa"
+        },
+        "correct_answer": "A",
+        "explanations": {
+            "A": "These organisms are classic causes of atypical pneumonia. Macrolides such as clarithromycin and tetracyclines such as doxycycline are commonly active against them.",
+            "B": "These organisms are more commonly associated with typical bacterial pneumonia or other respiratory infections and are not the classic atypical pneumonia group.",
+            "C": "These are recognized respiratory pathogens, but they are generally associated with typical bacterial pneumonia rather than the classic atypical pathogens.",
+            "D": "These organisms can cause serious infections, including pneumonia in selected patients, but they are not the classic causes of community-acquired atypical pneumonia."
+        },
+        "id": 1,
+        "source": "Which bacteria cause atypical pneumonia?\nTypical pneumonia: Which has cell wall, treated by amoxicillin mainly.\nAtypical pneumonia: doesn't have cell wall: Mycoplasma, Chlamydophila, Legionella. Treated by clarithromycin and doxycycline."
+    },
+    {
+        "status": "approved",
+        "category": "Biomedical Sciences",
+        "topic": "Hypersensitivity reactions",
+        "difficulty": "easy",
+        "question": "Which immunoglobulin is primarily responsible for mediating anaphylactic hypersensitivity reactions?",
+        "options": {
+            "A": "IgE",
+            "B": "IgG",
+            "C": "IgM",
+            "D": "IgA"
+        },
+        "correct_answer": "A",
+        "explanations": {
+            "A": "IgE binds to mast cells and basophils; allergen-mediated cross-linking triggers rapid mediator release in anaphylaxis.",
+            "B": "IgG is involved in several immune responses, including some type II and type III hypersensitivity reactions, but it is not the primary antibody in anaphylaxis.",
+            "C": "IgM is primarily involved in early immune responses and complement activation rather than classic anaphylactic reactions.",
+            "D": "IgA mainly provides mucosal and secretory immune protection and is not the principal immunoglobulin in anaphylaxis."
+        },
+        "id": 2,
+        "source": "Hypersensitivity reaction (anaphylaxis): IgE"
+    },
+    {
+        "status": "approved",
+        "category": "Pharmacology & Toxicology",
+        "topic": "Antimicrobial therapy for Q fever",
+        "difficulty": "easy",
+        "question": "Which antimicrobial is the first-line treatment for acute Q fever in a typical adult patient?",
+        "options": {
+            "A": "Doxycycline",
+            "B": "Azithromycin",
+            "C": "Ciprofloxacin",
+            "D": "Amoxicillin"
+        },
+        "correct_answer": "A",
+        "explanations": {
+            "A": "Doxycycline is the first-line treatment for acute Q fever caused by Coxiella burnetii.",
+            "B": "Azithromycin may be considered in certain patients, such as those unable to take doxycycline, but it is not the usual first-line choice in adults.",
+            "C": "Ciprofloxacin is not the preferred treatment for acute Q fever despite activity against some intracellular pathogens.",
+            "D": "Amoxicillin is not reliably effective against Coxiella burnetii and is not recommended as first-line therapy."
+        },
+        "id": 3,
+        "source": "Which drug is used for Q Fever? Doxycycline"
+    },
+    {
+        "status": "approved",
+        "category": "Medicinal Chemistry & Biopharmaceutics",
+        "topic": "Chelating agents in pharmaceutical formulations",
+        "difficulty": "easy",
+        "question": "What is the primary pharmaceutical function of ethylenediaminetetraacetic acid (EDTA) in a formulation?",
+        "options": {
+            "A": "Chelating agent",
+            "B": "Antioxidant",
+            "C": "Buffering agent",
+            "D": "Emulsifying agent"
+        },
+        "correct_answer": "A",
+        "explanations": {
+            "A": "EDTA binds polyvalent metal ions such as calcium, magnesium, and trace metals. It is therefore used primarily as a chelating agent, often to improve formulation stability.",
+            "B": "EDTA is not a primary free-radical-scavenging antioxidant, although it may enhance antioxidant stability by binding trace metals that catalyze oxidation.",
+            "C": "EDTA does not primarily control formulation pH and is not classified as a buffering agent.",
+            "D": "EDTA does not stabilize emulsions by reducing interfacial tension and is not an emulsifying agent."
+        },
+        "id": 4,
+        "source": "Use of EDTA: chelating agent"
+    },
+    {
+        "status": "approved",
+        "category": "Therapeutics & Patient Care",
+        "topic": "Pharmacotherapy of urinary incontinence",
+        "difficulty": "easy",
+        "question": "Which antimuscarinic drug is generally considered among the most potent agents for treating urge urinary incontinence?",
+        "options": {
+            "A": "Oxybutynin",
+            "B": "Tolterodine",
+            "C": "Darifenacin",
+            "D": "Trospium"
+        },
+        "correct_answer": "A",
+        "explanations": {
+            "A": "Oxybutynin is a potent antimuscarinic agent that reduces detrusor muscle contractions and is used to treat urge urinary incontinence.",
+            "B": "Tolterodine is an effective antimuscarinic for overactive bladder but is generally regarded as less potent than oxybutynin.",
+            "C": "Darifenacin selectively antagonizes M3 receptors and is used for overactive bladder, but it is not generally identified as the strongest option in this comparison.",
+            "D": "Trospium is a quaternary antimuscarinic used for overactive bladder, but it is not generally considered the most potent agent among these choices."
+        },
+        "id": 5,
+        "source": "Strongest anticholinergic for urinary incontinence: oxybutynin"
+    },
+    {
+        "status": "approved",
+        "category": "Pharmacology & Toxicology",
+        "topic": "Antiepileptic drugs and absence seizures",
+        "difficulty": "easy",
+        "question": "Which medication is generally considered the drug of choice for treating typical absence seizures when no other seizure types are present?",
+        "options": {
+            "A": "Ethosuximide",
+            "B": "Valproic acid",
+            "C": "Lamotrigine",
+            "D": "Carbamazepine"
+        },
+        "correct_answer": "A",
+        "explanations": {
+            "A": "Ethosuximide is the traditional first-line treatment for typical absence seizures because it suppresses thalamic T-type calcium currents.",
+            "B": "Valproic acid is effective for absence seizures but is generally preferred when absence seizures occur with other generalized seizure types or when broader-spectrum therapy is needed.",
+            "C": "Lamotrigine can be effective in absence epilepsy but is not usually the first-line choice when isolated typical absence seizures are present.",
+            "D": "Carbamazepine may worsen absence seizures and is therefore not an appropriate treatment for this condition."
+        },
+        "id": 6,
+        "source": "DOC Absence Seizure: ethosuximide"
+    },
+    {
+        "status": "approved",
+        "category": "Pharmacology & Toxicology",
+        "topic": "Anthelmintic mechanisms of action",
+        "difficulty": "easy",
+        "question": "What is the primary mechanism of action of mebendazole against helminths?",
+        "options": {
+            "A": "Inhibition of microtubule polymerization by binding to parasite β-tubulin",
+            "B": "Activation of nicotinic acetylcholine receptors, causing persistent paralysis",
+            "C": "Inhibition of γ-aminobutyric acid-gated chloride channels in the parasite",
+            "D": "Inhibition of dihydrofolate reductase, blocking parasite folate metabolism"
+        },
+        "correct_answer": "A",
+        "explanations": {
+            "A": "Mebendazole binds selectively to parasite β-tubulin and inhibits microtubule polymerization, impairing glucose uptake and essential cellular functions.",
+            "B": "Activation of nicotinic acetylcholine receptors and persistent neuromuscular paralysis is the mechanism of pyrantel, not mebendazole.",
+            "C": "Disruption of parasite chloride-channel function is associated with drugs such as ivermectin, rather than mebendazole.",
+            "D": "Inhibition of dihydrofolate reductase is the mechanism of antifolate drugs, not benzimidazole anthelmintics such as mebendazole."
+        },
+        "id": 7,
+        "source": "MOA of Mebendazole: inhibit microtubule polymerization"
+    },
+    {
+        "status": "approved",
+        "category": "Pharmacology & Toxicology",
+        "topic": "Antifungal pharmacology",
+        "difficulty": "easy",
+        "question": "Which mechanism best describes the action of azole antifungal drugs?",
+        "options": {
+            "A": "Inhibition of ergosterol synthesis",
+            "B": "Disruption of fungal cell membranes by binding directly to ergosterol",
+            "C": "Inhibition of fungal cell-wall synthesis by blocking β-glucan formation",
+            "D": "Inhibition of fungal DNA synthesis through disruption of nucleic acid metabolism"
+        },
+        "correct_answer": "A",
+        "explanations": {
+            "A": "Correct. Azoles inhibit fungal lanosterol 14α-demethylase, reducing ergosterol synthesis and impairing fungal membrane function.",
+            "B": "Incorrect. Direct binding to ergosterol and membrane pore formation is the mechanism of polyene antifungals such as amphotericin B.",
+            "C": "Incorrect. β-glucan synthesis inhibition is the mechanism of echinocandins.",
+            "D": "Incorrect. Inhibition of fungal nucleic acid synthesis is not the primary mechanism of azole antifungals."
+        },
+        "id": 8,
+        "source": "MOA of Azole antifungals: inhibit ergosterol synthesis"
+    }
+]

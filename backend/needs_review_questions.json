@@ -1,0 +1,91 @@
+[
+    {
+        "status": "needs_review",
+        "review_required": true,
+        "review_reason": "The intended pathogen list is appropriate, but the source inaccurately states that all atypical pneumonia organisms lack a cell wall. Mycoplasma lacks a cell wall, whereas Chlamydophila and Legionella possess cell envelopes and are classified as atypical pathogens for other microbiological or clinical reasons.",
+        "confidence": 0.93,
+        "question_type": "factual",
+        "options_source": "ai_generated",
+        "source_answer": "Mycoplasma, Chlamydophila, and Legionella",
+        "category": "Therapeutics & Patient Care",
+        "topic": "Atypical pneumonia pathogens",
+        "difficulty": "easy",
+        "question": "Which combination contains bacteria classically associated with atypical pneumonia?",
+        "options": {
+            "A": "Mycoplasma, Chlamydophila, and Legionella",
+            "B": "Streptococcus pneumoniae, Haemophilus influenzae, and Moraxella catarrhalis",
+            "C": "Staphylococcus aureus, Klebsiella pneumoniae, and Pseudomonas aeruginosa",
+            "D": "Enterococcus faecalis, Escherichia coli, and Proteus mirabilis"
+        },
+        "correct_answer": "A",
+        "explanations": {
+            "A": "Mycoplasma, Chlamydophila, and Legionella are classic causes of atypical pneumonia and are commonly treated with agents such as macrolides or doxycycline. Mycoplasma lacks a conventional cell wall; however, the other two organisms are considered atypical pathogens for additional microbiological and clinical reasons.",
+            "B": "These organisms are established causes of typical community-acquired bacterial pneumonia and are commonly susceptible to beta-lactam therapy.",
+            "C": "These bacteria can cause pneumonia, particularly hospital-acquired or severe pneumonia, but they are not the classic group intended by the term atypical pneumonia.",
+            "D": "These organisms may occasionally cause respiratory infection, but they are not the characteristic bacterial causes of atypical pneumonia."
+        },
+        "calculation": null,
+        "source_id": 1,
+        "source_text": "Which bacteria cause atypical pneumonia?\nTypical pneumonia: Which has cell wall, treated by amoxicillin mainly.\nAtypical pneumonia: doesn't have cell wall: Mycoplasma, Chlamydophila, Legionella. Treated by clarithromycin and doxycycline."
+    },
+    {
+        "status": "needs_review",
+        "review_required": true,
+        "review_reason": "The source is an incomplete phrase and does not specify the particular clinical or pharmaceutical use intended. The question interprets it as the therapeutic use of calcium disodium EDTA in heavy-metal poisoning.",
+        "confidence": 0.88,
+        "question_type": "factual",
+        "options_source": "ai_generated",
+        "source_answer": null,
+        "category": "Pharmacology & Toxicology",
+        "topic": "Chelating agents and heavy-metal poisoning",
+        "difficulty": "easy",
+        "question": "Which of the following is an established therapeutic use of calcium disodium EDTA?",
+        "options": {
+            "A": "Treatment of lead poisoning",
+            "B": "Treatment of iron-overload disorders",
+            "C": "Treatment of acetaminophen overdose",
+            "D": "Treatment of organophosphates poisoning"
+        },
+        "correct_answer": "A",
+        "explanations": {
+            "A": "Calcium disodium EDTA is a chelating agent used primarily to bind lead and facilitate its elimination in lead poisoning.",
+            "B": "Iron overload is generally treated with iron-specific chelators such as deferoxamine, deferasirox, or deferiprone rather than EDTA.",
+            "C": "Acetaminophen overdose is treated with N-acetylcysteine, which replenishes glutathione and limits hepatotoxicity.",
+            "D": "Organophosphate poisoning is treated mainly with atropine and, when indicated, pralidoxime; EDTA has no role."
+        },
+        "calculation": null,
+        "source_id": 4,
+        "source_text": "Use of EDTA: chelating agent",
+        "human_status": "pending",
+        "human_reviewed": false
+    },
+    {
+        "status": "needs_review",
+        "review_required": true,
+        "review_reason": "The term \"strongest\" is not a standardized clinical ranking among antimuscarinic drugs, and relative efficacy and tolerability vary by patient and formulation. The source answer is preserved as oxybutynin, which is a potent and well-established treatment for urge urinary incontinence.",
+        "confidence": 0.88,
+        "question_type": "factual",
+        "options_source": "ai_generated",
+        "source_answer": null,
+        "category": "Therapeutics & Patient Care",
+        "topic": "Antimuscarinic therapy for urinary incontinence",
+        "difficulty": "easy",
+        "question": "Which antimuscarinic drug is classically recognized as a potent treatment for urge urinary incontinence?",
+        "options": {
+            "A": "Oxybutynin",
+            "B": "Tolterodine",
+            "C": "Darifenacin",
+            "D": "Solifenacin"
+        },
+        "correct_answer": "A",
+        "explanations": {
+            "A": "Oxybutynin is a potent muscarinic receptor antagonist used to reduce detrusor overactivity in urge urinary incontinence.",
+            "B": "Tolterodine is also used for overactive bladder, but it is not the source-indicated answer for the strongest anticholinergic effect.",
+            "C": "Darifenacin is a selective M3-receptor antagonist used for overactive bladder, but it is not the source-indicated answer.",
+            "D": "Solifenacin is an antimuscarinic used for overactive bladder, but it is not the source-indicated answer."
+        },
+        "calculation": null,
+        "source_id": 5,
+        "source_text": "Strongest anticholinergic for urinary incontinence: oxybutynin"
+    }
+]

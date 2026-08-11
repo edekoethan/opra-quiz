@@ -1,0 +1,1177 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1.0"
+    >
+
+    <title>OPRA Quiz — Question Review</title>
+
+    <link
+        rel="icon"
+        type="image/svg+xml"
+        href="/favicon.svg"
+    >
+    <link
+        rel="shortcut icon"
+        href="/favicon.svg"
+    >
+
+    <style>
+
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background: #f5f7fa;
+            color: #1f2937;
+        }
+
+        header {
+            background: #111827;
+            color: white;
+            padding: 20px 30px;
+        }
+
+        header h1 {
+            margin: 0 0 5px;
+            font-size: 24px;
+        }
+
+        header p {
+            margin: 0;
+            color: #cbd5e1;
+        }
+
+        .container {
+            max-width: 1100px;
+            margin: 30px auto;
+            padding: 0 20px;
+        }
+
+        .summary {
+            display: flex;
+            gap: 15px;
+            margin-bottom: 25px;
+        }
+
+        .summary-card {
+            background: white;
+            border-radius: 10px;
+            padding: 18px 22px;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+            min-width: 180px;
+        }
+
+        .summary-card strong {
+            display: block;
+            font-size: 28px;
+            margin-bottom: 5px;
+        }
+
+        .question-card {
+            background: white;
+            border-radius: 12px;
+            margin-bottom: 20px;
+            padding: 25px;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.08);
+        }
+
+        .question-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 15px;
+        }
+
+        .badge {
+            display: inline-block;
+            padding: 5px 10px;
+            border-radius: 20px;
+            font-size: 12px;
+            font-weight: bold;
+        }
+
+        .badge-review {
+            background: #fef3c7;
+            color: #92400e;
+        }
+
+        .badge-calculation {
+            background: #fee2e2;
+            color: #991b1b;
+        }
+
+        .question-text {
+            font-size: 18px;
+            font-weight: 600;
+            line-height: 1.5;
+            margin-bottom: 20px;
+        }
+
+        .option {
+            padding: 12px;
+            margin: 8px 0;
+            background: #f8fafc;
+            border-radius: 6px;
+            border: 1px solid #e2e8f0;
+        }
+
+        .correct {
+            border: 2px solid #16a34a;
+            background: #f0fdf4;
+        }
+
+        .review-reason {
+            margin-top: 20px;
+            padding: 15px;
+            background: #fff7ed;
+            border-left: 4px solid #f97316;
+            line-height: 1.5;
+        }
+
+        .calculation {
+            margin-top: 20px;
+            padding: 18px;
+            background: #fef2f2;
+            border-left: 4px solid #dc2626;
+        }
+
+        .calculation h3 {
+            margin-top: 0;
+            color: #991b1b;
+        }
+
+        .calculation pre {
+            white-space: pre-wrap;
+            font-family: Consolas, monospace;
+            line-height: 1.5;
+        }
+
+        .explanation {
+            margin-top: 20px;
+        }
+
+        .explanation-item {
+            margin: 10px 0;
+            line-height: 1.5;
+        }
+
+        .actions {
+            display: flex;
+            gap: 10px;
+            margin-top: 25px;
+            padding-top: 20px;
+            border-top: 1px solid #e5e7eb;
+        }
+
+        button {
+            border: none;
+            border-radius: 7px;
+            padding: 10px 18px;
+            cursor: pointer;
+            font-weight: bold;
+        }
+
+        .approve {
+            background: #16a34a;
+            color: white;
+        }
+
+        .reject {
+            background: #dc2626;
+            color: white;
+        }
+
+        .edit {
+            background: #2563eb;
+            color: white;
+        }
+
+        button:hover {
+            opacity: 0.85;
+        }
+
+        .empty {
+            background: white;
+            padding: 40px;
+            text-align: center;
+            border-radius: 10px;
+        }
+
+        .loading {
+            text-align: center;
+            padding: 40px;
+        }
+
+    </style>
+</head>
+
+
+<body>
+
+<header>
+
+    <h1>OPRA Quiz — Question Review</h1>
+
+    <p>
+        Review AI-generated questions before they enter the student question bank.
+    </p>
+
+</header>
+
+
+<div class="container">
+
+    <div class="summary">
+
+        <div class="summary-card">
+
+            <strong id="reviewCount">
+                -
+            </strong>
+
+            Questions to review
+
+        </div>
+
+    </div>
+
+
+    <div id="questions">
+
+        <div class="loading">
+            Loading questions...
+        </div>
+
+    </div>
+
+</div>
+
+
+<script>
+
+const API_URL = "http://127.0.0.1:8000";
+
+
+async function loadQuestions() {
+
+    const container =
+        document.getElementById("questions");
+
+    try {
+
+        const response = await fetch(
+            `${API_URL}/admin/review`
+        );
+
+        if (!response.ok) {
+            throw new Error(
+                "Unable to load review questions."
+            );
+        }
+
+        const data =
+            await response.json();
+
+        document.getElementById(
+            "reviewCount"
+        ).textContent = data.count;
+
+
+        if (data.count === 0) {
+
+            container.innerHTML = `
+                <div class="empty">
+                    <h2>No questions need review 🎉</h2>
+                    <p>
+                        Your review queue is currently empty.
+                    </p>
+                </div>
+            `;
+
+            return;
+        }
+
+
+        container.innerHTML = "";
+
+        data.questions.forEach(
+            question => {
+
+                container.appendChild(
+                    createQuestionCard(question)
+                );
+
+            }
+        );
+
+    } catch (error) {
+
+        container.innerHTML = `
+            <div class="empty">
+                <h2>Unable to connect to API</h2>
+                <p>
+                    Make sure FastAPI is running on
+                    ${API_URL}
+                </p>
+                <p>
+                    ${error.message}
+                </p>
+            </div>
+        `;
+
+    }
+
+}
+
+
+function createQuestionCard(question) {
+
+    const card =
+        document.createElement("div");
+
+    card.className = "question-card";
+    card.id = `question-card-${question.source_id}`;
+
+
+    const isCalculation =
+        question.question_type ===
+        "pharmaceutical_calculation";
+
+
+    let optionsHTML = "";
+
+    if (question.options) {
+
+        Object.entries(
+            question.options
+        ).forEach(([letter, text]) => {
+
+            const isCorrect =
+                letter === question.correct_answer;
+
+            optionsHTML += `
+                <div class="option ${
+                    isCorrect ? "correct" : ""
+                }">
+
+                    <strong>${letter}.</strong>
+                    ${escapeHTML(text)}
+
+                    ${
+                        isCorrect
+                            ? " ✓"
+                            : ""
+                    }
+
+                </div>
+            `;
+
+        });
+
+    }
+
+
+    let explanationsHTML = "";
+
+    if (question.explanations) {
+
+        explanationsHTML = `
+            <div class="explanation">
+
+                <h3>AI Explanation</h3>
+
+                ${
+                    Object.entries(
+                        question.explanations
+                    )
+                    .map(([letter, explanation]) => `
+                        <div class="explanation-item">
+
+                            <strong>
+                                ${letter}:
+                            </strong>
+
+                            ${escapeHTML(explanation)}
+
+                        </div>
+                    `)
+                    .join("")
+                }
+
+            </div>
+        `;
+
+    }
+
+
+    let calculationHTML = "";
+
+    if (isCalculation && question.calculation) {
+
+        const calc =
+            question.calculation;
+
+        calculationHTML = `
+
+            <div class="calculation">
+
+                <h3>
+                    ⚠ Pharmaceutical Calculation
+                </h3>
+
+                <p>
+                    <strong>Given:</strong>
+                    ${escapeHTML(
+                        calc.given_information || ""
+                    )}
+                </p>
+
+                <p>
+                    <strong>Formula:</strong>
+                    ${escapeHTML(
+                        calc.formula || ""
+                    )}
+                </p>
+
+                <h4>AI Working</h4>
+
+                <pre>${escapeHTML(
+                    calc.working || ""
+                )}</pre>
+
+                <p>
+                    <strong>Proposed answer:</strong>
+                    ${escapeHTML(
+                        calc.proposed_answer || ""
+                    )}
+                </p>
+
+            </div>
+
+        `;
+
+    }
+
+
+    card.innerHTML = `
+
+        <div class="question-header">
+
+            <strong>
+                Question #${question.source_id}
+            </strong>
+
+            <div>
+
+                <span class="badge badge-review">
+                    NEEDS REVIEW
+                </span>
+
+                ${
+                    isCalculation
+                        ? `
+                            <span class="badge badge-calculation">
+                                CALCULATION
+                            </span>
+                          `
+                        : ""
+                }
+
+            </div>
+
+        </div>
+
+
+        <div class="question-text">
+
+            ${escapeHTML(
+                question.question || ""
+            )}
+
+        </div>
+
+
+        <div>
+
+            ${optionsHTML}
+
+        </div>
+
+
+        ${
+            question.review_reason
+                ? `
+                    <div class="review-reason">
+
+                        <strong>
+                            Why AI flagged this:
+                        </strong>
+
+                        <p>
+                            ${escapeHTML(
+                                question.review_reason
+                            )}
+                        </p>
+
+                    </div>
+                  `
+                : ""
+        }
+
+
+        ${calculationHTML}
+
+
+        ${explanationsHTML}
+
+
+        <div class="actions">
+
+            <button
+                class="approve"
+                onclick="approveQuestion(
+                    ${question.source_id}
+                )"
+            >
+                ✓ Approve
+            </button>
+
+
+            <button
+                class="edit"
+                onclick="editQuestion(
+                    ${question.source_id}
+                )"
+            >
+                ✎ Edit
+            </button>
+
+
+            <button
+                class="reject"
+                onclick="rejectQuestion(
+                    ${question.source_id}
+                )"
+            >
+                ✕ Reject
+            </button>
+
+        </div>
+
+    `;
+
+
+    return card;
+
+}
+
+
+async function approveQuestion(id) {
+
+    const confirmed =
+        confirm(
+            "Are you sure you want to approve this question?"
+        );
+
+    if (!confirmed) {
+        return;
+    }
+
+
+    try {
+
+        const response =
+            await fetch(
+                `${API_URL}/admin/review/${id}/approve`,
+                {
+                    method: "POST"
+                }
+            );
+
+
+        const data =
+            await response.json();
+
+
+        if (!response.ok) {
+
+            throw new Error(
+                data.detail ||
+                "Approval failed."
+            );
+
+        }
+
+
+        alert(
+            "Question approved successfully."
+        );
+
+
+        loadQuestions();
+
+    } catch (error) {
+
+        alert(
+            `Error: ${error.message}`
+        );
+
+    }
+
+}
+
+
+async function rejectQuestion(id) {
+
+    const confirmed =
+        confirm(
+            "Reject this question?"
+        );
+
+    if (!confirmed) {
+        return;
+    }
+
+
+    try {
+
+        const response =
+            await fetch(
+                `${API_URL}/admin/review/${id}/reject`,
+                {
+                    method: "POST"
+                }
+            );
+
+
+        const data =
+            await response.json();
+
+
+        if (!response.ok) {
+
+            throw new Error(
+                data.detail ||
+                "Rejection failed."
+            );
+
+        }
+
+
+        alert(
+            "Question rejected."
+        );
+
+
+        loadQuestions();
+
+    } catch (error) {
+
+        alert(
+            `Error: ${error.message}`
+        );
+
+    }
+
+}
+
+
+async function editQuestion(id) {
+
+    try {
+
+        const response = await fetch(
+            `${API_URL}/admin/review/${id}`
+        );
+
+        const question = await response.json();
+
+        if (!response.ok) {
+            throw new Error(
+                question.detail ||
+                "Unable to load question."
+            );
+        }
+
+        const card = document.getElementById(
+             `question-card-${id}`
+       );
+
+        if (!card) {
+            throw new Error(
+        `Question card not found for question ${id}.`
+             );
+        }
+
+        const options = question.options || {};
+        const explanations = question.explanations || {};
+        const calculation = question.calculation || {};
+
+        const isCalculation =
+            question.question_type ===
+            "pharmaceutical_calculation";
+
+        card.innerHTML = `
+
+            <div class="question-header">
+
+                <strong>
+                    Editing Question #${question.source_id}
+                </strong>
+
+                <span class="badge badge-review">
+                    EDITING
+                </span>
+
+            </div>
+
+            <div class="edit-form">
+
+                <label>
+                    <strong>Question</strong>
+                </label>
+
+                <textarea
+                    id="edit-question-${id}"
+                    rows="4"
+                    style="width:100%; padding:10px; margin:8px 0 15px;"
+                >${escapeHTML(question.question || "")}</textarea>
+
+
+                <h3>Options</h3>
+
+                ${["A", "B", "C", "D"].map(letter => `
+
+                    <label>
+                        <strong>Option ${letter}</strong>
+                    </label>
+
+                    <input
+                        id="edit-option-${id}-${letter}"
+                        type="text"
+                        value="${escapeAttribute(options[letter] || "")}"
+                        style="width:100%; padding:10px; margin:5px 0 12px;"
+                    >
+
+                `).join("")}
+
+
+                <label>
+                    <strong>Correct Answer</strong>
+                </label>
+
+                <select
+                    id="edit-answer-${id}"
+                    style="width:100%; padding:10px; margin:5px 0 15px;"
+                >
+
+                    ${["A", "B", "C", "D"].map(letter => `
+
+                        <option
+                            value="${letter}"
+                            ${question.correct_answer === letter ? "selected" : ""}
+                        >
+                            ${letter}
+                        </option>
+
+                    `).join("")}
+
+                </select>
+
+
+                <h3>Explanations</h3>
+
+                ${["A", "B", "C", "D"].map(letter => `
+
+                    <label>
+                        <strong>Explanation ${letter}</strong>
+                    </label>
+
+                    <textarea
+                        id="edit-explanation-${id}-${letter}"
+                        rows="3"
+                        style="width:100%; padding:10px; margin:5px 0 12px;"
+                    >${escapeHTML(explanations[letter] || "")}</textarea>
+
+                `).join("")}
+
+
+                <h3>Classification</h3>
+
+                <label>
+                    <strong>Category</strong>
+                </label>
+
+                <input
+                    id="edit-category-${id}"
+                    type="text"
+                    value="${escapeAttribute(question.category || "")}"
+                    style="width:100%; padding:10px; margin:5px 0 12px;"
+                >
+
+
+                <label>
+                    <strong>Topic</strong>
+                </label>
+
+                <input
+                    id="edit-topic-${id}"
+                    type="text"
+                    value="${escapeAttribute(question.topic || "")}"
+                    style="width:100%; padding:10px; margin:5px 0 12px;"
+                >
+
+
+                <label>
+                    <strong>Difficulty</strong>
+                </label>
+
+                <select
+                    id="edit-difficulty-${id}"
+                    style="width:100%; padding:10px; margin:5px 0 20px;"
+                >
+
+                    ${["easy", "medium", "hard"].map(level => `
+
+                        <option
+                            value="${level}"
+                            ${question.difficulty === level ? "selected" : ""}
+                        >
+                            ${level}
+                        </option>
+
+                    `).join("")}
+
+                </select>
+
+
+                ${
+                    isCalculation
+                    ? `
+
+                        <div class="calculation">
+
+                            <h3>⚠ Pharmaceutical Calculation</h3>
+
+                            <p>
+                                This question requires human verification.
+                            </p>
+
+                            <label>
+                                <strong>Given Information</strong>
+                            </label>
+
+                            <textarea
+                                id="edit-calc-given-${id}"
+                                rows="3"
+                                style="width:100%; padding:10px; margin:5px 0 12px;"
+                            >${escapeHTML(
+                                calculation.given_information || ""
+                            )}</textarea>
+
+
+                            <label>
+                                <strong>Formula</strong>
+                            </label>
+
+                            <textarea
+                                id="edit-calc-formula-${id}"
+                                rows="2"
+                                style="width:100%; padding:10px; margin:5px 0 12px;"
+                            >${escapeHTML(
+                                calculation.formula || ""
+                            )}</textarea>
+
+
+                            <label>
+                                <strong>Working</strong>
+                            </label>
+
+                            <textarea
+                                id="edit-calc-working-${id}"
+                                rows="5"
+                                style="width:100%; padding:10px; margin:5px 0 12px;"
+                            >${escapeHTML(
+                                calculation.working || ""
+                            )}</textarea>
+
+
+                            <label>
+                                <strong>Proposed Answer</strong>
+                            </label>
+
+                            <input
+                                id="edit-calc-answer-${id}"
+                                type="text"
+                                value="${escapeAttribute(
+                                    calculation.proposed_answer || ""
+                                )}"
+                                style="width:100%; padding:10px; margin:5px 0 12px;"
+                            >
+
+                            <label>
+                                <strong>Units</strong>
+                            </label>
+
+                            <input
+                                id="edit-calc-units-${id}"
+                                type="text"
+                                value="${escapeAttribute(
+                                    calculation.units || ""
+                                )}"
+                                style="width:100%; padding:10px; margin:5px 0 20px;"
+                            >
+
+                        </div>
+
+                    `
+                    : ""
+                }
+
+
+                <div class="actions">
+
+                    <button
+                        class="approve"
+                        onclick="saveQuestion(${id}, true)"
+                    >
+                        ✓ Save & Approve
+                    </button>
+
+
+                    <button
+                        class="edit"
+                        onclick="saveQuestion(${id}, false)"
+                    >
+                        💾 Save Changes
+                    </button>
+
+
+                    <button
+                        class="reject"
+                        onclick="loadQuestions()"
+                    >
+                        ✕ Cancel
+                    </button>
+
+                </div>
+
+            </div>
+        `;
+
+    } catch (error) {
+
+        alert(
+            `Error loading question: ${error.message}`
+        );
+
+    }
+
+}
+
+async function saveQuestion(id, approveAfterSave) {
+
+    const options = {
+        A: document.getElementById(`edit-option-${id}-A`).value,
+        B: document.getElementById(`edit-option-${id}-B`).value,
+        C: document.getElementById(`edit-option-${id}-C`).value,
+        D: document.getElementById(`edit-option-${id}-D`).value
+    };
+
+    const explanations = {
+        A: document.getElementById(`edit-explanation-${id}-A`).value,
+        B: document.getElementById(`edit-explanation-${id}-B`).value,
+        C: document.getElementById(`edit-explanation-${id}-C`).value,
+        D: document.getElementById(`edit-explanation-${id}-D`).value
+    };
+
+    const payload = {
+
+        question:
+            document.getElementById(
+                `edit-question-${id}`
+            ).value,
+
+        options: options,
+
+        correct_answer:
+            document.getElementById(
+                `edit-answer-${id}`
+            ).value,
+
+        explanations: explanations,
+
+        category:
+            document.getElementById(
+                `edit-category-${id}`
+            ).value,
+
+        topic:
+            document.getElementById(
+                `edit-topic-${id}`
+            ).value,
+
+        difficulty:
+            document.getElementById(
+                `edit-difficulty-${id}`
+            ).value
+
+    };
+
+
+    const calcGiven =
+        document.getElementById(
+            `edit-calc-given-${id}`
+        );
+
+    if (calcGiven) {
+
+        payload.calculation = {
+
+            given_information:
+                calcGiven.value,
+
+            formula:
+                document.getElementById(
+                    `edit-calc-formula-${id}`
+                ).value,
+
+            working:
+                document.getElementById(
+                    `edit-calc-working-${id}`
+                ).value,
+
+            proposed_answer:
+                document.getElementById(
+                    `edit-calc-answer-${id}`
+                ).value,
+
+            units:
+                document.getElementById(
+                    `edit-calc-units-${id}`
+                ).value
+
+        };
+
+    }
+
+
+    try {
+
+        const response = await fetch(
+            `${API_URL}/admin/review/${id}`,
+            {
+                method: "PUT",
+
+                headers: {
+                    "Content-Type": "application/json"
+                },
+
+                body: JSON.stringify(payload)
+            }
+        );
+
+
+        const data =
+            await response.json();
+
+
+        if (!response.ok) {
+
+            throw new Error(
+                data.detail ||
+                "Unable to save question."
+            );
+
+        }
+
+
+        if (approveAfterSave) {
+
+            const approveResponse =
+                await fetch(
+                    `${API_URL}/admin/review/${id}/approve`,
+                    {
+                        method: "POST"
+                    }
+                );
+
+
+            const approveData =
+                await approveResponse.json();
+
+
+            if (!approveResponse.ok) {
+
+                throw new Error(
+                    approveData.detail ||
+                    "Question was saved but approval failed."
+                );
+
+            }
+
+
+            alert(
+                "Question saved and approved successfully."
+            );
+
+        } else {
+
+            alert(
+                "Question changes saved. It remains in the review queue."
+            );
+
+        }
+
+
+        loadQuestions();
+
+    } catch (error) {
+
+        alert(
+            `Error: ${error.message}`
+        );
+
+    }
+
+}
+
+function escapeHTML(value) {
+
+    const div =
+        document.createElement("div");
+
+    div.textContent =
+        String(value ?? "");
+
+    return div.innerHTML;
+
+}
+
+function escapeAttribute(value) {
+
+    return String(value ?? "")
+        .replace(/&/g, "&amp;")
+        .replace(/"/g, "&quot;")
+        .replace(/</g, "&lt;")
+        .replace(/>/g, "&gt;");
+
+}
+
+
+loadQuestions();
+
+</script>
+
+</body>
+
+</html>

@@ -1,0 +1,242 @@
+[
+    {
+        "status": "approved",
+        "review_required": false,
+        "review_reason": null,
+        "confidence": 0.99,
+        "question_type": "factual",
+        "options_source": "ai_generated",
+        "source_answer": "IgE",
+        "category": "Biomedical Sciences",
+        "topic": "Hypersensitivity reactions and immunoglobulins",
+        "difficulty": "easy",
+        "question": "Anaphylaxis is primarily mediated by which immunoglobulin?",
+        "options": {
+            "A": "IgA",
+            "B": "IgE",
+            "C": "IgG",
+            "D": "IgM"
+        },
+        "correct_answer": "B",
+        "explanations": {
+            "A": "IgA is mainly involved in mucosal immunity and is not the principal immunoglobulin responsible for anaphylaxis.",
+            "B": "IgE mediates type I hypersensitivity reactions, including anaphylaxis, by triggering mast-cell and basophil degranulation.",
+            "C": "IgG is involved in several immune functions, including opsonization and some types of hypersensitivity, but it is not the primary mediator of anaphylaxis.",
+            "D": "IgM is important in early antibody responses and complement activation but is not the principal immunoglobulin in anaphylaxis."
+        },
+        "calculation": null,
+        "source_id": 2,
+        "source_text": "Hypersensitivity reaction (anaphylaxis): IgE"
+    },
+    {
+        "status": "approved",
+        "review_required": false,
+        "review_reason": null,
+        "confidence": 0.99,
+        "question_type": "factual",
+        "options_source": "ai_generated",
+        "source_answer": "Doxycycline",
+        "category": "Therapeutics & Patient Care",
+        "topic": "Treatment of Q fever",
+        "difficulty": "easy",
+        "question": "Which drug is commonly used as first-line treatment for acute Q fever?",
+        "options": {
+            "A": "Doxycycline",
+            "B": "Azithromycin",
+            "C": "Ciprofloxacin",
+            "D": "Amoxicillin"
+        },
+        "correct_answer": "A",
+        "explanations": {
+            "A": "Doxycycline is the standard first-line treatment for acute Q fever caused by Coxiella burnetii.",
+            "B": "Azithromycin may be considered in selected patients, such as some individuals who cannot receive doxycycline, but it is not the usual first-line choice.",
+            "C": "Ciprofloxacin is not the standard first-line treatment for acute Q fever.",
+            "D": "Amoxicillin is not the usual treatment for Q fever, although beta-lactams may be used in specific clinical circumstances such as pregnancy."
+        },
+        "calculation": null,
+        "source_id": 3,
+        "source_text": "Which drug is used for Q Fever? Doxycycline"
+    },
+    {
+        "status": "approved",
+        "review_required": false,
+        "review_reason": null,
+        "confidence": 0.99,
+        "question_type": "factual",
+        "options_source": "ai_generated",
+        "source_answer": "Ethosuximide",
+        "category": "Pharmacology & Toxicology",
+        "topic": "Antiseizure drugs: treatment of absence seizures",
+        "difficulty": "easy",
+        "question": "Which drug is generally considered the first-line treatment for typical absence seizures?",
+        "options": {
+            "A": "Ethosuximide",
+            "B": "Sodium valproate",
+            "C": "Lamotrigine",
+            "D": "Carbamazepine"
+        },
+        "correct_answer": "A",
+        "explanations": {
+            "A": "Ethosuximide is generally the drug of choice for typical absence seizures because it suppresses thalamic T-type calcium currents.",
+            "B": "Sodium valproate is effective for absence seizures, particularly when other generalized seizure types are also present, but ethosuximide is generally preferred for isolated typical absence seizures.",
+            "C": "Lamotrigine may be used as an alternative for absence seizures but is not generally the first-line choice.",
+            "D": "Carbamazepine is not appropriate for typical absence seizures and may worsen generalized seizure types, including absence seizures."
+        },
+        "calculation": null,
+        "source_id": 6,
+        "source_text": "DOC Absence Seizure: ethosuximide"
+    },
+    {
+        "status": "approved",
+        "review_required": false,
+        "review_reason": null,
+        "confidence": 0.99,
+        "question_type": "factual",
+        "options_source": "ai_generated",
+        "source_answer": "Inhibition of microtubule polymerization",
+        "category": "Pharmacology & Toxicology",
+        "topic": "Anthelmintic drugs",
+        "difficulty": "easy",
+        "question": "What is the primary mechanism of action of mebendazole against susceptible helminths?",
+        "options": {
+            "A": "Inhibition of microtubule polymerization by binding to parasite tubulin",
+            "B": "Activation of parasite nicotinic acetylcholine receptors, causing sustained paralysis",
+            "C": "Inhibition of acetylcholinesterase, resulting in neuromuscular overstimulation",
+            "D": "Increase in parasite cell-membrane permeability to calcium ions, causing spastic paralysis"
+        },
+        "correct_answer": "A",
+        "explanations": {
+            "A": "Mebendazole binds to helminth tubulin and inhibits microtubule polymerization, disrupting essential cellular functions such as glucose uptake.",
+            "B": "Activation of nicotinic acetylcholine receptors and sustained paralysis is characteristic of drugs such as pyrantel, not mebendazole.",
+            "C": "Acetylcholinesterase inhibition is the mechanism of organophosphates and carbamates, not mebendazole.",
+            "D": "Increased calcium permeability causing spastic paralysis is associated with praziquantel, not mebendazole."
+        },
+        "calculation": null,
+        "source_id": 7,
+        "source_text": "MOA of Mebendazole: inhibit microtubule polymerization"
+    },
+    {
+        "status": "approved",
+        "review_required": false,
+        "review_reason": null,
+        "confidence": 0.99,
+        "question_type": "factual",
+        "options_source": "ai_generated",
+        "source_answer": null,
+        "category": "Pharmacology & Toxicology",
+        "topic": "Mechanism of action of azole antifungals",
+        "difficulty": "easy",
+        "question": "What is the primary mechanism of action of azole antifungal drugs?",
+        "options": {
+            "A": "Inhibition of fungal squalene epoxidase, causing toxic squalene accumulation",
+            "B": "Binding to ergosterol in the fungal cell membrane and forming pores",
+            "C": "Inhibition of fungal lanosterol 14-alpha-demethylase, reducing ergosterol synthesis",
+            "D": "Inhibition of fungal beta-glucan synthase, weakening the cell wall"
+        },
+        "correct_answer": "C",
+        "explanations": {
+            "A": "This is the mechanism of allylamines such as terbinafine, not azoles.",
+            "B": "This is the mechanism of polyene antifungals such as amphotericin B and nystatin.",
+            "C": "Azoles inhibit fungal lanosterol 14-alpha-demethylase, a cytochrome P450 enzyme, thereby impairing ergosterol synthesis.",
+            "D": "Inhibition of beta-glucan synthase is the mechanism of echinocandins."
+        },
+        "calculation": null,
+        "source_id": 8,
+        "source_text": "MOA of Azole antifungals: inhibit ergosterol synthesis"
+    },
+    {
+        "status": "approved",
+        "review_required": false,
+        "review_reason": null,
+        "confidence": 0.96,
+        "question_type": "factual",
+        "options_source": "original",
+        "source_answer": "A",
+        "category": "Pharmacology & Toxicology",
+        "topic": "Drug-induced hypoglycemia and antidiabetic drug interactions",
+        "difficulty": "easy",
+        "question": "Which drug is associated with hypoglycemia in a patient taking gliclazide?",
+        "options": {
+            "A": "Ciprofloxacin",
+            "B": "Metformin",
+            "C": "Paracetamol",
+            "D": "Omeprazole"
+        },
+        "correct_answer": "A",
+        "explanations": {
+            "A": "Ciprofloxacin and other fluoroquinolones can cause dysglycemia, including hypoglycemia, particularly when used with sulfonylureas such as gliclazide.",
+            "B": "Metformin generally does not cause hypoglycemia when used alone, although hypoglycemia may occur in certain combination-treatment or patient-related circumstances.",
+            "C": "Paracetamol is not generally associated with clinically significant hypoglycemia or a relevant interaction with gliclazide causing hypoglycemia.",
+            "D": "Omeprazole is not generally associated with clinically significant hypoglycemia in patients taking gliclazide."
+        },
+        "calculation": null,
+        "source_id": 9,
+        "source_text": "Which drug is associated with hypoglycemia in a patient taking gliclazide?\n\nA. Ciprofloxacin\nB. Metformin\nC. Paracetamol\nD. Omeprazole\n\nAnswer: A"
+    },
+    {
+        "status": "approved",
+        "review_required": false,
+        "review_reason": null,
+        "confidence": 0.99,
+        "question_type": "factual",
+        "options_source": "ai_generated",
+        "source_answer": null,
+        "category": "Therapeutics & Patient Care",
+        "topic": "Treatment of Q fever",
+        "difficulty": "easy",
+        "question": "Which antimicrobial is the usual first-line treatment for acute Q fever caused by Coxiella burnetii?",
+        "options": {
+            "A": "Doxycycline",
+            "B": "Amoxicillin",
+            "C": "Ceftriaxone",
+            "D": "Metronidazole"
+        },
+        "correct_answer": "A",
+        "explanations": {
+            "A": "Doxycycline is the usual first-line treatment for acute Q fever caused by Coxiella burnetii.",
+            "B": "Amoxicillin is not the standard first-line treatment for acute Q fever.",
+            "C": "Ceftriaxone is used for several serious bacterial infections but is not the usual first-line therapy for acute Q fever.",
+            "D": "Metronidazole primarily treats anaerobic and certain protozoal infections and is not effective standard therapy for Q fever."
+        },
+        "calculation": null,
+        "source_id": 11,
+        "source_text": "Which drug is used for Q Fever? Doxycycline"
+    },
+    {
+        "status": "approved",
+        "review_required": true,
+        "review_reason": "Pharmaceutical calculation requires mandatory human verification.",
+        "confidence": 0.99,
+        "question_type": "pharmaceutical_calculation",
+        "options_source": "ai_generated",
+        "source_answer": null,
+        "category": "Therapeutics & Patient Care",
+        "topic": "Dose and volume calculations",
+        "difficulty": "easy",
+        "question": "A patient requires 500 mg of a drug. The available solution contains 250 mg in 5 mL. How many mL should be administered?",
+        "options": {
+            "A": "5 mL",
+            "B": "10 mL",
+            "C": "15 mL",
+            "D": "20 mL"
+        },
+        "correct_answer": "B",
+        "explanations": {
+            "A": "Incorrect. Administering 5 mL would provide only 250 mg.",
+            "B": "Correct. The concentration is 250 mg ÷ 5 mL = 50 mg/mL; therefore, 500 mg requires 500 mg ÷ 50 mg/mL = 10 mL.",
+            "C": "Incorrect. Administering 15 mL would provide 750 mg, exceeding the required dose.",
+            "D": "Incorrect. Administering 20 mL would provide 1000 mg, twice the required dose."
+        },
+        "calculation": {
+            "given_information": "Required dose = 500 mg. Available solution = 250 mg in 5 mL.",
+            "formula": "Volume to administer = Required dose ÷ Concentration.",
+            "working": "Concentration = 250 mg ÷ 5 mL = 50 mg/mL. Volume = 500 mg ÷ 50 mg/mL = 10 mL.",
+            "proposed_answer": "Administer 10 mL.",
+            "units": "mL"
+        },
+        "source_id": 10,
+        "source_text": "A patient requires 500 mg of a drug. The available solution contains 250 mg in 5 mL. How many mL should be administered?",
+        "human_status": "approved",
+        "human_reviewed": true
+    }
+]
