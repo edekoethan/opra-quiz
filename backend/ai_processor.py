@@ -343,11 +343,10 @@ SOURCE QUESTION
     result = json.loads(result_text)
 
     # ========================================================
-    # SAFETY OVERRIDE
+    # SAFETY OVERRIDES
     # ========================================================
 
-    # Even if the AI accidentally says "approved",
-    # pharmaceutical calculations can NEVER bypass review.
+    # Pharmaceutical calculations can NEVER bypass human review.
 
     if question_type == "pharmaceutical_calculation":
 
@@ -359,6 +358,47 @@ SOURCE QUESTION
                 "Pharmaceutical calculation requires "
                 "human verification before publication."
             )
+
+    # --------------------------------------------------------
+    # Incomplete source records should not automatically
+    # become approved questions.
+    # --------------------------------------------------------
+
+    if question_type == "incomplete":
+
+        result["status"] = "needs_review"
+        result["review_required"] = True
+
+        if not result.get("review_reason"):
+            result["review_reason"] = (
+                "Source question is incomplete and requires "
+                "human verification before publication."
+            )
+
+    # --------------------------------------------------------
+    # Very low confidence requires review.
+    # --------------------------------------------------------
+
+    confidence = result.get("confidence")
+
+    if confidence is not None:
+
+        try:
+            confidence_value = float(confidence)
+
+            if confidence_value < 0.80:
+
+                result["status"] = "needs_review"
+                result["review_required"] = True
+
+                if not result.get("review_reason"):
+                    result["review_reason"] = (
+                        "AI confidence is below the publication "
+                        "threshold and requires human review."
+                    )
+
+        except (TypeError, ValueError):
+            pass
 
     return result
 

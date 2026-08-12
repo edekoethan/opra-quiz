@@ -1,19 +1,34 @@
 from pathlib import Path
 
 
-DATA_FILE = Path(__file__).with_name("raw_questions.txt")
-
-
 def load_raw_questions():
-    with open(DATA_FILE, "r", encoding="utf-8") as file:
-        content = file.read()
+    """
+    Load the original messy question bank without modifying it.
 
-    return content
+    The raw source is intentionally preserved exactly as supplied.
+    """
+
+    project_root = Path(__file__).resolve().parent.parent
+
+    raw_file = project_root / "raw_questions.txt"
+
+    if not raw_file.exists():
+        raise FileNotFoundError(
+            f"Could not find raw question bank: {raw_file}"
+        )
+
+    return raw_file.read_text(
+        encoding="utf-8"
+    )
 
 
 if __name__ == "__main__":
+
     questions = load_raw_questions()
 
-    print("Questions loaded successfully!")
+    print("Question bank loaded successfully!")
+    print("--------------------------------")
+    print(f"Characters: {len(questions):,}")
+    print(f"Lines: {len(questions.splitlines()):,}")
     print("--------------------------------")
     print(questions[:1000])

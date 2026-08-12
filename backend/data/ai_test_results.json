@@ -1,0 +1,322 @@
+[
+    {
+        "source_id": 1,
+        "source_classification": "unknown",
+        "source_text": "Safe in pregnancy?\nBuprenorphine \nMethadone \nNone",
+        "ai_result": {
+            "status": "needs_review",
+            "review_required": true,
+            "review_reason": "The source question is ambiguous because both methadone and buprenorphine are accepted treatments for opioid use disorder during pregnancy. The item has been narrowed to ask for the traditional, well-established maintenance option, for which methadone is the best answer.",
+            "confidence": 0.72,
+            "question_type": "factual",
+            "options_source": "ai_generated",
+            "source_answer": null,
+            "category": "Therapeutics & Patient Care",
+            "topic": "Opioid use disorder treatment in pregnancy",
+            "difficulty": "easy",
+            "question": "Which medication is the traditional, well-established opioid maintenance treatment considered acceptable during pregnancy?",
+            "options": {
+                "A": "Buprenorphine",
+                "B": "Methadone",
+                "C": "Naltrexone",
+                "D": "Naloxone"
+            },
+            "correct_answer": "B",
+            "explanations": {
+                "A": "Buprenorphine is also an accepted treatment option for opioid use disorder during pregnancy, so the original wording could reasonably make it correct as well. It is not the traditional maintenance treatment intended by this narrowed question.",
+                "B": "Methadone is a well-established opioid agonist maintenance treatment for opioid use disorder during pregnancy and has extensive clinical experience supporting its use.",
+                "C": "Naltrexone is not generally the traditional first-line maintenance treatment for opioid use disorder during pregnancy because initiating it requires the patient to be opioid-free and fetal safety data are more limited.",
+                "D": "Naloxone is an opioid antagonist used primarily to reverse opioid overdose; it is not used as maintenance treatment for opioid use disorder."
+            },
+            "calculation": null
+        }
+    },
+    {
+        "source_id": 2,
+        "source_classification": "mcq",
+        "source_text": "A patient develops heparin-induced thrombocytopenia (HIT). Which of the following should NOT be given?\nA) Enoxaparin \nB) Fondaparinux \nC) Argatroban \nD) Bivalirudin",
+        "ai_result": {
+            "status": "approved",
+            "review_required": false,
+            "review_reason": null,
+            "confidence": 0.98,
+            "question_type": "factual",
+            "options_source": "source",
+            "source_answer": null,
+            "category": "Therapeutics & Patient Care",
+            "topic": "Management of heparin-induced thrombocytopenia",
+            "difficulty": "easy",
+            "question": "A patient develops heparin-induced thrombocytopenia (HIT). Which of the following should NOT be given?",
+            "options": {
+                "A": "Enoxaparin",
+                "B": "Fondaparinux",
+                "C": "Argatroban",
+                "D": "Bivalirudin"
+            },
+            "correct_answer": "A",
+            "explanations": {
+                "A": "Enoxaparin is a low-molecular-weight heparin and should be avoided in HIT because it may promote or worsen the immune-mediated reaction.",
+                "B": "Fondaparinux is a synthetic factor Xa inhibitor that is used as an alternative anticoagulant in selected patients with HIT.",
+                "C": "Argatroban is a direct thrombin inhibitor and is an accepted anticoagulant option for patients with HIT.",
+                "D": "Bivalirudin is a direct thrombin inhibitor and may be used for anticoagulation in HIT, particularly in certain procedural settings."
+            },
+            "calculation": null
+        }
+    },
+    {
+        "source_id": 3,
+        "source_classification": "mcq",
+        "source_text": "Least associated with SIADH?\nA. Lithium \nB. Carbamazepine \nC. Chlorpromazine \nD. Alcohol",
+        "ai_result": {
+            "status": "approved",
+            "review_required": false,
+            "review_reason": null,
+            "confidence": 0.92,
+            "question_type": "factual",
+            "options_source": "source",
+            "source_answer": null,
+            "category": "Pharmacology & Toxicology",
+            "topic": "Drug-induced syndrome of inappropriate antidiuretic hormone secretion",
+            "difficulty": "easy",
+            "question": "Which of the following is least associated with syndrome of inappropriate antidiuretic hormone secretion (SIADH)?",
+            "options": {
+                "A": "Lithium",
+                "B": "Carbamazepine",
+                "C": "Chlorpromazine",
+                "D": "Alcohol"
+            },
+            "correct_answer": "A",
+            "explanations": {
+                "A": "Lithium is least associated with SIADH because it typically reduces renal responsiveness to antidiuretic hormone and is more strongly associated with nephrogenic diabetes insipidus.",
+                "B": "Carbamazepine is a recognized cause of SIADH and can produce hyponatremia by increasing antidiuretic hormone activity or renal sensitivity to it.",
+                "C": "Chlorpromazine has been associated with SIADH and drug-induced hyponatremia, although less commonly than carbamazepine.",
+                "D": "Alcohol use can be associated with hyponatremia and, in some settings, SIADH; therefore, it is not the least associated option."
+            },
+            "calculation": null
+        }
+    },
+    {
+        "source_id": 4,
+        "source_classification": "yes_no",
+        "source_text": "Levothyroxine cause hypokalaemia?\nNo",
+        "ai_result": {
+            "status": "approved",
+            "review_required": false,
+            "review_reason": null,
+            "confidence": 0.94,
+            "question_type": "yes_no",
+            "options_source": "ai_generated",
+            "source_answer": "No",
+            "category": "Pharmacology & Toxicology",
+            "topic": "Levothyroxine adverse effects",
+            "difficulty": "easy",
+            "question": "Which statement best describes the relationship between therapeutic levothyroxine treatment and hypokalaemia?",
+            "options": {
+                "A": "Levothyroxine commonly causes hypokalaemia by increasing renal potassium excretion.",
+                "B": "Levothyroxine is not a typical direct cause of hypokalaemia at therapeutic doses.",
+                "C": "Levothyroxine causes hypokalaemia by blocking aldosterone receptors.",
+                "D": "Levothyroxine invariably causes hypokalaemia when the dose is increased."
+            },
+            "correct_answer": "B",
+            "explanations": {
+                "A": "Incorrect. Hypokalaemia is not a usual direct adverse effect of therapeutic levothyroxine, and increased renal potassium excretion is not its typical mechanism.",
+                "B": "Correct. Therapeutic levothyroxine is not generally associated with hypokalaemia as a direct adverse effect.",
+                "C": "Incorrect. Levothyroxine does not block aldosterone receptors; that mechanism is associated with mineralocorticoid receptor antagonists.",
+                "D": "Incorrect. Dose increases may cause symptoms of thyroid hormone excess, but hypokalaemia is not an inevitable consequence."
+            },
+            "calculation": null
+        }
+    },
+    {
+        "source_id": 5,
+        "source_classification": "yes_no",
+        "source_text": "Warfarin and Omeprazole = Increase bleeding??\nYes",
+        "ai_result": {
+            "status": "approved",
+            "review_required": false,
+            "review_reason": null,
+            "confidence": 0.93,
+            "question_type": "yes_no",
+            "options_source": "ai_generated",
+            "source_answer": "Yes",
+            "category": "Pharmacology & Toxicology",
+            "topic": "Warfarin drug interactions and bleeding risk",
+            "difficulty": "easy",
+            "question": "Does concomitant use of omeprazole and warfarin potentially increase the risk of bleeding?",
+            "options": {
+                "A": "Yes; omeprazole may increase warfarin's anticoagulant effect and raise the INR",
+                "B": "No; omeprazole consistently decreases warfarin's anticoagulant effect",
+                "C": "No; omeprazole has no clinically relevant interaction with warfarin",
+                "D": "No; omeprazole prevents warfarin-associated bleeding by protecting the gastric mucosa"
+            },
+            "correct_answer": "A",
+            "explanations": {
+                "A": "Correct. Omeprazole may enhance the anticoagulant effect of warfarin in some patients, increasing the INR and bleeding risk; closer INR monitoring may be appropriate.",
+                "B": "Incorrect. Omeprazole is not expected to consistently reduce warfarin's anticoagulant effect.",
+                "C": "Incorrect. Although the interaction may be variable and modest, omeprazole can affect warfarin response and should not be considered interaction-free.",
+                "D": "Incorrect. Gastric mucosal protection does not reverse or prevent the systemic anticoagulant effect of warfarin."
+            },
+            "calculation": null
+        }
+    },
+    {
+        "source_id": 6,
+        "source_classification": "unknown",
+        "source_text": "You start your first day as a locum pharmacist and receive a phone call from a lawyer claiming to represent one of your customers. The lawyer requests information regarding the medication that has been prescribed by a particular medical practitioner for their client.\nWhat information are you able to hand over to the lawyer? \nA no information at any stage \nB any information required after written consent has been given by the patient C any information that the lawyer requests \nD any information the lawyer requests, after you can confirm the individual is a lawyer \nE any information required, upon the receip",
+        "ai_result": {
+            "status": "needs_review",
+            "review_required": true,
+            "review_reason": "The source question is incomplete and does not specify the jurisdiction or address exceptions such as a court order or statutory disclosure requirement. The intended answer is inferred to be disclosure only after written patient consent.",
+            "confidence": 0.88,
+            "question_type": "factual",
+            "options_source": "ai_generated",
+            "source_answer": "B",
+            "category": "Therapeutics & Patient Care",
+            "topic": "Patient confidentiality and disclosure of health information",
+            "difficulty": "easy",
+            "question": "You are working as a locum pharmacist when a lawyer claiming to represent one of your patients requests information about medicines prescribed by a particular prescriber. In the absence of a court order or another legal disclosure requirement, what information may you provide?",
+            "options": {
+                "A": "No information may be disclosed under any circumstances.",
+                "B": "Only information required for the request after obtaining the patient's written consent.",
+                "C": "Any information the lawyer requests, because the request concerns the patient's treatment.",
+                "D": "Any information the lawyer requests once the lawyer's professional identity has been confirmed."
+            },
+            "correct_answer": "B",
+            "explanations": {
+                "A": "This is too absolute; disclosure may be permitted or required in circumstances such as valid patient consent or a court order.",
+                "B": "Patient health and medication information is confidential and should generally be disclosed to a lawyer only with the patient's valid written consent, limited to information relevant to the request.",
+                "C": "A lawyer's request alone does not override the pharmacist's duty of confidentiality.",
+                "D": "Verifying that the requester is a lawyer does not establish the patient's authorization to disclose confidential information."
+            },
+            "calculation": null
+        }
+    },
+    {
+        "source_id": 7,
+        "source_classification": "yes_no",
+        "source_text": "CAP ttt (If amoxi doxy azithro not in option)\nShould we choose Ceftrixone or cefotaxime? \nYes",
+        "ai_result": {
+            "status": "needs_review",
+            "review_required": true,
+            "review_reason": "The source indicates that ceftriaxone or cefotaxime should be selected when amoxicillin, doxycycline, and azithromycin are unavailable. However, the appropriateness of either cephalosporin depends on illness severity, treatment setting, local guidelines, and whether additional atypical coverage is required.",
+            "confidence": 0.84,
+            "question_type": "yes_no",
+            "options_source": "ai_generated",
+            "source_answer": "Yes",
+            "category": "Therapeutics & Patient Care",
+            "topic": "Empiric antibiotic therapy for community-acquired pneumonia",
+            "difficulty": "medium",
+            "question": "When selecting empiric antibacterial therapy for community-acquired pneumonia, and amoxicillin, doxycycline, and azithromycin are unavailable, should ceftriaxone or cefotaxime be considered as an alternative option?",
+            "options": {
+                "A": "Yes—ceftriaxone or cefotaxime may be considered, with the final regimen guided by disease severity and local treatment guidelines.",
+                "B": "No—ceftriaxone and cefotaxime have no clinically useful activity against pathogens that cause community-acquired pneumonia.",
+                "C": "No—amoxicillin is the only appropriate antibacterial option for community-acquired pneumonia.",
+                "D": "No—antibacterial treatment should be withheld until a causative organism is identified by culture."
+            },
+            "correct_answer": "A",
+            "explanations": {
+                "A": "This reflects the source answer: ceftriaxone or cefotaxime can be considered alternative beta-lactam options for community-acquired pneumonia. Their use should be selected according to the clinical setting, severity, local resistance patterns, and need for additional atypical coverage.",
+                "B": "Incorrect. Ceftriaxone and cefotaxime have activity against several important typical bacterial causes of community-acquired pneumonia.",
+                "C": "Incorrect. Amoxicillin is one possible treatment, but it is not the only antibacterial option.",
+                "D": "Incorrect. Empiric treatment is commonly initiated when bacterial community-acquired pneumonia is clinically suspected; culture results are not always available before treatment is needed."
+            },
+            "calculation": null
+        }
+    },
+    {
+        "source_id": 8,
+        "source_classification": "unknown",
+        "source_text": "Whic is accurate for kidney function?\nSerum creatinine \nCrcl \nEGFR 1st then creatinine clearance",
+        "ai_result": {
+            "status": "needs_review",
+            "review_required": true,
+            "review_reason": "The remembered source is abbreviated and does not specify the original wording or answer options. The intended answer appears to be that eGFR is assessed first, with creatinine clearance used subsequently, particularly for medication dosing; clinical practice may vary by context.",
+            "confidence": 0.86,
+            "question_type": "factual",
+            "options_source": "ai_generated",
+            "source_answer": null,
+            "category": "Therapeutics & Patient Care",
+            "topic": "Assessment of kidney function and renal drug dosing",
+            "difficulty": "medium",
+            "question": "Which statement most accurately describes the usual assessment of kidney function in clinical practice?",
+            "options": {
+                "A": "Estimated glomerular filtration rate (eGFR) is generally used as the initial assessment, with creatinine clearance considered when a drug-dosing estimate is required.",
+                "B": "Serum creatinine concentration alone is the most accurate routine measure of kidney function in all patients.",
+                "C": "Creatinine clearance should always be calculated before eGFR, regardless of the clinical purpose.",
+                "D": "Urinary protein excretion is sufficient by itself to quantify the glomerular filtration rate."
+            },
+            "correct_answer": "A",
+            "explanations": {
+                "A": "eGFR is commonly used as the initial estimate of kidney function. Creatinine clearance may then be used when required for specific medication-dosing decisions or clinical circumstances.",
+                "B": "Serum creatinine alone is affected by factors such as muscle mass, age, and diet, and may not accurately reflect kidney function without an estimating equation.",
+                "C": "Creatinine clearance is not universally required before eGFR and is often reserved for particular drug-dosing or clinical situations.",
+                "D": "Proteinuria is an important marker of kidney disease but does not by itself quantify glomerular filtration rate."
+            },
+            "calculation": null
+        }
+    },
+    {
+        "source_id": 9,
+        "source_classification": "calculation",
+        "source_text": "Rate of absorption increases but extent of absorption remains the same what happen to peak conc?\nIncrease peak concentration",
+        "ai_result": {
+            "status": "approved",
+            "review_required": false,
+            "review_reason": null,
+            "confidence": 0.98,
+            "question_type": "calculation",
+            "options_source": "ai_generated",
+            "source_answer": "Increase peak concentration",
+            "category": "Pharmacokinetics & Pharmacodynamics",
+            "topic": "Absorption rate, peak plasma concentration, and exposure",
+            "difficulty": "easy",
+            "question": "If the rate of drug absorption increases while the extent of absorption remains unchanged, what happens to the peak plasma concentration (Cmax)?",
+            "options": {
+                "A": "It increases",
+                "B": "It decreases",
+                "C": "It remains unchanged",
+                "D": "It becomes zero"
+            },
+            "correct_answer": "A",
+            "explanations": {
+                "A": "Correct. A faster absorption rate generally produces a higher peak plasma concentration and an earlier time to peak, while the total exposure (AUC) remains unchanged.",
+                "B": "Incorrect. A slower absorption rate would generally reduce the peak concentration, whereas an increased absorption rate raises it.",
+                "C": "Incorrect. Although the extent of absorption and AUC remain unchanged, the peak concentration is affected by the absorption rate.",
+                "D": "Incorrect. Increasing the absorption rate does not eliminate systemic drug exposure or produce a zero concentration."
+            },
+            "calculation": null
+        }
+    },
+    {
+        "source_id": 10,
+        "source_classification": "incomplete",
+        "source_text": "Keto acidosis caused by",
+        "ai_result": {
+            "status": "needs_review",
+            "review_required": true,
+            "review_reason": "The source is an incomplete fragment and does not specify whether it refers to a drug-induced, alcoholic, diabetic, or starvation ketoacidosis. The question has been reconstructed using the clinically important association between SGLT2 inhibitors and euglycemic ketoacidosis.",
+            "confidence": 0.55,
+            "question_type": "factual",
+            "options_source": "ai_generated",
+            "source_answer": null,
+            "category": "Pharmacology & Toxicology",
+            "topic": "Adverse effects of antidiabetic medicines",
+            "difficulty": "medium",
+            "question": "Ketoacidosis, including euglycemic ketoacidosis, is a recognized adverse effect of which class of antidiabetic medicines?",
+            "options": {
+                "A": "Sulfonylureas",
+                "B": "Sodium-glucose cotransporter 2 inhibitors",
+                "C": "Dipeptidyl peptidase-4 inhibitors",
+                "D": "Alpha-glucosidase inhibitors"
+            },
+            "correct_answer": "B",
+            "explanations": {
+                "A": "Sulfonylureas primarily increase insulin secretion and are more characteristically associated with hypoglycemia and weight gain.",
+                "B": "Sodium-glucose cotransporter 2 inhibitors can precipitate ketoacidosis, sometimes with only modestly elevated blood glucose concentrations.",
+                "C": "Dipeptidyl peptidase-4 inhibitors are not classically associated with euglycemic ketoacidosis.",
+                "D": "Alpha-glucosidase inhibitors mainly cause gastrointestinal adverse effects and are not a recognized classically associated cause of ketoacidosis."
+            },
+            "calculation": null
+        }
+    }
+]

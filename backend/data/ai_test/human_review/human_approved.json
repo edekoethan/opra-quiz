@@ -1,0 +1,2102 @@
+[
+    {
+        "status": "needs_review",
+        "review_required": true,
+        "review_reason": "The source contains only the term \"SGLT-2\" and does not specify the intended question or learning objective. A basic mechanism-of-action question has been inferred.",
+        "confidence": 0.72,
+        "question_type": "factual",
+        "options_source": "ai_generated",
+        "source_answer": null,
+        "category": "Pharmacology & Toxicology",
+        "topic": "SGLT2 inhibitors and renal glucose handling",
+        "difficulty": "easy",
+        "question": "What is the primary mechanism of action of sodium-glucose cotransporter 2 (SGLT2) inhibitors?",
+        "options": {
+            "A": "They inhibit glucose reabsorption in the proximal renal tubule, increasing urinary glucose excretion",
+            "B": "They stimulate pancreatic beta cells to release insulin independently of blood glucose concentration",
+            "C": "They inhibit intestinal glucose absorption by blocking sodium-glucose cotransporter 1",
+            "D": "They activate peroxisome proliferator-activated receptor-gamma to increase insulin sensitivity"
+        },
+        "correct_answer": "A",
+        "explanations": {
+            "A": "SGLT2 inhibitors reduce glucose reabsorption in the proximal convoluted tubule, thereby increasing urinary glucose excretion and lowering plasma glucose.",
+            "B": "Glucose-independent stimulation of insulin release is characteristic of sulfonylureas, not SGLT2 inhibitors.",
+            "C": "SGLT1 is mainly involved in intestinal glucose absorption; it is not the primary renal target of selective SGLT2 inhibitors.",
+            "D": "Activation of peroxisome proliferator-activated receptor-gamma is the mechanism of thiazolidinediones such as pioglitazone."
+        },
+        "calculation": null,
+        "source_id": 1,
+        "source_classification": "incomplete",
+        "source_text": "1.Sglt-2",
+        "ai_result": {
+            "status": "needs_review",
+            "review_required": true,
+            "review_reason": "The source contains only the term \"SGLT-2\" and does not specify the intended question or learning objective. A basic mechanism-of-action question has been inferred.",
+            "confidence": 0.72,
+            "question_type": "factual",
+            "options_source": "ai_generated",
+            "source_answer": null,
+            "category": "Pharmacology & Toxicology",
+            "topic": "SGLT2 inhibitors and renal glucose handling",
+            "difficulty": "easy",
+            "question": "What is the primary mechanism of action of sodium-glucose cotransporter 2 (SGLT2) inhibitors?",
+            "options": {
+                "A": "They inhibit glucose reabsorption in the proximal renal tubule, increasing urinary glucose excretion",
+                "B": "They stimulate pancreatic beta cells to release insulin independently of blood glucose concentration",
+                "C": "They inhibit intestinal glucose absorption by blocking sodium-glucose cotransporter 1",
+                "D": "They activate peroxisome proliferator-activated receptor-gamma to increase insulin sensitivity"
+            },
+            "correct_answer": "A",
+            "explanations": {
+                "A": "SGLT2 inhibitors reduce glucose reabsorption in the proximal convoluted tubule, thereby increasing urinary glucose excretion and lowering plasma glucose.",
+                "B": "Glucose-independent stimulation of insulin release is characteristic of sulfonylureas, not SGLT2 inhibitors.",
+                "C": "SGLT1 is mainly involved in intestinal glucose absorption; it is not the primary renal target of selective SGLT2 inhibitors.",
+                "D": "Activation of peroxisome proliferator-activated receptor-gamma is the mechanism of thiazolidinediones such as pioglitazone."
+            },
+            "calculation": null
+        },
+        "human_status": "approved",
+        "human_reviewed": true,
+        "human_review_note": ""
+    },
+    {
+        "status": "needs_review",
+        "review_required": true,
+        "review_reason": "The source question is grammatically incomplete and does not explicitly state the clinical context, although the intended referral symptom is likely dysphagia as an alarm feature.",
+        "confidence": 0.93,
+        "question_type": "factual",
+        "options_source": "original",
+        "source_answer": null,
+        "category": "Therapeutics & Patient Care",
+        "topic": "Referral criteria for heartburn and dyspepsia",
+        "difficulty": "easy",
+        "question": "Which symptom in a patient seeking self-care for heartburn should prompt referral to a doctor?",
+        "options": {
+            "A": "Painful burning in stomach,",
+            "B": "bitter taste in mouth",
+            "C": "feels pain when bending",
+            "D": "Difficulty swallowing"
+        },
+        "correct_answer": "D",
+        "explanations": {
+            "A": "Painful burning in the stomach is a common symptom of dyspepsia or acid-related discomfort and does not by itself necessarily require referral.",
+            "B": "A bitter taste in the mouth can occur with gastroesophageal reflux and is not usually an alarm symptom on its own.",
+            "C": "Pain when bending may occur with reflux because bending can promote the movement of gastric contents into the esophagus, but it is not by itself a definite referral criterion.",
+            "D": "Difficulty swallowing, or dysphagia, is an alarm symptom that may indicate significant esophageal disease and warrants medical evaluation."
+        },
+        "calculation": null,
+        "source_id": 11,
+        "source_classification": "mcq",
+        "source_text": "Which one referral to doctor?\nA. Painful burning in stomach, \nB. bitter taste in mouth \nC. feels pain when bending \nD. Difficulty swallowing",
+        "ai_result": {
+            "status": "needs_review",
+            "review_required": true,
+            "review_reason": "The source question is grammatically incomplete and does not explicitly state the clinical context, although the intended referral symptom is likely dysphagia as an alarm feature.",
+            "confidence": 0.93,
+            "question_type": "factual",
+            "options_source": "original",
+            "source_answer": null,
+            "category": "Therapeutics & Patient Care",
+            "topic": "Referral criteria for heartburn and dyspepsia",
+            "difficulty": "easy",
+            "question": "Which symptom in a patient seeking self-care for heartburn should prompt referral to a doctor?",
+            "options": {
+                "A": "Painful burning in stomach,",
+                "B": "bitter taste in mouth",
+                "C": "feels pain when bending",
+                "D": "Difficulty swallowing"
+            },
+            "correct_answer": "D",
+            "explanations": {
+                "A": "Painful burning in the stomach is a common symptom of dyspepsia or acid-related discomfort and does not by itself necessarily require referral.",
+                "B": "A bitter taste in the mouth can occur with gastroesophageal reflux and is not usually an alarm symptom on its own.",
+                "C": "Pain when bending may occur with reflux because bending can promote the movement of gastric contents into the esophagus, but it is not by itself a definite referral criterion.",
+                "D": "Difficulty swallowing, or dysphagia, is an alarm symptom that may indicate significant esophageal disease and warrants medical evaluation."
+            },
+            "calculation": null
+        },
+        "human_status": "approved",
+        "human_reviewed": true,
+        "human_review_note": ""
+    },
+    {
+        "status": "needs_review",
+        "review_required": true,
+        "review_reason": "The source fragment is incomplete and does not specify the clinical context, indication, formulation, or whether the question asks for the least correct statement. The interpretation below assumes dosing of clarithromycin in severe renal impairment.",
+        "confidence": 0.68,
+        "question_type": "factual",
+        "options_source": "ai_generated",
+        "source_answer": null,
+        "category": "Therapeutics & Patient Care",
+        "topic": "Clarithromycin dosing in renal impairment",
+        "difficulty": "medium",
+        "question": "Which clarithromycin dosage regimen is appropriate for an adult with severe renal impairment when dose reduction is required?",
+        "options": {
+            "A": "250 mg once daily",
+            "B": "500 mg once daily",
+            "C": "250 mg twice daily",
+            "D": "500 mg twice daily"
+        },
+        "correct_answer": "A",
+        "explanations": {
+            "A": "This may provide less than the usual dose reduction and is not the commonly specified renal-adjusted regimen in the assumed context.",
+            "B": "A dose of 500 mg once daily is a commonly used renal-adjusted clarithromycin regimen when the usual 500 mg twice-daily dose must be reduced by 50%.",
+            "C": "Although 250 mg twice daily may be used in some product-specific recommendations, it is not the intended once-daily regimen indicated by the source fragment.",
+            "D": "500 mg twice daily is a standard adult regimen in some indications but does not provide the required dose reduction for severe renal impairment."
+        },
+        "calculation": null,
+        "source_id": 12,
+        "source_classification": "unknown",
+        "source_text": "Clarithromycin least correct\n LEAST ___ 500mg once daily \nLocked forever",
+        "ai_result": {
+            "status": "needs_review",
+            "review_required": true,
+            "review_reason": "The source fragment is incomplete and does not specify the clinical context, indication, formulation, or whether the question asks for the least correct statement. The interpretation below assumes dosing of clarithromycin in severe renal impairment.",
+            "confidence": 0.68,
+            "question_type": "factual",
+            "options_source": "ai_generated",
+            "source_answer": null,
+            "category": "Therapeutics & Patient Care",
+            "topic": "Clarithromycin dosing in renal impairment",
+            "difficulty": "medium",
+            "question": "Which clarithromycin dosage regimen is appropriate for an adult with severe renal impairment when dose reduction is required?",
+            "options": {
+                "A": "250 mg once daily",
+                "B": "500 mg once daily",
+                "C": "250 mg twice daily",
+                "D": "500 mg twice daily"
+            },
+            "correct_answer": "B",
+            "explanations": {
+                "A": "This may provide less than the usual dose reduction and is not the commonly specified renal-adjusted regimen in the assumed context.",
+                "B": "A dose of 500 mg once daily is a commonly used renal-adjusted clarithromycin regimen when the usual 500 mg twice-daily dose must be reduced by 50%.",
+                "C": "Although 250 mg twice daily may be used in some product-specific recommendations, it is not the intended once-daily regimen indicated by the source fragment.",
+                "D": "500 mg twice daily is a standard adult regimen in some indications but does not provide the required dose reduction for severe renal impairment."
+            },
+            "calculation": null
+        },
+        "human_status": "approved",
+        "human_reviewed": true,
+        "human_review_note": "Approved after human editing."
+    },
+    {
+        "status": "needs_review",
+        "review_required": true,
+        "review_reason": "The source is incomplete and uses potentially overbroad wording ('only NSAID'). The intended concept appears to be that meloxicam exhibits dose-dependent preferential COX-2 inhibition.",
+        "confidence": 0.84,
+        "question_type": "calculation",
+        "options_source": "ai_generated",
+        "source_answer": "Meloxicam",
+        "category": "Pharmacology & Toxicology",
+        "topic": "NSAID cyclooxygenase selectivity",
+        "difficulty": "easy",
+        "question": "Which NSAID is classically described as exhibiting dose-dependent preferential COX-2 inhibition, with reduced selectivity at higher doses?",
+        "options": {
+            "A": "Meloxicam",
+            "B": "Celecoxib",
+            "C": "Aspirin",
+            "D": "Ketorolac"
+        },
+        "correct_answer": "A",
+        "explanations": {
+            "A": "Meloxicam preferentially inhibits COX-2 at lower doses, but its selectivity decreases as the dose increases.",
+            "B": "Celecoxib is a selective COX-2 inhibitor, rather than the classic example of dose-dependent preferential selectivity described here.",
+            "C": "Aspirin irreversibly inhibits both COX-1 and COX-2 and is not characterized primarily by dose-dependent COX-2 preference.",
+            "D": "Ketorolac is a relatively nonselective NSAID with strong analgesic activity and is not classically identified as dose-dependent COX-2 preferential."
+        },
+        "calculation": null,
+        "source_id": 13,
+        "source_classification": "calculation",
+        "source_text": "On low dose selective?\nMeloxicam only NSAIDs dose dependant",
+        "ai_result": {
+            "status": "needs_review",
+            "review_required": true,
+            "review_reason": "The source is incomplete and uses potentially overbroad wording ('only NSAID'). The intended concept appears to be that meloxicam exhibits dose-dependent preferential COX-2 inhibition.",
+            "confidence": 0.84,
+            "question_type": "calculation",
+            "options_source": "ai_generated",
+            "source_answer": "Meloxicam",
+            "category": "Pharmacology & Toxicology",
+            "topic": "NSAID cyclooxygenase selectivity",
+            "difficulty": "easy",
+            "question": "Which NSAID is classically described as exhibiting dose-dependent preferential COX-2 inhibition, with reduced selectivity at higher doses?",
+            "options": {
+                "A": "Meloxicam",
+                "B": "Celecoxib",
+                "C": "Aspirin",
+                "D": "Ketorolac"
+            },
+            "correct_answer": "A",
+            "explanations": {
+                "A": "Meloxicam preferentially inhibits COX-2 at lower doses, but its selectivity decreases as the dose increases.",
+                "B": "Celecoxib is a selective COX-2 inhibitor, rather than the classic example of dose-dependent preferential selectivity described here.",
+                "C": "Aspirin irreversibly inhibits both COX-1 and COX-2 and is not characterized primarily by dose-dependent COX-2 preference.",
+                "D": "Ketorolac is a relatively nonselective NSAID with strong analgesic activity and is not classically identified as dose-dependent COX-2 preferential."
+            },
+            "calculation": null
+        },
+        "human_status": "approved",
+        "human_reviewed": true,
+        "human_review_note": ""
+    },
+    {
+        "status": "needs_review",
+        "review_required": true,
+        "review_reason": "The intended answer is likely 'maintain healthy bone,' but skin contributes indirectly to bone health through vitamin D synthesis, making the wording potentially ambiguous.",
+        "confidence": 0.86,
+        "question_type": "factual",
+        "options_source": "ai_generated",
+        "source_answer": "Maintain healthy bone",
+        "category": "Biomedical Sciences",
+        "topic": "Functions of the skin",
+        "difficulty": "easy",
+        "question": "Which of the following is not considered a primary function of the skin?",
+        "options": {
+            "A": "Regulation of core body temperature",
+            "B": "Protection against physical injury and pathogens",
+            "C": "Reception of sensory stimuli",
+            "D": "Maintenance of healthy bone"
+        },
+        "correct_answer": "D",
+        "explanations": {
+            "A": "The skin helps regulate core body temperature through sweating and changes in cutaneous blood flow.",
+            "B": "The skin forms a physical and immunological barrier against injury, microorganisms, and excessive water loss.",
+            "C": "Sensory receptors in the skin detect touch, pressure, pain, and temperature.",
+            "D": "Maintaining healthy bone is not a primary direct function of the skin, although cutaneous vitamin D synthesis can contribute indirectly to bone health."
+        },
+        "calculation": null,
+        "source_id": 14,
+        "source_classification": "unknown",
+        "source_text": "Not function of skin?\nControl core body temp \nMaintain healthy bone",
+        "ai_result": {
+            "status": "needs_review",
+            "review_required": true,
+            "review_reason": "The intended answer is likely 'maintain healthy bone,' but skin contributes indirectly to bone health through vitamin D synthesis, making the wording potentially ambiguous.",
+            "confidence": 0.86,
+            "question_type": "factual",
+            "options_source": "ai_generated",
+            "source_answer": "Maintain healthy bone",
+            "category": "Biomedical Sciences",
+            "topic": "Functions of the skin",
+            "difficulty": "easy",
+            "question": "Which of the following is not considered a primary function of the skin?",
+            "options": {
+                "A": "Regulation of core body temperature",
+                "B": "Protection against physical injury and pathogens",
+                "C": "Reception of sensory stimuli",
+                "D": "Maintenance of healthy bone"
+            },
+            "correct_answer": "D",
+            "explanations": {
+                "A": "The skin helps regulate core body temperature through sweating and changes in cutaneous blood flow.",
+                "B": "The skin forms a physical and immunological barrier against injury, microorganisms, and excessive water loss.",
+                "C": "Sensory receptors in the skin detect touch, pressure, pain, and temperature.",
+                "D": "Maintaining healthy bone is not a primary direct function of the skin, although cutaneous vitamin D synthesis can contribute indirectly to bone health."
+            },
+            "calculation": null
+        },
+        "human_status": "approved",
+        "human_reviewed": true,
+        "human_review_note": ""
+    },
+    {
+        "status": "needs_review",
+        "review_required": true,
+        "review_reason": "The question is potentially ambiguous because NSAIDs, aspirin, opioids, and metformin can all cause nausea or vomiting. NSAIDs may be intended as the least likely option, but this depends on the specific drug, dose, and clinical context.",
+        "confidence": 0.68,
+        "question_type": "factual",
+        "options_source": "source",
+        "source_answer": null,
+        "category": "Pharmacology & Toxicology",
+        "topic": "Adverse drug reactions causing nausea and vomiting",
+        "difficulty": "easy",
+        "question": "Which of the following is least likely to cause vomiting as an adverse effect?",
+        "options": {
+            "A": "Opioids",
+            "B": "NSAIDs",
+            "C": "Aspirin",
+            "D": "Metformin"
+        },
+        "correct_answer": "B",
+        "explanations": {
+            "A": "Opioids commonly cause nausea and vomiting by stimulating the chemoreceptor trigger zone and affecting gastrointestinal motility.",
+            "B": "NSAIDs can cause gastrointestinal adverse effects, but vomiting is generally less characteristic than with opioids, aspirin, or metformin; therefore, this is the intended best answer.",
+            "C": "Aspirin can irritate the gastric mucosa and cause nausea, dyspepsia, or vomiting.",
+            "D": "Metformin commonly causes gastrointestinal adverse effects, including nausea, diarrhea, and vomiting, particularly when treatment is initiated."
+        },
+        "calculation": null,
+        "source_id": 15,
+        "source_classification": "mcq",
+        "source_text": "Which is least likely to cause vomiting?\nA. Opioids \nB. NSAIDs \nC. Aspirin \nD. Metformin",
+        "ai_result": {
+            "status": "needs_review",
+            "review_required": true,
+            "review_reason": "The question is potentially ambiguous because NSAIDs, aspirin, opioids, and metformin can all cause nausea or vomiting. NSAIDs may be intended as the least likely option, but this depends on the specific drug, dose, and clinical context.",
+            "confidence": 0.68,
+            "question_type": "factual",
+            "options_source": "source",
+            "source_answer": null,
+            "category": "Pharmacology & Toxicology",
+            "topic": "Adverse drug reactions causing nausea and vomiting",
+            "difficulty": "easy",
+            "question": "Which of the following is least likely to cause vomiting as an adverse effect?",
+            "options": {
+                "A": "Opioids",
+                "B": "NSAIDs",
+                "C": "Aspirin",
+                "D": "Metformin"
+            },
+            "correct_answer": "B",
+            "explanations": {
+                "A": "Opioids commonly cause nausea and vomiting by stimulating the chemoreceptor trigger zone and affecting gastrointestinal motility.",
+                "B": "NSAIDs can cause gastrointestinal adverse effects, but vomiting is generally less characteristic than with opioids, aspirin, or metformin; therefore, this is the intended best answer.",
+                "C": "Aspirin can irritate the gastric mucosa and cause nausea, dyspepsia, or vomiting.",
+                "D": "Metformin commonly causes gastrointestinal adverse effects, including nausea, diarrhea, and vomiting, particularly when treatment is initiated."
+            },
+            "calculation": null
+        },
+        "human_status": "approved",
+        "human_reviewed": true,
+        "human_review_note": ""
+    },
+    {
+        "status": "needs_review",
+        "review_required": true,
+        "review_reason": "The original question does not specify disease severity, treatment setting, timing, patient risk factors, or contraindications. The intended answer is likely nirmatrelvir/ritonavir for a high-risk nonhospitalized patient with mild-to-moderate COVID-19, but the preferred medication depends on the clinical context.",
+        "confidence": 0.88,
+        "question_type": "factual",
+        "options_source": "source_provided",
+        "source_answer": null,
+        "category": "Therapeutics & Patient Care",
+        "topic": "COVID-19 pharmacotherapy",
+        "difficulty": "easy",
+        "question": "For a nonhospitalized adult with mild-to-moderate COVID-19 who is at high risk of progression to severe disease, presents within 5 days of symptom onset, and has no contraindications, which medication is preferred?",
+        "options": {
+            "A": "Nirmatrelvir/Ritonavir",
+            "B": "Dexamethasone",
+            "C": "Molnupiravir",
+            "D": "Oseltamivir"
+        },
+        "correct_answer": "A",
+        "explanations": {
+            "A": "Nirmatrelvir/ritonavir is the preferred oral antiviral for eligible high-risk nonhospitalized patients with mild-to-moderate COVID-19 when started early. Drug interactions and renal or hepatic function must be assessed.",
+            "B": "Dexamethasone is used primarily for hospitalized patients with COVID-19 who require supplemental oxygen or ventilatory support and is not recommended for patients with mild disease who do not require oxygen.",
+            "C": "Molnupiravir may be considered when preferred COVID-19 antivirals are not accessible or clinically appropriate, but it is generally less preferred than nirmatrelvir/ritonavir.",
+            "D": "Oseltamivir is an antiviral for influenza and does not treat COVID-19."
+        },
+        "calculation": null,
+        "source_id": 16,
+        "source_classification": "mcq",
+        "source_text": "Which medication is better for management of COVID-19?\nA. Nirmatrelvir/Ritonavir \nB. Dexamethasone \nC. Molnupiravir \nD. Oseltamivir",
+        "ai_result": {
+            "status": "needs_review",
+            "review_required": true,
+            "review_reason": "The original question does not specify disease severity, treatment setting, timing, patient risk factors, or contraindications. The intended answer is likely nirmatrelvir/ritonavir for a high-risk nonhospitalized patient with mild-to-moderate COVID-19, but the preferred medication depends on the clinical context.",
+            "confidence": 0.88,
+            "question_type": "factual",
+            "options_source": "source_provided",
+            "source_answer": null,
+            "category": "Therapeutics & Patient Care",
+            "topic": "COVID-19 pharmacotherapy",
+            "difficulty": "easy",
+            "question": "For a nonhospitalized adult with mild-to-moderate COVID-19 who is at high risk of progression to severe disease, presents within 5 days of symptom onset, and has no contraindications, which medication is preferred?",
+            "options": {
+                "A": "Nirmatrelvir/Ritonavir",
+                "B": "Dexamethasone",
+                "C": "Molnupiravir",
+                "D": "Oseltamivir"
+            },
+            "correct_answer": "A",
+            "explanations": {
+                "A": "Nirmatrelvir/ritonavir is the preferred oral antiviral for eligible high-risk nonhospitalized patients with mild-to-moderate COVID-19 when started early. Drug interactions and renal or hepatic function must be assessed.",
+                "B": "Dexamethasone is used primarily for hospitalized patients with COVID-19 who require supplemental oxygen or ventilatory support and is not recommended for patients with mild disease who do not require oxygen.",
+                "C": "Molnupiravir may be considered when preferred COVID-19 antivirals are not accessible or clinically appropriate, but it is generally less preferred than nirmatrelvir/ritonavir.",
+                "D": "Oseltamivir is an antiviral for influenza and does not treat COVID-19."
+            },
+            "calculation": null
+        },
+        "human_status": "approved",
+        "human_reviewed": true,
+        "human_review_note": ""
+    },
+    {
+        "status": "needs_review",
+        "review_required": true,
+        "review_reason": "The source is a very abbreviated yes/no note and does not define the clinical context or what type of interaction is being assessed. The intended answer appears to be that no clinically significant direct interaction is generally expected, but patient-specific additive adverse effects may still warrant monitoring.",
+        "confidence": 0.78,
+        "question_type": "yes_no",
+        "options_source": "ai_generated",
+        "source_answer": "No",
+        "category": "Pharmacology & Toxicology",
+        "topic": "Drug-drug interactions",
+        "difficulty": "easy",
+        "question": "Does spironolactone have a clinically significant direct drug interaction with amitriptyline that generally contraindicates their concomitant use?",
+        "options": {
+            "A": "Yes; spironolactone markedly increases amitriptyline plasma concentrations.",
+            "B": "No; no clinically significant direct interaction generally contraindicates their concomitant use.",
+            "C": "Yes; the combination predictably causes severe hyperkalaemia in most patients.",
+            "D": "Yes; the combination is contraindicated because both drugs cause clinically important QT-interval prolongation."
+        },
+        "correct_answer": "B",
+        "explanations": {
+            "A": "Spironolactone is not generally known to markedly increase amitriptyline concentrations through a clinically significant pharmacokinetic interaction.",
+            "B": "No major direct interaction generally contraindicates concomitant use. Nevertheless, clinicians should consider patient-specific risks such as hypotension, sedation, renal impairment, and electrolyte abnormalities.",
+            "C": "Spironolactone can cause hyperkalaemia, but amitriptyline does not predictably produce severe hyperkalaemia when combined with it.",
+            "D": "Amitriptyline may affect cardiac conduction and QT interval, but spironolactone is not generally considered a major QT-prolonging drug that makes this combination absolutely contraindicated."
+        },
+        "calculation": null,
+        "source_id": 17,
+        "source_classification": "yes_no",
+        "source_text": "Spironolactone interaction with amitriptyline?\nNo",
+        "ai_result": {
+            "status": "needs_review",
+            "review_required": true,
+            "review_reason": "The source is a very abbreviated yes/no note and does not define the clinical context or what type of interaction is being assessed. The intended answer appears to be that no clinically significant direct interaction is generally expected, but patient-specific additive adverse effects may still warrant monitoring.",
+            "confidence": 0.78,
+            "question_type": "yes_no",
+            "options_source": "ai_generated",
+            "source_answer": "No",
+            "category": "Pharmacology & Toxicology",
+            "topic": "Drug-drug interactions",
+            "difficulty": "easy",
+            "question": "Does spironolactone have a clinically significant direct drug interaction with amitriptyline that generally contraindicates their concomitant use?",
+            "options": {
+                "A": "Yes; spironolactone markedly increases amitriptyline plasma concentrations.",
+                "B": "No; no clinically significant direct interaction generally contraindicates their concomitant use.",
+                "C": "Yes; the combination predictably causes severe hyperkalaemia in most patients.",
+                "D": "Yes; the combination is contraindicated because both drugs cause clinically important QT-interval prolongation."
+            },
+            "correct_answer": "B",
+            "explanations": {
+                "A": "Spironolactone is not generally known to markedly increase amitriptyline concentrations through a clinically significant pharmacokinetic interaction.",
+                "B": "No major direct interaction generally contraindicates concomitant use. Nevertheless, clinicians should consider patient-specific risks such as hypotension, sedation, renal impairment, and electrolyte abnormalities.",
+                "C": "Spironolactone can cause hyperkalaemia, but amitriptyline does not predictably produce severe hyperkalaemia when combined with it.",
+                "D": "Amitriptyline may affect cardiac conduction and QT interval, but spironolactone is not generally considered a major QT-prolonging drug that makes this combination absolutely contraindicated."
+            },
+            "calculation": null
+        },
+        "human_status": "approved",
+        "human_reviewed": true,
+        "human_review_note": ""
+    },
+    {
+        "status": "needs_review",
+        "review_required": true,
+        "review_reason": "Paracetamol is likely the intended answer because it is generally not associated with worsening renal function at therapeutic doses. However, metformin is also not directly nephrotoxic and is primarily contraindicated or dose-adjusted in renal impairment, making the question potentially ambiguous.",
+        "confidence": 0.8,
+        "question_type": "factual",
+        "options_source": "source",
+        "source_answer": null,
+        "category": "Therapeutics & Patient Care",
+        "topic": "Drug effects on renal function",
+        "difficulty": "easy",
+        "question": "Which of the following drugs is NOT commonly associated with worsening renal function?",
+        "options": {
+            "A": "NSAIDs",
+            "B": "ACE inhibitors",
+            "C": "Metformin",
+            "D": "Paracetamol"
+        },
+        "correct_answer": "D",
+        "explanations": {
+            "A": "NSAIDs can reduce renal prostaglandin synthesis, causing renal vasoconstriction and increasing the risk of acute kidney injury.",
+            "B": "ACE inhibitors can cause an increase in serum creatinine and may worsen renal function, particularly in renal artery stenosis, hypovolaemia, or other states of reduced renal perfusion.",
+            "C": "Metformin is not usually directly nephrotoxic, but it is renally eliminated and must be withheld or dose-adjusted in significant renal impairment because of the risk of accumulation and lactic acidosis. This makes the option potentially ambiguous.",
+            "D": "Paracetamol is generally not associated with worsening renal function when used at therapeutic doses, although excessive or prolonged use may rarely contribute to renal injury."
+        },
+        "calculation": null,
+        "source_id": 18,
+        "source_classification": "mcq",
+        "source_text": "Which of the following drugs is NOT commonly associated with worsening renal function?\na) NSAIDs \nb) ACE inhibitors \nc) Metformin \nd) Paracetamol",
+        "ai_result": {
+            "status": "needs_review",
+            "review_required": true,
+            "review_reason": "Paracetamol is likely the intended answer because it is generally not associated with worsening renal function at therapeutic doses. However, metformin is also not directly nephrotoxic and is primarily contraindicated or dose-adjusted in renal impairment, making the question potentially ambiguous.",
+            "confidence": 0.8,
+            "question_type": "factual",
+            "options_source": "source",
+            "source_answer": null,
+            "category": "Therapeutics & Patient Care",
+            "topic": "Drug effects on renal function",
+            "difficulty": "easy",
+            "question": "Which of the following drugs is NOT commonly associated with worsening renal function?",
+            "options": {
+                "A": "NSAIDs",
+                "B": "ACE inhibitors",
+                "C": "Metformin",
+                "D": "Paracetamol"
+            },
+            "correct_answer": "D",
+            "explanations": {
+                "A": "NSAIDs can reduce renal prostaglandin synthesis, causing renal vasoconstriction and increasing the risk of acute kidney injury.",
+                "B": "ACE inhibitors can cause an increase in serum creatinine and may worsen renal function, particularly in renal artery stenosis, hypovolaemia, or other states of reduced renal perfusion.",
+                "C": "Metformin is not usually directly nephrotoxic, but it is renally eliminated and must be withheld or dose-adjusted in significant renal impairment because of the risk of accumulation and lactic acidosis. This makes the option potentially ambiguous.",
+                "D": "Paracetamol is generally not associated with worsening renal function when used at therapeutic doses, although excessive or prolonged use may rarely contribute to renal injury."
+            },
+            "calculation": null
+        },
+        "human_status": "approved",
+        "human_reviewed": true,
+        "human_review_note": ""
+    },
+    {
+        "status": "needs_review",
+        "review_required": true,
+        "review_reason": "The source includes a fifth option, \"for irritant drugs,\" which is an important indication for central venous access but was excluded by the required four-option list. Among the preserved options, \"peripheral not available\" is the best answer.",
+        "confidence": 0.78,
+        "question_type": "factual",
+        "options_source": "source",
+        "source_answer": null,
+        "category": "Therapeutics & Patient Care",
+        "topic": "Central venous access indications",
+        "difficulty": "easy",
+        "question": "When should central venous access be considered?",
+        "options": {
+            "A": "short-term therapy",
+            "B": "peripheral not available",
+            "C": "isotonic solutions",
+            "D": "non-Irritant drugs"
+        },
+        "correct_answer": "B",
+        "explanations": {
+            "A": "Short-term therapy is usually managed through peripheral venous access when feasible; it is not, by itself, an indication for central access.",
+            "B": "Central venous access may be considered when peripheral venous access is unavailable or inadequate.",
+            "C": "Isotonic solutions can generally be administered through peripheral veins and do not usually require central access.",
+            "D": "Non-irritant drugs are generally suitable for peripheral administration and do not usually require central venous access."
+        },
+        "calculation": null,
+        "source_id": 20,
+        "source_classification": "mcq",
+        "source_text": "When to use central venous access?\na) short-term therapy \nb) peripheral not available \nc) isotonic solutions \nd) non-Irritant drugs \nE) for irritant drugs",
+        "ai_result": {
+            "status": "needs_review",
+            "review_required": true,
+            "review_reason": "The source includes a fifth option, \"for irritant drugs,\" which is an important indication for central venous access but was excluded by the required four-option list. Among the preserved options, \"peripheral not available\" is the best answer.",
+            "confidence": 0.78,
+            "question_type": "factual",
+            "options_source": "source",
+            "source_answer": null,
+            "category": "Therapeutics & Patient Care",
+            "topic": "Central venous access indications",
+            "difficulty": "easy",
+            "question": "When should central venous access be considered?",
+            "options": {
+                "A": "short-term therapy",
+                "B": "peripheral not available",
+                "C": "isotonic solutions",
+                "D": "non-Irritant drugs"
+            },
+            "correct_answer": "B",
+            "explanations": {
+                "A": "Short-term therapy is usually managed through peripheral venous access when feasible; it is not, by itself, an indication for central access.",
+                "B": "Central venous access may be considered when peripheral venous access is unavailable or inadequate.",
+                "C": "Isotonic solutions can generally be administered through peripheral veins and do not usually require central access.",
+                "D": "Non-irritant drugs are generally suitable for peripheral administration and do not usually require central venous access."
+            },
+            "calculation": null
+        },
+        "human_status": "approved",
+        "human_reviewed": true,
+        "human_review_note": ""
+    },
+    {
+        "status": "needs_review",
+        "review_required": true,
+        "review_reason": "The remembered question is incomplete and potentially ambiguous because both estrogen and progesterone can suppress GnRH and, downstream, LH and FSH. The item has been clarified to test their shared primary hypothalamic negative-feedback effect.",
+        "confidence": 0.82,
+        "question_type": "factual",
+        "options_source": "ai_generated",
+        "source_answer": "A",
+        "category": "Biomedical Sciences",
+        "topic": "Reproductive endocrinology",
+        "difficulty": "easy",
+        "question": "During their usual negative-feedback phase of the menstrual cycle, what shared hypothalamic effect do estrogen and progesterone produce?",
+        "options": {
+            "A": "Decrease pulsatile gonadotropin-releasing hormone (GnRH) secretion",
+            "B": "Increase pulsatile GnRH secretion",
+            "C": "Directly increase pituitary secretion of luteinizing hormone (LH) and follicle-stimulating hormone (FSH)",
+            "D": "Stimulate the mid-cycle LH surge and ovulation"
+        },
+        "correct_answer": "A",
+        "explanations": {
+            "A": "Correct. Estrogen and progesterone generally exert negative feedback on the hypothalamus, reducing pulsatile GnRH secretion and consequently limiting gonadotropin release.",
+            "B": "Incorrect. Their usual feedback effect is inhibitory rather than stimulatory; increased GnRH secretion is not the shared typical action.",
+            "C": "Incorrect. Estrogen and progesterone generally suppress, rather than directly increase, LH and FSH secretion through hypothalamic and pituitary feedback.",
+            "D": "Incorrect. The mid-cycle LH surge is primarily associated with sustained high estrogen positive feedback; progesterone does not produce this shared effect."
+        },
+        "calculation": null,
+        "source_id": 22,
+        "source_classification": "unknown",
+        "source_text": "Similar action of estrogen and progesterone?\nA) Gnrf level OR \nB) LH and FSH level",
+        "ai_result": {
+            "status": "needs_review",
+            "review_required": true,
+            "review_reason": "The remembered question is incomplete and potentially ambiguous because both estrogen and progesterone can suppress GnRH and, downstream, LH and FSH. The item has been clarified to test their shared primary hypothalamic negative-feedback effect.",
+            "confidence": 0.82,
+            "question_type": "factual",
+            "options_source": "ai_generated",
+            "source_answer": "A",
+            "category": "Biomedical Sciences",
+            "topic": "Reproductive endocrinology",
+            "difficulty": "easy",
+            "question": "During their usual negative-feedback phase of the menstrual cycle, what shared hypothalamic effect do estrogen and progesterone produce?",
+            "options": {
+                "A": "Decrease pulsatile gonadotropin-releasing hormone (GnRH) secretion",
+                "B": "Increase pulsatile GnRH secretion",
+                "C": "Directly increase pituitary secretion of luteinizing hormone (LH) and follicle-stimulating hormone (FSH)",
+                "D": "Stimulate the mid-cycle LH surge and ovulation"
+            },
+            "correct_answer": "A",
+            "explanations": {
+                "A": "Correct. Estrogen and progesterone generally exert negative feedback on the hypothalamus, reducing pulsatile GnRH secretion and consequently limiting gonadotropin release.",
+                "B": "Incorrect. Their usual feedback effect is inhibitory rather than stimulatory; increased GnRH secretion is not the shared typical action.",
+                "C": "Incorrect. Estrogen and progesterone generally suppress, rather than directly increase, LH and FSH secretion through hypothalamic and pituitary feedback.",
+                "D": "Incorrect. The mid-cycle LH surge is primarily associated with sustained high estrogen positive feedback; progesterone does not produce this shared effect."
+            },
+            "calculation": null
+        },
+        "human_status": "approved",
+        "human_reviewed": true,
+        "human_review_note": ""
+    },
+    {
+        "status": "needs_review",
+        "review_required": true,
+        "review_reason": "The source is an incomplete dose fragment and does not specify the indication, dosing frequency, or titration interval. The question has been interpreted as the usual donepezil dose escalation for Alzheimer disease.",
+        "confidence": 0.86,
+        "question_type": "factual",
+        "options_source": "ai_generated",
+        "source_answer": null,
+        "category": "Therapeutics & Patient Care",
+        "topic": "Donepezil dosing in Alzheimer disease",
+        "difficulty": "easy",
+        "question": "What is the usual initial dose and subsequent dose escalation regimen for oral donepezil in Alzheimer disease?",
+        "options": {
+            "A": "Start with 5 mg once daily, increasing to 10 mg once daily after approximately 4–6 weeks if tolerated",
+            "B": "Start with 10 mg once daily, increasing to 20 mg once daily after approximately 4–6 weeks if tolerated",
+            "C": "Start with 5 mg twice daily, increasing to 10 mg twice daily after approximately 1 week if tolerated",
+            "D": "Start with 2.5 mg once daily, increasing to 5 mg once daily after approximately 4–6 weeks if tolerated"
+        },
+        "correct_answer": "A",
+        "explanations": {
+            "A": "Donepezil is usually initiated at 5 mg once daily and may be increased to 10 mg once daily after approximately 4–6 weeks, depending on tolerability.",
+            "B": "The usual starting dose is 5 mg once daily, and 20 mg daily is not the standard initial titration target.",
+            "C": "Donepezil is generally administered once daily, and this twice-daily regimen with rapid escalation is not standard.",
+            "D": "Although lower doses may occasionally be considered for tolerability, 2.5 mg is not the usual licensed starting dose for standard oral donepezil therapy."
+        },
+        "calculation": null,
+        "source_id": 23,
+        "source_classification": "calculation",
+        "source_text": "Donepzil dose\n5mg to 10mg",
+        "ai_result": {
+            "status": "needs_review",
+            "review_required": true,
+            "review_reason": "The source is an incomplete dose fragment and does not specify the indication, dosing frequency, or titration interval. The question has been interpreted as the usual donepezil dose escalation for Alzheimer disease.",
+            "confidence": 0.86,
+            "question_type": "factual",
+            "options_source": "ai_generated",
+            "source_answer": null,
+            "category": "Therapeutics & Patient Care",
+            "topic": "Donepezil dosing in Alzheimer disease",
+            "difficulty": "easy",
+            "question": "What is the usual initial dose and subsequent dose escalation regimen for oral donepezil in Alzheimer disease?",
+            "options": {
+                "A": "Start with 5 mg once daily, increasing to 10 mg once daily after approximately 4–6 weeks if tolerated",
+                "B": "Start with 10 mg once daily, increasing to 20 mg once daily after approximately 4–6 weeks if tolerated",
+                "C": "Start with 5 mg twice daily, increasing to 10 mg twice daily after approximately 1 week if tolerated",
+                "D": "Start with 2.5 mg once daily, increasing to 5 mg once daily after approximately 4–6 weeks if tolerated"
+            },
+            "correct_answer": "A",
+            "explanations": {
+                "A": "Donepezil is usually initiated at 5 mg once daily and may be increased to 10 mg once daily after approximately 4–6 weeks, depending on tolerability.",
+                "B": "The usual starting dose is 5 mg once daily, and 20 mg daily is not the standard initial titration target.",
+                "C": "Donepezil is generally administered once daily, and this twice-daily regimen with rapid escalation is not standard.",
+                "D": "Although lower doses may occasionally be considered for tolerability, 2.5 mg is not the usual licensed starting dose for standard oral donepezil therapy."
+            },
+            "calculation": null
+        },
+        "human_status": "approved",
+        "human_reviewed": true,
+        "human_review_note": ""
+    },
+    {
+        "status": "needs_review",
+        "review_required": true,
+        "review_reason": "The source indicates that A and B are both correct, which conflicts with the single-best-answer requirement. B is the best answer for treatment, whereas A describes the usual self-limiting course rather than a treatment.",
+        "confidence": 0.84,
+        "question_type": "factual",
+        "options_source": "source_provided",
+        "source_answer": "A and B both",
+        "category": "Therapeutics & Patient Care",
+        "topic": "Herpes labialis treatment",
+        "difficulty": "easy",
+        "question": "Which is correct treatment for cold sore on lips?",
+        "options": {
+            "A": "self-limiting after 14 days",
+            "B": "Famciclovir started within 24hrs",
+            "C": "acyclovir cream is better than famciclovir oral",
+            "D": "None of  the above"
+        },
+        "correct_answer": "B",
+        "explanations": {
+            "A": "Cold sores are generally self-limiting and may resolve within approximately 7–14 days, but this describes the natural course rather than a treatment.",
+            "B": "Famciclovir is an appropriate oral treatment for herpes labialis when started promptly, ideally during the prodrome or within 24 hours of lesion onset.",
+            "C": "Topical acyclovir is not generally considered better than appropriately timed oral famciclovir; oral antiviral therapy may provide greater clinical benefit in suitable patients.",
+            "D": "This is not a specific treatment option and cannot be selected as the single best answer."
+        },
+        "calculation": null,
+        "source_id": 24,
+        "source_classification": "mcq",
+        "source_text": "Which is correct treatment for cold sore on lips?\na. self-limiting after 14 days \nb. Famciclovir started within 24hrs \nc. acyclovir cream is better than famciclovir oral \nd. other option \nA and B both",
+        "ai_result": {
+            "status": "needs_review",
+            "review_required": true,
+            "review_reason": "The source indicates that A and B are both correct, which conflicts with the single-best-answer requirement. B is the best answer for treatment, whereas A describes the usual self-limiting course rather than a treatment.",
+            "confidence": 0.84,
+            "question_type": "factual",
+            "options_source": "source_provided",
+            "source_answer": "A and B both",
+            "category": "Therapeutics & Patient Care",
+            "topic": "Herpes labialis treatment",
+            "difficulty": "easy",
+            "question": "Which is correct treatment for cold sore on lips?",
+            "options": {
+                "A": "self-limiting after 14 days",
+                "B": "Famciclovir started within 24hrs",
+                "C": "acyclovir cream is better than famciclovir oral",
+                "D": "None of  the above"
+            },
+            "correct_answer": "B",
+            "explanations": {
+                "A": "Cold sores are generally self-limiting and may resolve within approximately 7–14 days, but this describes the natural course rather than a treatment.",
+                "B": "Famciclovir is an appropriate oral treatment for herpes labialis when started promptly, ideally during the prodrome or within 24 hours of lesion onset.",
+                "C": "Topical acyclovir is not generally considered better than appropriately timed oral famciclovir; oral antiviral therapy may provide greater clinical benefit in suitable patients.",
+                "D": "This is not a specific treatment option and cannot be selected as the single best answer."
+            },
+            "calculation": null
+        },
+        "human_status": "approved",
+        "human_reviewed": true,
+        "human_review_note": "Approved after human editing."
+    },
+    {
+        "status": "needs_review",
+        "review_required": true,
+        "review_reason": "The source is incomplete and does not clearly distinguish harm reduction from broader harm prevention. Immunization is generally a prevention measure rather than a harm-reduction intervention, but terminology may vary by examination context.",
+        "confidence": 0.78,
+        "question_type": "calculation",
+        "options_source": "ai_generated",
+        "source_answer": null,
+        "category": "Therapeutics & Patient Care",
+        "topic": "Harm reduction and public health programs",
+        "difficulty": "easy",
+        "question": "Which of the following is generally not classified as a harm-reduction intervention?",
+        "options": {
+            "A": "Needle and syringe exchange programs",
+            "B": "Take-home naloxone distribution",
+            "C": "Supervised drug-consumption services",
+            "D": "Routine immunization"
+        },
+        "correct_answer": "D",
+        "explanations": {
+            "A": "Needle and syringe exchange programs reduce infectious-disease transmission and other harms associated with injection drug use.",
+            "B": "Take-home naloxone reduces the risk of fatal opioid overdose and is a recognized harm-reduction intervention.",
+            "C": "Supervised consumption services aim to reduce overdose and other harms related to drug use.",
+            "D": "Routine immunization is generally categorized as a preventive public-health intervention rather than a harm-reduction program."
+        },
+        "calculation": null,
+        "source_id": 25,
+        "source_classification": "calculation",
+        "source_text": "NOT Harm reduction or harm minimization program\nNOT harm Prevention or risk minimization program: \nopioid exchange \nImmunization",
+        "ai_result": {
+            "status": "needs_review",
+            "review_required": true,
+            "review_reason": "The source is incomplete and does not clearly distinguish harm reduction from broader harm prevention. Immunization is generally a prevention measure rather than a harm-reduction intervention, but terminology may vary by examination context.",
+            "confidence": 0.78,
+            "question_type": "calculation",
+            "options_source": "ai_generated",
+            "source_answer": null,
+            "category": "Therapeutics & Patient Care",
+            "topic": "Harm reduction and public health programs",
+            "difficulty": "easy",
+            "question": "Which of the following is generally not classified as a harm-reduction intervention?",
+            "options": {
+                "A": "Needle and syringe exchange programs",
+                "B": "Take-home naloxone distribution",
+                "C": "Supervised drug-consumption services",
+                "D": "Routine immunization"
+            },
+            "correct_answer": "D",
+            "explanations": {
+                "A": "Needle and syringe exchange programs reduce infectious-disease transmission and other harms associated with injection drug use.",
+                "B": "Take-home naloxone reduces the risk of fatal opioid overdose and is a recognized harm-reduction intervention.",
+                "C": "Supervised consumption services aim to reduce overdose and other harms related to drug use.",
+                "D": "Routine immunization is generally categorized as a preventive public-health intervention rather than a harm-reduction program."
+            },
+            "calculation": null
+        },
+        "human_status": "approved",
+        "human_reviewed": true,
+        "human_review_note": ""
+    },
+    {
+        "status": "needs_review",
+        "review_required": true,
+        "review_reason": "The remembered source is an incomplete fragment and does not specify the full list of answer choices or the intended wording. The inferred best answer is molecular weight because plasma protein binding is more directly influenced by drug concentration, protein concentration, pH, and binding affinity than by molecular weight alone.",
+        "confidence": 0.88,
+        "question_type": "factual",
+        "options_source": "ai_generated",
+        "source_answer": null,
+        "category": "Pharmacokinetics & Pharmacodynamics",
+        "topic": "Plasma protein binding",
+        "difficulty": "easy",
+        "question": "Which of the following factors generally has the least direct effect on the extent of plasma protein binding of a drug?",
+        "options": {
+            "A": "Drug concentration",
+            "B": "Plasma albumin concentration",
+            "C": "Molecular weight of the drug",
+            "D": "pH of the surrounding environment"
+        },
+        "correct_answer": "C",
+        "explanations": {
+            "A": "Drug concentration can affect the extent of binding, particularly when binding sites become saturated.",
+            "B": "Plasma albumin concentration influences the number of available binding sites and therefore can alter the unbound fraction of many drugs.",
+            "C": "Molecular weight alone generally has little direct influence on plasma protein binding compared with drug concentration, protein concentration, and physicochemical or environmental factors.",
+            "D": "pH can alter drug ionization and protein-binding interactions, thereby affecting the extent of plasma protein binding."
+        },
+        "calculation": null,
+        "source_id": 27,
+        "source_classification": "unknown",
+        "source_text": "Plasma protein binding least affected by?\nMol wt \nDrug conc",
+        "ai_result": {
+            "status": "needs_review",
+            "review_required": true,
+            "review_reason": "The remembered source is an incomplete fragment and does not specify the full list of answer choices or the intended wording. The inferred best answer is molecular weight because plasma protein binding is more directly influenced by drug concentration, protein concentration, pH, and binding affinity than by molecular weight alone.",
+            "confidence": 0.88,
+            "question_type": "factual",
+            "options_source": "ai_generated",
+            "source_answer": null,
+            "category": "Pharmacokinetics & Pharmacodynamics",
+            "topic": "Plasma protein binding",
+            "difficulty": "easy",
+            "question": "Which of the following factors generally has the least direct effect on the extent of plasma protein binding of a drug?",
+            "options": {
+                "A": "Drug concentration",
+                "B": "Plasma albumin concentration",
+                "C": "Molecular weight of the drug",
+                "D": "pH of the surrounding environment"
+            },
+            "correct_answer": "C",
+            "explanations": {
+                "A": "Drug concentration can affect the extent of binding, particularly when binding sites become saturated.",
+                "B": "Plasma albumin concentration influences the number of available binding sites and therefore can alter the unbound fraction of many drugs.",
+                "C": "Molecular weight alone generally has little direct influence on plasma protein binding compared with drug concentration, protein concentration, and physicochemical or environmental factors.",
+                "D": "pH can alter drug ionization and protein-binding interactions, thereby affecting the extent of plasma protein binding."
+            },
+            "calculation": null
+        },
+        "human_status": "approved",
+        "human_reviewed": true,
+        "human_review_note": ""
+    },
+    {
+        "status": "needs_review",
+        "review_required": true,
+        "review_reason": "The question is ambiguous because all four listed reactions have been reported with ezetimibe, and reliable comparative frequency data do not clearly establish one as least likely. Angioedema is a rare post-marketing hypersensitivity reaction, while myopathy and rhabdomyolysis are rare but recognized, particularly with concomitant statin therapy.",
+        "confidence": 0.72,
+        "question_type": "factual",
+        "options_source": "source",
+        "source_answer": null,
+        "category": "Pharmacology & Toxicology",
+        "topic": "Ezetimibe adverse effects",
+        "difficulty": "medium",
+        "question": "Which is least likely to be a side effect of ezetimibe?",
+        "options": {
+            "A": "Angioedema",
+            "B": "Constipation",
+            "C": "Myopathy",
+            "D": "Rhabdomyolysis"
+        },
+        "correct_answer": "B",
+        "explanations": {
+            "A": "Angioedema has been reported with ezetimibe but is a very rare post-marketing hypersensitivity reaction, making it the best answer for the least likely option.",
+            "B": "Constipation has been reported as an adverse effect of ezetimibe, although it is not among the most common reactions.",
+            "C": "Myopathy is a recognized adverse effect, particularly when ezetimibe is used with a statin.",
+            "D": "Rhabdomyolysis is rare but has been reported, especially with concomitant statin therapy."
+        },
+        "calculation": null,
+        "source_id": 28,
+        "source_classification": "incomplete",
+        "source_text": "Which is least likely to be a side effect of ezetimibe?\nA. Angioedema \nB. Constipation \nC. Myopathy \nD. Rhabdomyolysis",
+        "ai_result": {
+            "status": "needs_review",
+            "review_required": true,
+            "review_reason": "The question is ambiguous because all four listed reactions have been reported with ezetimibe, and reliable comparative frequency data do not clearly establish one as least likely. Angioedema is a rare post-marketing hypersensitivity reaction, while myopathy and rhabdomyolysis are rare but recognized, particularly with concomitant statin therapy.",
+            "confidence": 0.72,
+            "question_type": "factual",
+            "options_source": "source",
+            "source_answer": null,
+            "category": "Pharmacology & Toxicology",
+            "topic": "Ezetimibe adverse effects",
+            "difficulty": "medium",
+            "question": "Which is least likely to be a side effect of ezetimibe?",
+            "options": {
+                "A": "Angioedema",
+                "B": "Constipation",
+                "C": "Myopathy",
+                "D": "Rhabdomyolysis"
+            },
+            "correct_answer": "A",
+            "explanations": {
+                "A": "Angioedema has been reported with ezetimibe but is a very rare post-marketing hypersensitivity reaction, making it the best answer for the least likely option.",
+                "B": "Constipation has been reported as an adverse effect of ezetimibe, although it is not among the most common reactions.",
+                "C": "Myopathy is a recognized adverse effect, particularly when ezetimibe is used with a statin.",
+                "D": "Rhabdomyolysis is rare but has been reported, especially with concomitant statin therapy."
+            },
+            "calculation": null
+        },
+        "human_status": "approved",
+        "human_reviewed": true,
+        "human_review_note": "Approved after human editing."
+    },
+    {
+        "status": "needs_review",
+        "review_required": true,
+        "review_reason": "The source is ambiguous because both increased peripheral glucose uptake and inhibition of gluconeogenesis are established actions of insulin. The question has been narrowed to ask specifically about glucose disposal in peripheral tissues.",
+        "confidence": 0.88,
+        "question_type": "factual",
+        "options_source": "ai_generated",
+        "source_answer": null,
+        "category": "Pharmacology & Toxicology",
+        "topic": "Insulin pharmacology and regulation of blood glucose",
+        "difficulty": "easy",
+        "question": "Which action of insulin most directly lowers blood glucose by increasing glucose disposal in peripheral tissues?",
+        "options": {
+            "A": "Increasing glycogenolysis",
+            "B": "Increasing cellular uptake of glucose, particularly in skeletal muscle and adipose tissue",
+            "C": "Decreasing renal glucose excretion",
+            "D": "Inhibiting hepatic gluconeogenesis"
+        },
+        "correct_answer": "B",
+        "explanations": {
+            "A": "Insulin inhibits glycogenolysis. Increasing glycogen breakdown would release glucose and tend to raise blood glucose.",
+            "B": "Insulin promotes glucose uptake into insulin-sensitive tissues, especially skeletal muscle and adipose tissue, thereby reducing blood glucose.",
+            "C": "Insulin does not lower blood glucose by decreasing renal glucose excretion. Glucose excretion in urine generally occurs when blood glucose exceeds the renal threshold.",
+            "D": "Insulin does inhibit hepatic gluconeogenesis, so this is also a valid glucose-lowering action; however, the question specifically asks about increasing glucose disposal in peripheral tissues."
+        },
+        "calculation": null,
+        "source_id": 29,
+        "source_classification": "incomplete",
+        "source_text": "Insulin reduces glucose by\na) Increasing glycogenolysis \nb) Increasing cellular uptake of carbohydrates, fats, proteins c) Decreasing glucose excretion \nd) Inhibiting gluconeogenesis",
+        "ai_result": {
+            "status": "needs_review",
+            "review_required": true,
+            "review_reason": "The source is ambiguous because both increased peripheral glucose uptake and inhibition of gluconeogenesis are established actions of insulin. The question has been narrowed to ask specifically about glucose disposal in peripheral tissues.",
+            "confidence": 0.88,
+            "question_type": "factual",
+            "options_source": "ai_generated",
+            "source_answer": null,
+            "category": "Pharmacology & Toxicology",
+            "topic": "Insulin pharmacology and regulation of blood glucose",
+            "difficulty": "easy",
+            "question": "Which action of insulin most directly lowers blood glucose by increasing glucose disposal in peripheral tissues?",
+            "options": {
+                "A": "Increasing glycogenolysis",
+                "B": "Increasing cellular uptake of glucose, particularly in skeletal muscle and adipose tissue",
+                "C": "Decreasing renal glucose excretion",
+                "D": "Inhibiting hepatic gluconeogenesis"
+            },
+            "correct_answer": "B",
+            "explanations": {
+                "A": "Insulin inhibits glycogenolysis. Increasing glycogen breakdown would release glucose and tend to raise blood glucose.",
+                "B": "Insulin promotes glucose uptake into insulin-sensitive tissues, especially skeletal muscle and adipose tissue, thereby reducing blood glucose.",
+                "C": "Insulin does not lower blood glucose by decreasing renal glucose excretion. Glucose excretion in urine generally occurs when blood glucose exceeds the renal threshold.",
+                "D": "Insulin does inhibit hepatic gluconeogenesis, so this is also a valid glucose-lowering action; however, the question specifically asks about increasing glucose disposal in peripheral tissues."
+            },
+            "calculation": null
+        },
+        "human_status": "approved",
+        "human_reviewed": true,
+        "human_review_note": ""
+    },
+    {
+        "status": "needs_review",
+        "review_required": true,
+        "review_reason": "The stem does not specify pain severity or whether an opioid or non-opioid strategy is intended. Meloxicam is a reasonable intended answer for nociceptive metastatic bone pain, but fentanyl may also be appropriate for severe cancer-related pain.",
+        "confidence": 0.72,
+        "question_type": "factual",
+        "options_source": "ai_generated",
+        "source_answer": null,
+        "category": "Therapeutics & Patient Care",
+        "topic": "Management of cancer-related metastatic bone pain",
+        "difficulty": "medium",
+        "question": "Which drug is most useful for the routine management of nociceptive pain caused by bone metastases?",
+        "options": {
+            "A": "Meloxicam",
+            "B": "Fentanyl",
+            "C": "Amitriptyline",
+            "D": "Carbamazepine"
+        },
+        "correct_answer": "A",
+        "explanations": {
+            "A": "Meloxicam, a nonsteroidal anti-inflammatory drug, can be useful for the inflammatory and nociceptive component of metastatic bone pain.",
+            "B": "Fentanyl can be appropriate for severe cancer pain, but its use depends on pain severity, previous opioid exposure, and clinical circumstances; it is not the best general answer for routine nociceptive bone pain.",
+            "C": "Amitriptyline is primarily used for neuropathic pain and is not usually first-line for uncomplicated metastatic bone pain.",
+            "D": "Carbamazepine is mainly used for specific neuropathic pain syndromes, such as trigeminal neuralgia, rather than metastatic bone pain."
+        },
+        "calculation": null,
+        "source_id": 30,
+        "source_classification": "unknown",
+        "source_text": "Which drug is the MOST useful for the management of metastatic bone pain? A. Meloxicam\nB. Fentanyl \nC. Amitriptyline \nD. Carbamazepine",
+        "ai_result": {
+            "status": "needs_review",
+            "review_required": true,
+            "review_reason": "The stem does not specify pain severity or whether an opioid or non-opioid strategy is intended. Meloxicam is a reasonable intended answer for nociceptive metastatic bone pain, but fentanyl may also be appropriate for severe cancer-related pain.",
+            "confidence": 0.72,
+            "question_type": "factual",
+            "options_source": "ai_generated",
+            "source_answer": null,
+            "category": "Therapeutics & Patient Care",
+            "topic": "Management of cancer-related metastatic bone pain",
+            "difficulty": "medium",
+            "question": "Which drug is most useful for the routine management of nociceptive pain caused by bone metastases?",
+            "options": {
+                "A": "Meloxicam",
+                "B": "Fentanyl",
+                "C": "Amitriptyline",
+                "D": "Carbamazepine"
+            },
+            "correct_answer": "A",
+            "explanations": {
+                "A": "Meloxicam, a nonsteroidal anti-inflammatory drug, can be useful for the inflammatory and nociceptive component of metastatic bone pain.",
+                "B": "Fentanyl can be appropriate for severe cancer pain, but its use depends on pain severity, previous opioid exposure, and clinical circumstances; it is not the best general answer for routine nociceptive bone pain.",
+                "C": "Amitriptyline is primarily used for neuropathic pain and is not usually first-line for uncomplicated metastatic bone pain.",
+                "D": "Carbamazepine is mainly used for specific neuropathic pain syndromes, such as trigeminal neuralgia, rather than metastatic bone pain."
+            },
+            "calculation": null
+        },
+        "human_status": "approved",
+        "human_reviewed": true,
+        "human_review_note": ""
+    },
+    {
+        "status": "needs_review",
+        "review_required": true,
+        "review_reason": "The question is clinically underspecified because MRSA treatment depends on infection site and severity, and no single antibiotic combination is universally standard. Fusidic acid plus rifampicin is a recognized combination in some MRSA treatment or eradication protocols, but rifampicin should not be used alone and combination therapy is not routinely indicated for all MRSA infections.",
+        "confidence": 0.78,
+        "question_type": "factual",
+        "options_source": "original",
+        "source_answer": null,
+        "category": "Therapeutics & Patient Care",
+        "topic": "Treatment of methicillin-resistant Staphylococcus aureus",
+        "difficulty": "medium",
+        "question": "What combination of antibiotics is commonly used for Methicillin-Resistant Staphylococcus aureus (MRSA)?",
+        "options": {
+            "A": "Rifampicin and Vancomycin",
+            "B": "Rifampicin and Ciprofloxacin",
+            "C": "Fusidic acid and Vancomycin",
+            "D": "Fusidic acid and Rifampicin"
+        },
+        "correct_answer": "D",
+        "explanations": {
+            "A": "Rifampicin and vancomycin may be used together in selected serious or device-associated MRSA infections, but this is not the combination most specifically associated with the intended answer here.",
+            "B": "Ciprofloxacin is unreliable against MRSA because resistance is common, so rifampicin and ciprofloxacin is not a generally preferred combination.",
+            "C": "Vancomycin is an important treatment option for serious MRSA infections, but fusidic acid plus vancomycin is not the conventional combination indicated by this question.",
+            "D": "Fusidic acid and rifampicin have been used together against MRSA, particularly in selected treatment or eradication protocols. They should be used in combination because resistance to either agent can develop rapidly during monotherapy."
+        },
+        "calculation": null,
+        "source_id": 34,
+        "source_classification": "mcq",
+        "source_text": "What combination of antibiotics is commonly used for Methicillin-Resistant Staphylococcus aureus (MRSA)?\nA) Rifampicin and Vancomycin \nB) Rifampicin and Ciprofloxacin \nC) Fusidic acid and Vancomycin \nD) Fusidic acid and Rifampicin",
+        "ai_result": {
+            "status": "needs_review",
+            "review_required": true,
+            "review_reason": "The question is clinically underspecified because MRSA treatment depends on infection site and severity, and no single antibiotic combination is universally standard. Fusidic acid plus rifampicin is a recognized combination in some MRSA treatment or eradication protocols, but rifampicin should not be used alone and combination therapy is not routinely indicated for all MRSA infections.",
+            "confidence": 0.78,
+            "question_type": "factual",
+            "options_source": "original",
+            "source_answer": null,
+            "category": "Therapeutics & Patient Care",
+            "topic": "Treatment of methicillin-resistant Staphylococcus aureus",
+            "difficulty": "medium",
+            "question": "What combination of antibiotics is commonly used for Methicillin-Resistant Staphylococcus aureus (MRSA)?",
+            "options": {
+                "A": "Rifampicin and Vancomycin",
+                "B": "Rifampicin and Ciprofloxacin",
+                "C": "Fusidic acid and Vancomycin",
+                "D": "Fusidic acid and Rifampicin"
+            },
+            "correct_answer": "D",
+            "explanations": {
+                "A": "Rifampicin and vancomycin may be used together in selected serious or device-associated MRSA infections, but this is not the combination most specifically associated with the intended answer here.",
+                "B": "Ciprofloxacin is unreliable against MRSA because resistance is common, so rifampicin and ciprofloxacin is not a generally preferred combination.",
+                "C": "Vancomycin is an important treatment option for serious MRSA infections, but fusidic acid plus vancomycin is not the conventional combination indicated by this question.",
+                "D": "Fusidic acid and rifampicin have been used together against MRSA, particularly in selected treatment or eradication protocols. They should be used in combination because resistance to either agent can develop rapidly during monotherapy."
+            },
+            "calculation": null
+        },
+        "human_status": "approved",
+        "human_reviewed": true,
+        "human_review_note": ""
+    },
+    {
+        "status": "needs_review",
+        "review_required": true,
+        "review_reason": "Hyponatremia can occur in advanced renal failure, particularly from impaired free-water excretion, although it is less typical than the other listed abnormalities. Therefore, option D is the best answer but the question is clinically somewhat ambiguous.",
+        "confidence": 0.82,
+        "question_type": "factual",
+        "options_source": "provided",
+        "source_answer": null,
+        "category": "Therapeutics & Patient Care",
+        "topic": "Renal failure complications",
+        "difficulty": "easy",
+        "question": "Which of the following is NOT typically caused by renal failure?",
+        "options": {
+            "A": "Hypertension",
+            "B": "Hyperkalemia",
+            "C": "Hyperphosphatemia",
+            "D": "Hyponatremia"
+        },
+        "correct_answer": "D",
+        "explanations": {
+            "A": "Renal failure commonly causes hypertension through sodium and fluid retention and dysregulation of the renin–angiotensin–aldosterone system.",
+            "B": "Hyperkalemia is a typical complication because impaired renal function reduces potassium excretion.",
+            "C": "Hyperphosphatemia commonly occurs because failing kidneys cannot adequately excrete phosphate.",
+            "D": "Hyponatremia is not usually a defining or typical complication of renal failure, although dilutional hyponatremia can occur in advanced disease with impaired water excretion."
+        },
+        "calculation": null,
+        "source_id": 35,
+        "source_classification": "mcq",
+        "source_text": "Which is NOT typically caused by renal failure?\nA) Hypertension \nB) Hyperkalemia \nC) Hyperphosphatemia \nD) Hyponatremia",
+        "ai_result": {
+            "status": "needs_review",
+            "review_required": true,
+            "review_reason": "Hyponatremia can occur in advanced renal failure, particularly from impaired free-water excretion, although it is less typical than the other listed abnormalities. Therefore, option D is the best answer but the question is clinically somewhat ambiguous.",
+            "confidence": 0.82,
+            "question_type": "factual",
+            "options_source": "provided",
+            "source_answer": null,
+            "category": "Therapeutics & Patient Care",
+            "topic": "Renal failure complications",
+            "difficulty": "easy",
+            "question": "Which of the following is NOT typically caused by renal failure?",
+            "options": {
+                "A": "Hypertension",
+                "B": "Hyperkalemia",
+                "C": "Hyperphosphatemia",
+                "D": "Hyponatremia"
+            },
+            "correct_answer": "D",
+            "explanations": {
+                "A": "Renal failure commonly causes hypertension through sodium and fluid retention and dysregulation of the renin–angiotensin–aldosterone system.",
+                "B": "Hyperkalemia is a typical complication because impaired renal function reduces potassium excretion.",
+                "C": "Hyperphosphatemia commonly occurs because failing kidneys cannot adequately excrete phosphate.",
+                "D": "Hyponatremia is not usually a defining or typical complication of renal failure, although dilutional hyponatremia can occur in advanced disease with impaired water excretion."
+            },
+            "calculation": null
+        },
+        "human_status": "approved",
+        "human_reviewed": true,
+        "human_review_note": ""
+    },
+    {
+        "status": "needs_review",
+        "review_required": true,
+        "review_reason": "Tachycardia is not a typical fentanyl adverse effect, but it may occur rarely or secondary to clinical circumstances. The remembered question is also incomplete because the original answer options are unavailable.",
+        "confidence": 0.88,
+        "question_type": "factual",
+        "options_source": "ai_generated",
+        "source_answer": "tachycardia",
+        "category": "Pharmacology & Toxicology",
+        "topic": "Adverse effects of opioids",
+        "difficulty": "easy",
+        "question": "Which of the following is not a typical adverse effect of fentanyl?",
+        "options": {
+            "A": "Tachycardia",
+            "B": "Respiratory depression",
+            "C": "Constipation",
+            "D": "Nausea and vomiting"
+        },
+        "correct_answer": "A",
+        "explanations": {
+            "A": "Tachycardia is not a typical direct adverse effect of fentanyl; opioids more commonly cause bradycardia or minimal cardiovascular changes.",
+            "B": "Respiratory depression is a characteristic and potentially life-threatening adverse effect of fentanyl.",
+            "C": "Constipation commonly occurs with opioid therapy because of reduced gastrointestinal motility.",
+            "D": "Nausea and vomiting are common opioid-related adverse effects, including with fentanyl."
+        },
+        "calculation": null,
+        "source_id": 38,
+        "source_classification": "unknown",
+        "source_text": "All are the side of effect of fentanyl except\ntachycardia \\",
+        "ai_result": {
+            "status": "needs_review",
+            "review_required": true,
+            "review_reason": "Tachycardia is not a typical fentanyl adverse effect, but it may occur rarely or secondary to clinical circumstances. The remembered question is also incomplete because the original answer options are unavailable.",
+            "confidence": 0.88,
+            "question_type": "factual",
+            "options_source": "ai_generated",
+            "source_answer": "tachycardia",
+            "category": "Pharmacology & Toxicology",
+            "topic": "Adverse effects of opioids",
+            "difficulty": "easy",
+            "question": "Which of the following is not a typical adverse effect of fentanyl?",
+            "options": {
+                "A": "Tachycardia",
+                "B": "Respiratory depression",
+                "C": "Constipation",
+                "D": "Nausea and vomiting"
+            },
+            "correct_answer": "A",
+            "explanations": {
+                "A": "Tachycardia is not a typical direct adverse effect of fentanyl; opioids more commonly cause bradycardia or minimal cardiovascular changes.",
+                "B": "Respiratory depression is a characteristic and potentially life-threatening adverse effect of fentanyl.",
+                "C": "Constipation commonly occurs with opioid therapy because of reduced gastrointestinal motility.",
+                "D": "Nausea and vomiting are common opioid-related adverse effects, including with fentanyl."
+            },
+            "calculation": null
+        },
+        "human_status": "approved",
+        "human_reviewed": true,
+        "human_review_note": ""
+    },
+    {
+        "status": "needs_review",
+        "review_required": true,
+        "review_reason": "The question does not specify gestational trimester, indication, or treatment guideline. Both domperidone and ondansetron may be considered less preferred in particular circumstances; domperidone is selected as the best answer because of its limited pregnancy safety evidence and maternal cardiac safety concerns.",
+        "confidence": 0.72,
+        "question_type": "factual",
+        "options_source": "original",
+        "source_answer": null,
+        "category": "Therapeutics & Patient Care",
+        "topic": "Antiemetic use in pregnancy",
+        "difficulty": "medium",
+        "question": "Which medicine is generally considered the least appropriate for routine treatment of nausea and vomiting in pregnancy?",
+        "options": {
+            "A": "Metoclopramide",
+            "B": "Ondansetron",
+            "C": "Domperidone",
+            "D": "Doxylamine"
+        },
+        "correct_answer": "C",
+        "explanations": {
+            "A": "Metoclopramide is an established treatment option for nausea and vomiting in pregnancy and may be used when clinically indicated, usually for limited durations.",
+            "B": "Ondansetron may be used when other treatments are ineffective, although caution is often advised during the first trimester because of possible small fetal risks.",
+            "C": "Domperidone is generally less preferred because pregnancy safety data are more limited and it carries maternal cardiac risks, including QT-interval prolongation and arrhythmias.",
+            "D": "Doxylamine, commonly used with pyridoxine, is a well-established and generally preferred option for nausea and vomiting during pregnancy."
+        },
+        "calculation": null,
+        "source_id": 40,
+        "source_classification": "mcq",
+        "source_text": "Which medicine is least appropriate in pregnancy?\nA. Metoclopramide \nB. Ondansetron \nC. Domperidone \nD. Doxylamine",
+        "ai_result": {
+            "status": "needs_review",
+            "review_required": true,
+            "review_reason": "The question does not specify gestational trimester, indication, or treatment guideline. Both domperidone and ondansetron may be considered less preferred in particular circumstances; domperidone is selected as the best answer because of its limited pregnancy safety evidence and maternal cardiac safety concerns.",
+            "confidence": 0.72,
+            "question_type": "factual",
+            "options_source": "original",
+            "source_answer": null,
+            "category": "Therapeutics & Patient Care",
+            "topic": "Antiemetic use in pregnancy",
+            "difficulty": "medium",
+            "question": "Which medicine is generally considered the least appropriate for routine treatment of nausea and vomiting in pregnancy?",
+            "options": {
+                "A": "Metoclopramide",
+                "B": "Ondansetron",
+                "C": "Domperidone",
+                "D": "Doxylamine"
+            },
+            "correct_answer": "C",
+            "explanations": {
+                "A": "Metoclopramide is an established treatment option for nausea and vomiting in pregnancy and may be used when clinically indicated, usually for limited durations.",
+                "B": "Ondansetron may be used when other treatments are ineffective, although caution is often advised during the first trimester because of possible small fetal risks.",
+                "C": "Domperidone is generally less preferred because pregnancy safety data are more limited and it carries maternal cardiac risks, including QT-interval prolongation and arrhythmias.",
+                "D": "Doxylamine, commonly used with pyridoxine, is a well-established and generally preferred option for nausea and vomiting during pregnancy."
+            },
+            "calculation": null
+        },
+        "human_status": "approved",
+        "human_reviewed": true,
+        "human_review_note": ""
+    },
+    {
+        "status": "needs_review",
+        "review_required": true,
+        "review_reason": "The source is fragmentary and appears to refer to dose-dependent COX-2 selectivity, but the wording that celecoxib and meloxicam are the only relevant NSAIDs is potentially inaccurate because other NSAIDs may also show preferential or selective COX-2 inhibition.",
+        "confidence": 0.78,
+        "question_type": "calculation",
+        "options_source": "ai_generated",
+        "source_answer": null,
+        "category": "Pharmacology & Toxicology",
+        "topic": "NSAID cyclooxygenase selectivity",
+        "difficulty": "medium",
+        "question": "Which pair of NSAIDs is most commonly associated with dose-dependent COX-2 selectivity, with selectivity becoming less marked as the dose increases?",
+        "options": {
+            "A": "Celecoxib and meloxicam",
+            "B": "Aspirin and ketorolac",
+            "C": "Indometacin and naproxen",
+            "D": "Diclofenac and ibuprofen"
+        },
+        "correct_answer": "A",
+        "explanations": {
+            "A": "Celecoxib is COX-2 selective at therapeutic doses, while meloxicam is relatively COX-2 preferential; their apparent selectivity is influenced by dose.",
+            "B": "Aspirin and ketorolac are predominantly nonselective COX inhibitors and are not the pair classically identified with COX-2 selectivity.",
+            "C": "Indometacin and naproxen inhibit both COX-1 and COX-2 without being regarded as the principal dose-dependent COX-2-selective pair.",
+            "D": "Diclofenac may show some relative COX-2 preference, but ibuprofen is generally considered a nonselective NSAID, so this is not the best pair."
+        },
+        "calculation": null,
+        "source_id": 41,
+        "source_classification": "calculation",
+        "source_text": "On low dose selective?\nCelecoxib \nMeloxicam only NSAIDs dose dependant \nLOCKED",
+        "ai_result": {
+            "status": "needs_review",
+            "review_required": true,
+            "review_reason": "The source is fragmentary and appears to refer to dose-dependent COX-2 selectivity, but the wording that celecoxib and meloxicam are the only relevant NSAIDs is potentially inaccurate because other NSAIDs may also show preferential or selective COX-2 inhibition.",
+            "confidence": 0.78,
+            "question_type": "calculation",
+            "options_source": "ai_generated",
+            "source_answer": null,
+            "category": "Pharmacology & Toxicology",
+            "topic": "NSAID cyclooxygenase selectivity",
+            "difficulty": "medium",
+            "question": "Which pair of NSAIDs is most commonly associated with dose-dependent COX-2 selectivity, with selectivity becoming less marked as the dose increases?",
+            "options": {
+                "A": "Celecoxib and meloxicam",
+                "B": "Aspirin and ketorolac",
+                "C": "Indometacin and naproxen",
+                "D": "Diclofenac and ibuprofen"
+            },
+            "correct_answer": "A",
+            "explanations": {
+                "A": "Celecoxib is COX-2 selective at therapeutic doses, while meloxicam is relatively COX-2 preferential; their apparent selectivity is influenced by dose.",
+                "B": "Aspirin and ketorolac are predominantly nonselective COX inhibitors and are not the pair classically identified with COX-2 selectivity.",
+                "C": "Indometacin and naproxen inhibit both COX-1 and COX-2 without being regarded as the principal dose-dependent COX-2-selective pair.",
+                "D": "Diclofenac may show some relative COX-2 preference, but ibuprofen is generally considered a nonselective NSAID, so this is not the best pair."
+            },
+            "calculation": null
+        },
+        "human_status": "approved",
+        "human_reviewed": true,
+        "human_review_note": ""
+    },
+    {
+        "status": "needs_review",
+        "review_required": true,
+        "review_reason": "The source contains an unrelated second question about medicines in pregnancy and does not specify whether the stated 0.1 mol concentrations are molarities. The intended osmotic-pressure comparison is nevertheless clear under the usual assumption of equal concentrations and ideal behavior.",
+        "confidence": 0.96,
+        "question_type": "factual",
+        "options_source": "source",
+        "source_answer": null,
+        "category": "Medicinal Chemistry & Biopharmaceutics",
+        "topic": "Osmotic pressure and van't Hoff factor",
+        "difficulty": "easy",
+        "question": "The osmotic pressure of a 0.1 mol NaCl solution will be approximately how many times that of a 0.1 mol dextrose solution?",
+        "options": {
+            "A": "2.0 times",
+            "B": "1.5 times",
+            "C": "0.5 times",
+            "D": "4.0 times"
+        },
+        "correct_answer": "A",
+        "explanations": {
+            "A": "Correct. NaCl dissociates into approximately two particles, Na+ and Cl−, whereas dextrose remains as one particle in solution. Therefore, at equal concentrations, the osmotic pressure of NaCl is approximately twice that of dextrose.",
+            "B": "Incorrect. A factor of 1.5 does not correspond to the approximate particle ratio for fully dissociated NaCl compared with nonionizing dextrose.",
+            "C": "Incorrect. NaCl produces more osmotic particles than dextrose, so its osmotic pressure is not half as great.",
+            "D": "Incorrect. Under the usual ideal-solution assumption, NaCl produces approximately twice, not four times, the number of osmotically active particles."
+        },
+        "calculation": null,
+        "source_id": 42,
+        "source_classification": "mcq",
+        "source_text": "The osmotic pressure of a 0.1 mol NaCl solution will be approximately how many times that of a 0.1 mol dextrose solution?\nA) 2.0 times \nB) 1.5 times \nC) 0.5 times \nD) 4.0 times \nNote: IN BREASTFEEDING CODEINE IS CONTRAINDICATED 43. Which medicine is least appropriate in pregnancy? \nA. Metoclopramide \nB. Ondansetron \nC. Domperidone \nD. Doxylamine",
+        "ai_result": {
+            "status": "needs_review",
+            "review_required": true,
+            "review_reason": "The source contains an unrelated second question about medicines in pregnancy and does not specify whether the stated 0.1 mol concentrations are molarities. The intended osmotic-pressure comparison is nevertheless clear under the usual assumption of equal concentrations and ideal behavior.",
+            "confidence": 0.96,
+            "question_type": "factual",
+            "options_source": "source",
+            "source_answer": null,
+            "category": "Medicinal Chemistry & Biopharmaceutics",
+            "topic": "Osmotic pressure and van't Hoff factor",
+            "difficulty": "easy",
+            "question": "The osmotic pressure of a 0.1 mol NaCl solution will be approximately how many times that of a 0.1 mol dextrose solution?",
+            "options": {
+                "A": "2.0 times",
+                "B": "1.5 times",
+                "C": "0.5 times",
+                "D": "4.0 times"
+            },
+            "correct_answer": "A",
+            "explanations": {
+                "A": "Correct. NaCl dissociates into approximately two particles, Na+ and Cl−, whereas dextrose remains as one particle in solution. Therefore, at equal concentrations, the osmotic pressure of NaCl is approximately twice that of dextrose.",
+                "B": "Incorrect. A factor of 1.5 does not correspond to the approximate particle ratio for fully dissociated NaCl compared with nonionizing dextrose.",
+                "C": "Incorrect. NaCl produces more osmotic particles than dextrose, so its osmotic pressure is not half as great.",
+                "D": "Incorrect. Under the usual ideal-solution assumption, NaCl produces approximately twice, not four times, the number of osmotically active particles."
+            },
+            "calculation": null
+        },
+        "human_status": "approved",
+        "human_reviewed": true,
+        "human_review_note": ""
+    },
+    {
+        "status": "needs_review",
+        "review_required": true,
+        "review_reason": "The clinical context is incomplete: the indication for admission, presence of acute kidney injury, and whether the admission is for an acute illness are not specified. The likely intended answer is rosuvastatin, which is generally continued, whereas metformin, gliflozin, and often ACE inhibitors may be temporarily withheld during acute illness or acute kidney injury.",
+        "confidence": 0.84,
+        "question_type": "factual",
+        "options_source": "original",
+        "source_answer": null,
+        "category": "Therapeutics & Patient Care",
+        "topic": "Medication management during acute illness in chronic kidney disease",
+        "difficulty": "medium",
+        "question": "A patient with chronic kidney disease is admitted to hospital with an acute illness. Which medication would generally be continued without interruption?",
+        "options": {
+            "A": "Ace inhibitor",
+            "B": "Metformin",
+            "C": "gliflozin",
+            "D": "rosuvastatin"
+        },
+        "correct_answer": "D",
+        "explanations": {
+            "A": "Ace inhibitor therapy may need to be temporarily withheld during acute illness, hypotension, dehydration, or acute kidney injury.",
+            "B": "Metformin is commonly withheld during acute illness or conditions associated with worsening renal function because of the risk of metformin-associated lactic acidosis.",
+            "C": "Gliflozins are generally withheld during acute illness because of the risk of dehydration, acute kidney injury, and euglycemic diabetic ketoacidosis.",
+            "D": "Rosuvastatin is generally continued during hospital admission, although the dose may require adjustment according to renal function."
+        },
+        "calculation": null,
+        "source_id": 44,
+        "source_classification": "mcq",
+        "source_text": "One was a patient on CKD is admitted on the hospital, which should be continued without interruption.\nA-Ace inhibitor \nB- Metformin \nC- gliflozin \nD- rosuvastatin",
+        "ai_result": {
+            "status": "needs_review",
+            "review_required": true,
+            "review_reason": "The clinical context is incomplete: the indication for admission, presence of acute kidney injury, and whether the admission is for an acute illness are not specified. The likely intended answer is rosuvastatin, which is generally continued, whereas metformin, gliflozin, and often ACE inhibitors may be temporarily withheld during acute illness or acute kidney injury.",
+            "confidence": 0.84,
+            "question_type": "factual",
+            "options_source": "original",
+            "source_answer": null,
+            "category": "Therapeutics & Patient Care",
+            "topic": "Medication management during acute illness in chronic kidney disease",
+            "difficulty": "medium",
+            "question": "A patient with chronic kidney disease is admitted to hospital with an acute illness. Which medication would generally be continued without interruption?",
+            "options": {
+                "A": "Ace inhibitor",
+                "B": "Metformin",
+                "C": "gliflozin",
+                "D": "rosuvastatin"
+            },
+            "correct_answer": "D",
+            "explanations": {
+                "A": "Ace inhibitor therapy may need to be temporarily withheld during acute illness, hypotension, dehydration, or acute kidney injury.",
+                "B": "Metformin is commonly withheld during acute illness or conditions associated with worsening renal function because of the risk of metformin-associated lactic acidosis.",
+                "C": "Gliflozins are generally withheld during acute illness because of the risk of dehydration, acute kidney injury, and euglycemic diabetic ketoacidosis.",
+                "D": "Rosuvastatin is generally continued during hospital admission, although the dose may require adjustment according to renal function."
+            },
+            "calculation": null
+        },
+        "human_status": "approved",
+        "human_reviewed": true,
+        "human_review_note": ""
+    },
+    {
+        "status": "needs_review",
+        "review_required": true,
+        "review_reason": "The source is ambiguous because amlodipine can relieve angina through both coronary vasodilation and peripheral arteriolar dilation, depending on the clinical context. The intended answer was inferred as coronary vasodilation.",
+        "confidence": 0.78,
+        "question_type": "factual",
+        "options_source": "ai_generated",
+        "source_answer": null,
+        "category": "Pharmacology & Toxicology",
+        "topic": "Calcium channel blockers and antianginal therapy",
+        "difficulty": "easy",
+        "question": "Which effect of amlodipine most directly relieves coronary vasospasm and improves myocardial oxygen supply in angina?",
+        "options": {
+            "A": "Dilation of coronary arterial smooth muscle",
+            "B": "Predominant venodilation, reducing venous return",
+            "C": "Increased cardiac contractility",
+            "D": "Increased heart rate as the primary therapeutic effect"
+        },
+        "correct_answer": "A",
+        "explanations": {
+            "A": "Amlodipine blocks L-type calcium channels in vascular smooth muscle, producing coronary arterial vasodilation that can relieve coronary spasm and improve myocardial oxygen supply.",
+            "B": "Amlodipine primarily causes arterial rather than venous dilation; reduced venous return is not its main antianginal mechanism.",
+            "C": "Amlodipine does not increase cardiac contractility and is not used as a positive inotropic agent.",
+            "D": "An increase in heart rate would increase myocardial oxygen demand and is not the therapeutic purpose of amlodipine."
+        },
+        "calculation": null,
+        "source_id": 46,
+        "source_classification": "unknown",
+        "source_text": "Amlodipine in Angina for?\nCoronary Dilation \nperipheral Dilation \nCardiac Contractility",
+        "ai_result": {
+            "status": "needs_review",
+            "review_required": true,
+            "review_reason": "The source is ambiguous because amlodipine can relieve angina through both coronary vasodilation and peripheral arteriolar dilation, depending on the clinical context. The intended answer was inferred as coronary vasodilation.",
+            "confidence": 0.78,
+            "question_type": "factual",
+            "options_source": "ai_generated",
+            "source_answer": null,
+            "category": "Pharmacology & Toxicology",
+            "topic": "Calcium channel blockers and antianginal therapy",
+            "difficulty": "easy",
+            "question": "Which effect of amlodipine most directly relieves coronary vasospasm and improves myocardial oxygen supply in angina?",
+            "options": {
+                "A": "Dilation of coronary arterial smooth muscle",
+                "B": "Predominant venodilation, reducing venous return",
+                "C": "Increased cardiac contractility",
+                "D": "Increased heart rate as the primary therapeutic effect"
+            },
+            "correct_answer": "A",
+            "explanations": {
+                "A": "Amlodipine blocks L-type calcium channels in vascular smooth muscle, producing coronary arterial vasodilation that can relieve coronary spasm and improve myocardial oxygen supply.",
+                "B": "Amlodipine primarily causes arterial rather than venous dilation; reduced venous return is not its main antianginal mechanism.",
+                "C": "Amlodipine does not increase cardiac contractility and is not used as a positive inotropic agent.",
+                "D": "An increase in heart rate would increase myocardial oxygen demand and is not the therapeutic purpose of amlodipine."
+            },
+            "calculation": null
+        },
+        "human_status": "approved",
+        "human_reviewed": true,
+        "human_review_note": ""
+    },
+    {
+        "status": "needs_review",
+        "review_required": true,
+        "review_reason": "The source is an incomplete remembered statement and does not specify the original question wording. The item has therefore been reconstructed as asking which finding is least characteristic of monoamine oxidase inhibitor withdrawal.",
+        "confidence": 0.84,
+        "question_type": "factual",
+        "options_source": "ai_generated",
+        "source_answer": null,
+        "category": "Pharmacology & Toxicology",
+        "topic": "Monoamine oxidase inhibitor withdrawal",
+        "difficulty": "medium",
+        "question": "Which of the following is least characteristic of withdrawal from a monoamine oxidase inhibitor (MAOI)?",
+        "options": {
+            "A": "Agitation and anxiety",
+            "B": "Insomnia",
+            "C": "Confusion or hallucinations",
+            "D": "Rhinorrhoea with increased secretions"
+        },
+        "correct_answer": "D",
+        "explanations": {
+            "A": "Agitation and anxiety can occur during withdrawal from an MAOI because of rebound effects on central monoaminergic neurotransmission.",
+            "B": "Insomnia is a recognized neuropsychiatric feature that may occur after abrupt discontinuation of an MAOI.",
+            "C": "Confusion and hallucinations may occur in severe MAOI withdrawal reactions.",
+            "D": "Rhinorrhoea with increased secretions is not a typical feature of MAOI withdrawal; it is more suggestive of cholinergic or other autonomic rebound phenomena."
+        },
+        "calculation": null,
+        "source_id": 48,
+        "source_classification": "unknown",
+        "source_text": "MAOI withdrawal symptoms → Rhinorrhoea and increased secretions Incorrect",
+        "ai_result": {
+            "status": "needs_review",
+            "review_required": true,
+            "review_reason": "The source is an incomplete remembered statement and does not specify the original question wording. The item has therefore been reconstructed as asking which finding is least characteristic of monoamine oxidase inhibitor withdrawal.",
+            "confidence": 0.84,
+            "question_type": "factual",
+            "options_source": "ai_generated",
+            "source_answer": null,
+            "category": "Pharmacology & Toxicology",
+            "topic": "Monoamine oxidase inhibitor withdrawal",
+            "difficulty": "medium",
+            "question": "Which of the following is least characteristic of withdrawal from a monoamine oxidase inhibitor (MAOI)?",
+            "options": {
+                "A": "Agitation and anxiety",
+                "B": "Insomnia",
+                "C": "Confusion or hallucinations",
+                "D": "Rhinorrhoea with increased secretions"
+            },
+            "correct_answer": "D",
+            "explanations": {
+                "A": "Agitation and anxiety can occur during withdrawal from an MAOI because of rebound effects on central monoaminergic neurotransmission.",
+                "B": "Insomnia is a recognized neuropsychiatric feature that may occur after abrupt discontinuation of an MAOI.",
+                "C": "Confusion and hallucinations may occur in severe MAOI withdrawal reactions.",
+                "D": "Rhinorrhoea with increased secretions is not a typical feature of MAOI withdrawal; it is more suggestive of cholinergic or other autonomic rebound phenomena."
+            },
+            "calculation": null
+        },
+        "human_status": "approved",
+        "human_reviewed": true,
+        "human_review_note": ""
+    },
+    {
+        "status": "needs_review",
+        "review_required": true,
+        "review_reason": "The remembered source is too abbreviated to establish the original clinical context. ACE inhibitors are appropriate antihypertensives but are not antiarrhythmic agents, and beta-blockers or non-dihydropyridine calcium-channel blockers may be preferred for some arrhythmias.",
+        "confidence": 0.58,
+        "question_type": "factual",
+        "options_source": "ai_generated",
+        "source_answer": null,
+        "category": "Pharmacology & Toxicology",
+        "topic": "Antihypertensive drug selection in a patient with arrhythmia",
+        "difficulty": "medium",
+        "question": "Which of the following drug classes is an appropriate option for treating hypertension in a patient with a coexisting arrhythmia when the primary treatment goal is blood-pressure control rather than direct suppression of cardiac conduction?",
+        "options": {
+            "A": "Angiotensin-converting enzyme inhibitor",
+            "B": "Beta-adrenergic blocker",
+            "C": "Non-dihydropyridine calcium-channel blocker",
+            "D": "Class I sodium-channel blocker"
+        },
+        "correct_answer": "A",
+        "explanations": {
+            "A": "Angiotensin-converting enzyme inhibitors are established antihypertensive agents and reduce angiotensin II-mediated vasoconstriction and aldosterone release. They do not directly suppress cardiac conduction.",
+            "B": "Beta-blockers lower blood pressure and can be useful for certain arrhythmias, but their direct effects on heart rate and atrioventricular conduction make them primarily relevant when rhythm or rate control is also intended.",
+            "C": "Non-dihydropyridine calcium-channel blockers can lower blood pressure and slow atrioventricular conduction, so they are selected mainly when rate control is clinically appropriate.",
+            "D": "Class I sodium-channel blockers are antiarrhythmic drugs and are not routine first-line agents for treating hypertension."
+        },
+        "calculation": null,
+        "source_id": 49,
+        "source_classification": "incomplete",
+        "source_text": "Htn/arrythmia..Acei\nright",
+        "ai_result": {
+            "status": "needs_review",
+            "review_required": true,
+            "review_reason": "The remembered source is too abbreviated to establish the original clinical context. ACE inhibitors are appropriate antihypertensives but are not antiarrhythmic agents, and beta-blockers or non-dihydropyridine calcium-channel blockers may be preferred for some arrhythmias.",
+            "confidence": 0.58,
+            "question_type": "factual",
+            "options_source": "ai_generated",
+            "source_answer": null,
+            "category": "Pharmacology & Toxicology",
+            "topic": "Antihypertensive drug selection in a patient with arrhythmia",
+            "difficulty": "medium",
+            "question": "Which of the following drug classes is an appropriate option for treating hypertension in a patient with a coexisting arrhythmia when the primary treatment goal is blood-pressure control rather than direct suppression of cardiac conduction?",
+            "options": {
+                "A": "Angiotensin-converting enzyme inhibitor",
+                "B": "Beta-adrenergic blocker",
+                "C": "Non-dihydropyridine calcium-channel blocker",
+                "D": "Class I sodium-channel blocker"
+            },
+            "correct_answer": "A",
+            "explanations": {
+                "A": "Angiotensin-converting enzyme inhibitors are established antihypertensive agents and reduce angiotensin II-mediated vasoconstriction and aldosterone release. They do not directly suppress cardiac conduction.",
+                "B": "Beta-blockers lower blood pressure and can be useful for certain arrhythmias, but their direct effects on heart rate and atrioventricular conduction make them primarily relevant when rhythm or rate control is also intended.",
+                "C": "Non-dihydropyridine calcium-channel blockers can lower blood pressure and slow atrioventricular conduction, so they are selected mainly when rate control is clinically appropriate.",
+                "D": "Class I sodium-channel blockers are antiarrhythmic drugs and are not routine first-line agents for treating hypertension."
+            },
+            "calculation": null
+        },
+        "human_status": "approved",
+        "human_reviewed": true,
+        "human_review_note": ""
+    },
+    {
+        "status": "needs_review",
+        "review_required": true,
+        "review_reason": "The intended answer appears to be D, but the question is ambiguous because generic drug data may be publicly available and could potentially be shared through an approved, supervised process.",
+        "confidence": 0.82,
+        "question_type": "mcq",
+        "options_source": "source",
+        "source_answer": "D",
+        "category": "Therapeutics & Patient Care",
+        "topic": "Confidentiality and information security in pharmacy practice",
+        "difficulty": "easy",
+        "question": "If a health representative asks a pharmacist to access generic drug data on your computer, what is the appropriate action?",
+        "options": {
+            "A": "Give a printout of the details",
+            "B": "Open the site with the supervisor",
+            "C": "Give him access without supervision",
+            "D": "Don't share any data"
+        },
+        "correct_answer": "D",
+        "explanations": {
+            "A": "Providing a printout may disclose information without confirming authorization or complying with workplace information-security procedures.",
+            "B": "Supervisor involvement may be appropriate in some circumstances, but this option still involves sharing or accessing data before authorization is established.",
+            "C": "Unsupervised access to a pharmacist's computer or workplace data is inappropriate and creates confidentiality and security risks.",
+            "D": "The pharmacist should not share data or provide computer access without proper authorization and established security procedures."
+        },
+        "calculation": null,
+        "source_id": 50,
+        "source_classification": "mcq",
+        "source_text": "If a health representative asks a pharmacist to access generic drug data on your computer, what is the appropriate action?\nA- Give a printout of the details \nB- Open the site with the supervisor \nC- Give him access without supervision \nD- Don't share any data \nD",
+        "ai_result": {
+            "status": "needs_review",
+            "review_required": true,
+            "review_reason": "The intended answer appears to be D, but the question is ambiguous because generic drug data may be publicly available and could potentially be shared through an approved, supervised process.",
+            "confidence": 0.82,
+            "question_type": "mcq",
+            "options_source": "source",
+            "source_answer": "D",
+            "category": "Therapeutics & Patient Care",
+            "topic": "Confidentiality and information security in pharmacy practice",
+            "difficulty": "easy",
+            "question": "If a health representative asks a pharmacist to access generic drug data on your computer, what is the appropriate action?",
+            "options": {
+                "A": "Give a printout of the details",
+                "B": "Open the site with the supervisor",
+                "C": "Give him access without supervision",
+                "D": "Don't share any data"
+            },
+            "correct_answer": "D",
+            "explanations": {
+                "A": "Providing a printout may disclose information without confirming authorization or complying with workplace information-security procedures.",
+                "B": "Supervisor involvement may be appropriate in some circumstances, but this option still involves sharing or accessing data before authorization is established.",
+                "C": "Unsupervised access to a pharmacist's computer or workplace data is inappropriate and creates confidentiality and security risks.",
+                "D": "The pharmacist should not share data or provide computer access without proper authorization and established security procedures."
+            },
+            "calculation": null
+        },
+        "human_status": "approved",
+        "human_reviewed": true,
+        "human_review_note": ""
+    },
+    {
+        "status": "needs_review",
+        "review_required": true,
+        "review_reason": "The source question is ambiguous because all four options may represent appropriate safeguards when disclosing confidential patient information. Option D is retained as the intended answer based on the supplied source, but the wording 'least thing to do' does not clearly establish a single best answer.",
+        "confidence": 0.78,
+        "question_type": "factual",
+        "options_source": "source",
+        "source_answer": null,
+        "category": "Therapeutics & Patient Care",
+        "topic": "Patient confidentiality and minimum necessary disclosure",
+        "difficulty": "medium",
+        "question": "When approached by a service provider requesting confidential patient information to prepare a report, the least that should be done is to:",
+        "options": {
+            "A": "Ask for patient consent",
+            "B": "De-identify patient information",
+            "C": "Verify provider authenticity",
+            "D": "Share only the relevant data"
+        },
+        "correct_answer": "D",
+        "explanations": {
+            "A": "Obtaining patient consent may be required or appropriate, but it is not always the minimum necessary safeguard if another lawful basis for disclosure exists.",
+            "B": "De-identification is an important privacy protection, but it may not always be feasible or necessary for a legitimate, authorized report.",
+            "C": "Verifying the provider's authenticity is essential before disclosure, but by itself does not limit the amount of information shared.",
+            "D": "Sharing only the relevant data reflects the minimum-necessary principle and limits disclosure of confidential information to what is needed for the stated purpose."
+        },
+        "calculation": null,
+        "source_id": 51,
+        "source_classification": "mcq",
+        "source_text": "Approached by a service provider for patient confidential information to send in the form of a report. The LEAST thing to do is:\nA. Ask for patient consent \nB. De-identify patient information \nC. Verify provider authenticity \nD. Share only the relevant data \nD",
+        "ai_result": {
+            "status": "needs_review",
+            "review_required": true,
+            "review_reason": "The source question is ambiguous because all four options may represent appropriate safeguards when disclosing confidential patient information. Option D is retained as the intended answer based on the supplied source, but the wording 'least thing to do' does not clearly establish a single best answer.",
+            "confidence": 0.78,
+            "question_type": "factual",
+            "options_source": "source",
+            "source_answer": null,
+            "category": "Therapeutics & Patient Care",
+            "topic": "Patient confidentiality and minimum necessary disclosure",
+            "difficulty": "medium",
+            "question": "When approached by a service provider requesting confidential patient information to prepare a report, the least that should be done is to:",
+            "options": {
+                "A": "Ask for patient consent",
+                "B": "De-identify patient information",
+                "C": "Verify provider authenticity",
+                "D": "Share only the relevant data"
+            },
+            "correct_answer": "D",
+            "explanations": {
+                "A": "Obtaining patient consent may be required or appropriate, but it is not always the minimum necessary safeguard if another lawful basis for disclosure exists.",
+                "B": "De-identification is an important privacy protection, but it may not always be feasible or necessary for a legitimate, authorized report.",
+                "C": "Verifying the provider's authenticity is essential before disclosure, but by itself does not limit the amount of information shared.",
+                "D": "Sharing only the relevant data reflects the minimum-necessary principle and limits disclosure of confidential information to what is needed for the stated purpose."
+            },
+            "calculation": null
+        },
+        "human_status": "approved",
+        "human_reviewed": true,
+        "human_review_note": ""
+    },
+    {
+        "status": "needs_review",
+        "review_required": true,
+        "review_reason": "The intended answer appears to be deidentification, but the appropriateness of obtaining consent and deidentifying information depends on the legal, institutional, and clinical context. Disclosure to another healthcare professional for treatment may not always require prior consent, and deidentification may interfere with patient-specific care.",
+        "confidence": 0.78,
+        "question_type": "factual",
+        "options_source": "ai_generated",
+        "source_answer": "C",
+        "category": "Therapeutics & Patient Care",
+        "topic": "Confidentiality and disclosure of patient information",
+        "difficulty": "medium",
+        "question": "When responding to a request for patient information from another healthcare professional, which of the following is the least appropriate general action?",
+        "options": {
+            "A": "Obtain the patient's consent before disclosing the information, when required by policy or applicable law.",
+            "B": "Provide only the information relevant to the patient's care.",
+            "C": "Deidentify all information before providing it, even when patient-specific information is necessary for care.",
+            "D": "Verify the identity and professional credentials of the requesting healthcare professional."
+        },
+        "correct_answer": "C",
+        "explanations": {
+            "A": "Obtaining consent is an important privacy safeguard when required by applicable law, institutional policy, or the circumstances of disclosure. However, consent requirements can vary for treatment-related disclosures.",
+            "B": "Disclosing only information relevant to the patient's care follows the minimum-necessary principle and helps protect confidentiality.",
+            "C": "Mandatory deidentification is not appropriate when the receiving healthcare professional requires identifiable information to provide patient-specific care. The information should instead be disclosed lawfully and limited to what is necessary.",
+            "D": "Verifying the requester's identity and professional authority helps prevent unauthorized disclosure of confidential patient information."
+        },
+        "calculation": null,
+        "source_id": 52,
+        "source_classification": "fragment",
+        "source_text": "Another HCP contacted u requesting for information regarding a patient, Least correct:\n1-take patient consent first \n2-provide relevant information only \n3-deidentify the information provided \n4-check the authenticity of HCP \n3",
+        "ai_result": {
+            "status": "needs_review",
+            "review_required": true,
+            "review_reason": "The intended answer appears to be deidentification, but the appropriateness of obtaining consent and deidentifying information depends on the legal, institutional, and clinical context. Disclosure to another healthcare professional for treatment may not always require prior consent, and deidentification may interfere with patient-specific care.",
+            "confidence": 0.78,
+            "question_type": "factual",
+            "options_source": "ai_generated",
+            "source_answer": "C",
+            "category": "Therapeutics & Patient Care",
+            "topic": "Confidentiality and disclosure of patient information",
+            "difficulty": "medium",
+            "question": "When responding to a request for patient information from another healthcare professional, which of the following is the least appropriate general action?",
+            "options": {
+                "A": "Obtain the patient's consent before disclosing the information, when required by policy or applicable law.",
+                "B": "Provide only the information relevant to the patient's care.",
+                "C": "Deidentify all information before providing it, even when patient-specific information is necessary for care.",
+                "D": "Verify the identity and professional credentials of the requesting healthcare professional."
+            },
+            "correct_answer": "C",
+            "explanations": {
+                "A": "Obtaining consent is an important privacy safeguard when required by applicable law, institutional policy, or the circumstances of disclosure. However, consent requirements can vary for treatment-related disclosures.",
+                "B": "Disclosing only information relevant to the patient's care follows the minimum-necessary principle and helps protect confidentiality.",
+                "C": "Mandatory deidentification is not appropriate when the receiving healthcare professional requires identifiable information to provide patient-specific care. The information should instead be disclosed lawfully and limited to what is necessary.",
+                "D": "Verifying the requester's identity and professional authority helps prevent unauthorized disclosure of confidential patient information."
+            },
+            "calculation": null
+        },
+        "human_status": "approved",
+        "human_reviewed": true,
+        "human_review_note": ""
+    },
+    {
+        "status": "needs_review",
+        "review_required": true,
+        "review_reason": "The formulation and titration context are not specified. Although 75 mg daily is the usual standard adult starting dose, 37.5 mg daily is also commonly used initially for several days before increasing, so option A may be considered clinically acceptable in some contexts.",
+        "confidence": 0.84,
+        "question_type": "calculation",
+        "options_source": "source",
+        "source_answer": "C",
+        "category": "Therapeutics & Patient Care",
+        "topic": "Venlafaxine dosing",
+        "difficulty": "easy",
+        "question": "What is the usual starting dose for venlafaxine in an adult?",
+        "options": {
+            "A": "37.5 mg daily",
+            "B": "150 mg daily",
+            "C": "75 mg daily",
+            "D": "300 mg daily"
+        },
+        "correct_answer": "C",
+        "explanations": {
+            "A": "37.5 mg daily may be used as a lower introductory dose for several days to improve tolerability, but it is not generally considered the usual standard starting dose.",
+            "B": "150 mg daily is higher than the usual initial dose and is generally reached after dose titration if clinically required.",
+            "C": "75 mg daily is the usual standard adult starting dose of venlafaxine, although it may be divided for immediate-release formulations or given once daily for extended-release formulations.",
+            "D": "300 mg daily is a high dose and is not appropriate as an initial dose because venlafaxine should be increased gradually according to response and tolerability."
+        },
+        "calculation": null,
+        "source_id": 53,
+        "source_classification": "calculation",
+        "source_text": "What is the usual starting dose for venlafaxine?\nA. 37.5 mg daily \nB. 150 mg daily \nC. 75 mg daily \nD. 300 mg daily",
+        "ai_result": {
+            "status": "needs_review",
+            "review_required": true,
+            "review_reason": "The formulation and titration context are not specified. Although 75 mg daily is the usual standard adult starting dose, 37.5 mg daily is also commonly used initially for several days before increasing, so option A may be considered clinically acceptable in some contexts.",
+            "confidence": 0.84,
+            "question_type": "calculation",
+            "options_source": "source",
+            "source_answer": "C",
+            "category": "Therapeutics & Patient Care",
+            "topic": "Venlafaxine dosing",
+            "difficulty": "easy",
+            "question": "What is the usual starting dose for venlafaxine in an adult?",
+            "options": {
+                "A": "37.5 mg daily",
+                "B": "150 mg daily",
+                "C": "75 mg daily",
+                "D": "300 mg daily"
+            },
+            "correct_answer": "C",
+            "explanations": {
+                "A": "37.5 mg daily may be used as a lower introductory dose for several days to improve tolerability, but it is not generally considered the usual standard starting dose.",
+                "B": "150 mg daily is higher than the usual initial dose and is generally reached after dose titration if clinically required.",
+                "C": "75 mg daily is the usual standard adult starting dose of venlafaxine, although it may be divided for immediate-release formulations or given once daily for extended-release formulations.",
+                "D": "300 mg daily is a high dose and is not appropriate as an initial dose because venlafaxine should be increased gradually according to response and tolerability."
+            },
+            "calculation": null
+        },
+        "human_status": "approved",
+        "human_reviewed": true,
+        "human_review_note": ""
+    },
+    {
+        "status": "needs_review",
+        "review_required": true,
+        "review_reason": "Clomifene is commonly started on cycle day 2, 3, 4, or 5 and continued for 5 days; days 5-9 is a recognized regimen, but the question does not acknowledge variation in starting protocols.",
+        "confidence": 0.88,
+        "question_type": "mcq",
+        "options_source": "source",
+        "source_answer": null,
+        "category": "Therapeutics & Patient Care",
+        "topic": "Ovulation induction with clomifene",
+        "difficulty": "easy",
+        "question": "When should clomifene be taken to induce ovulation?",
+        "options": {
+            "A": "Days 0-5 of the menstrual cycle",
+            "B": "Days 5-9 of the menstrual cycle",
+            "C": "Days 10-14 of the menstrual cycle",
+            "D": "Days 20-24 of the menstrual cycle"
+        },
+        "correct_answer": "B",
+        "explanations": {
+            "A": "This is not the usual regimen because cycle day 0 is not conventionally used, and clomifene is generally started from cycle day 2 to 5 for five consecutive days.",
+            "B": "This is a recognized regimen in which clomifene is taken for five consecutive days beginning on cycle day 5.",
+            "C": "Starting on days 10-14 is later than the usual initiation period and is not the standard clomifene regimen.",
+            "D": "Days 20-24 are too late in the cycle for the usual initiation of clomifene-induced ovulation."
+        },
+        "calculation": null,
+        "source_id": 54,
+        "source_classification": "mcq",
+        "source_text": "When should clomifene be taken to induce ovulation?\nA. Days 0-5 of the menstrual cycle \nB. Days 5-9 of the menstrual cycle \nC. Days 10-14 of the menstrual cycle \nD. Days 20-24 of the menstrual cycle",
+        "ai_result": {
+            "status": "needs_review",
+            "review_required": true,
+            "review_reason": "Clomifene is commonly started on cycle day 2, 3, 4, or 5 and continued for 5 days; days 5-9 is a recognized regimen, but the question does not acknowledge variation in starting protocols.",
+            "confidence": 0.88,
+            "question_type": "mcq",
+            "options_source": "source",
+            "source_answer": null,
+            "category": "Therapeutics & Patient Care",
+            "topic": "Ovulation induction with clomifene",
+            "difficulty": "easy",
+            "question": "When should clomifene be taken to induce ovulation?",
+            "options": {
+                "A": "Days 0-5 of the menstrual cycle",
+                "B": "Days 5-9 of the menstrual cycle",
+                "C": "Days 10-14 of the menstrual cycle",
+                "D": "Days 20-24 of the menstrual cycle"
+            },
+            "correct_answer": "B",
+            "explanations": {
+                "A": "This is not the usual regimen because cycle day 0 is not conventionally used, and clomifene is generally started from cycle day 2 to 5 for five consecutive days.",
+                "B": "This is a recognized regimen in which clomifene is taken for five consecutive days beginning on cycle day 5.",
+                "C": "Starting on days 10-14 is later than the usual initiation period and is not the standard clomifene regimen.",
+                "D": "Days 20-24 are too late in the cycle for the usual initiation of clomifene-induced ovulation."
+            },
+            "calculation": null
+        },
+        "human_status": "approved",
+        "human_reviewed": true,
+        "human_review_note": ""
+    },
+    {
+        "status": "needs_review",
+        "review_required": true,
+        "review_reason": "The source question is medically ambiguous because combined oral contraceptives are not generally indicated for migraine and may be contraindicated in patients with migraine with aura. They may be considered in selected patients with migraine without aura, including some cases of menstrual migraine.",
+        "confidence": 0.78,
+        "question_type": "mcq",
+        "options_source": "source",
+        "source_answer": null,
+        "category": "Therapeutics & Patient Care",
+        "topic": "Combined oral contraceptives and migraine",
+        "difficulty": "medium",
+        "question": "ombined oral contraceptives (COCs) may be used in selected patients with which condition?",
+        "options": {
+            "A": "Migraine",
+            "B": "Epilepsy",
+            "C": "Rosacea (skin related disease)",
+            "D": "Smoking cessation"
+        },
+        "correct_answer": "A",
+        "explanations": {
+            "A": "COCs may be considered in selected patients with migraine without aura, including some patients with menstrual migraine. COCs should generally be avoided in migraine with aura because of increased ischemic stroke risk.",
+            "B": "Epilepsy is not an indication for COCs, and some enzyme-inducing antiseizure medicines can reduce their contraceptive effectiveness.",
+            "C": "COCs are not indicated for the treatment or routine management of rosacea.",
+            "D": "COCs do not treat nicotine dependence or promote smoking cessation."
+        },
+        "calculation": null,
+        "source_id": 55,
+        "source_classification": "mcq",
+        "source_text": "COC is indicated in which condition?\na) Migraine \nb) Epilepsy \nc) Rosacea (skin related disease) \nd) Smoking cessation",
+        "ai_result": {
+            "status": "needs_review",
+            "review_required": true,
+            "review_reason": "The source question is medically ambiguous because combined oral contraceptives are not generally indicated for migraine and may be contraindicated in patients with migraine with aura. They may be considered in selected patients with migraine without aura, including some cases of menstrual migraine.",
+            "confidence": 0.78,
+            "question_type": "mcq",
+            "options_source": "source",
+            "source_answer": null,
+            "category": "Therapeutics & Patient Care",
+            "topic": "Combined oral contraceptives and migraine",
+            "difficulty": "medium",
+            "question": "Combined oral contraceptives (COCs) may be used in selected patients with which condition, provided migraine with aura is excluded?",
+            "options": {
+                "A": "Migraine",
+                "B": "Epilepsy",
+                "C": "Rosacea (skin related disease)",
+                "D": "Smoking cessation"
+            },
+            "correct_answer": "A",
+            "explanations": {
+                "A": "COCs may be considered in selected patients with migraine without aura, including some patients with menstrual migraine. COCs should generally be avoided in migraine with aura because of increased ischemic stroke risk.",
+                "B": "Epilepsy is not an indication for COCs, and some enzyme-inducing antiseizure medicines can reduce their contraceptive effectiveness.",
+                "C": "COCs are not indicated for the treatment or routine management of rosacea.",
+                "D": "COCs do not treat nicotine dependence or promote smoking cessation."
+            },
+            "calculation": null
+        },
+        "human_status": "approved",
+        "human_reviewed": true,
+        "human_review_note": "Approved after human editing."
+    },
+    {
+        "status": "needs_review",
+        "review_required": true,
+        "review_reason": "The question does not specify whether betaxolol is being used systemically or ophthalmically, and the phrase 'least caution' is ambiguous. In general, asthma and heart failure require caution with beta-blockers, whereas atrial fibrillation is a therapeutic indication for beta-blockade, making C the best answer.",
+        "confidence": 0.82,
+        "question_type": "factual",
+        "options_source": "source",
+        "source_answer": null,
+        "category": "Pharmacology & Toxicology",
+        "topic": "Beta-blockers: indications and cautions",
+        "difficulty": "easy",
+        "question": "Betaxolol requires the least caution in which of the following conditions?",
+        "options": {
+            "A": "Asthma",
+            "B": "Heart failure",
+            "C": "Arrhythmia (AF)",
+            "D": "None of the above"
+        },
+        "correct_answer": "C",
+        "explanations": {
+            "A": "Betaxolol is a beta-blocker and may cause bronchospasm, so caution is required in patients with asthma despite its relative beta-1 selectivity.",
+            "B": "Beta-blockers can worsen acute or decompensated heart failure, so caution is required, although selected beta-blockers may be used in stable chronic heart failure.",
+            "C": "Beta-blockers such as betaxolol may be used to control the ventricular rate in atrial fibrillation, so this is the best answer for the condition requiring the least caution.",
+            "D": "This is incorrect because atrial fibrillation is a recognized therapeutic indication for beta-blockade, whereas asthma and heart failure require caution."
+        },
+        "calculation": null,
+        "source_id": 58,
+        "source_classification": "mcq",
+        "source_text": "Betaxolol least caution in:\na) Asthma \nb) Heart failure \nc) Arrhythmia (AF) \nd) None of the above",
+        "ai_result": {
+            "status": "needs_review",
+            "review_required": true,
+            "review_reason": "The question does not specify whether betaxolol is being used systemically or ophthalmically, and the phrase 'least caution' is ambiguous. In general, asthma and heart failure require caution with beta-blockers, whereas atrial fibrillation is a therapeutic indication for beta-blockade, making C the best answer.",
+            "confidence": 0.82,
+            "question_type": "factual",
+            "options_source": "source",
+            "source_answer": null,
+            "category": "Pharmacology & Toxicology",
+            "topic": "Beta-blockers: indications and cautions",
+            "difficulty": "easy",
+            "question": "Betaxolol requires the least caution in which of the following conditions?",
+            "options": {
+                "A": "Asthma",
+                "B": "Heart failure",
+                "C": "Arrhythmia (AF)",
+                "D": "None of the above"
+            },
+            "correct_answer": "C",
+            "explanations": {
+                "A": "Betaxolol is a beta-blocker and may cause bronchospasm, so caution is required in patients with asthma despite its relative beta-1 selectivity.",
+                "B": "Beta-blockers can worsen acute or decompensated heart failure, so caution is required, although selected beta-blockers may be used in stable chronic heart failure.",
+                "C": "Beta-blockers such as betaxolol may be used to control the ventricular rate in atrial fibrillation, so this is the best answer for the condition requiring the least caution.",
+                "D": "This is incorrect because atrial fibrillation is a recognized therapeutic indication for beta-blockade, whereas asthma and heart failure require caution."
+            },
+            "calculation": null
+        },
+        "human_status": "approved",
+        "human_reviewed": true,
+        "human_review_note": ""
+    }
+]

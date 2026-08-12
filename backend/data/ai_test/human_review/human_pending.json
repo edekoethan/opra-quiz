@@ -1,0 +1,120 @@
+[
+    {
+        "status": "needs_review",
+        "review_required": true,
+        "review_reason": "The source indicates nitrous oxide as the intended answer, but the question is scientifically ambiguous: desflurane has the lowest blood-gas solubility among the listed volatile anesthetics, whereas nitrous oxide can produce very rapid induction because of its low solubility and concentration effect.",
+        "confidence": 0.78,
+        "question_type": "factual",
+        "options_source": "ai_generated",
+        "source_answer": "Nitrous oxide",
+        "category": "Pharmacology & Toxicology",
+        "topic": "Inhalational anaesthetic agents",
+        "difficulty": "easy",
+        "question": "Which of the following inhalational anaesthetic agents is generally associated with the fastest onset of anaesthesia?",
+        "options": {
+            "A": "Nitrous oxide",
+            "B": "Desflurane",
+            "C": "Isoflurane",
+            "D": "Sevoflurane"
+        },
+        "correct_answer": "A",
+        "explanations": {
+            "A": "Nitrous oxide has very low blood-gas solubility and, when administered at high inspired concentrations, shows a concentration effect that contributes to rapid onset.",
+            "B": "Desflurane has the lowest blood-gas solubility among the commonly used volatile anaesthetics and therefore has very rapid onset, making this option a potential source of ambiguity.",
+            "C": "Isoflurane is considerably more soluble in blood than nitrous oxide, desflurane, or sevoflurane, so its onset is slower.",
+            "D": "Sevoflurane has relatively low blood-gas solubility and provides rapid induction, but it is not the intended answer in this question."
+        },
+        "calculation": null,
+        "source_id": 32,
+        "source_classification": "unknown",
+        "source_text": "Fastest onset anaesthetic gas?\nNO (nitrous oxide) \nDesflurane \nIsoflurane \nsevoflurane",
+        "ai_result": {
+            "status": "needs_review",
+            "review_required": true,
+            "review_reason": "The source indicates nitrous oxide as the intended answer, but the question is scientifically ambiguous: desflurane has the lowest blood-gas solubility among the listed volatile anesthetics, whereas nitrous oxide can produce very rapid induction because of its low solubility and concentration effect.",
+            "confidence": 0.78,
+            "question_type": "factual",
+            "options_source": "ai_generated",
+            "source_answer": "Nitrous oxide",
+            "category": "Pharmacology & Toxicology",
+            "topic": "Inhalational anaesthetic agents",
+            "difficulty": "easy",
+            "question": "Which of the following inhalational anaesthetic agents is generally associated with the fastest onset of anaesthesia?",
+            "options": {
+                "A": "Nitrous oxide",
+                "B": "Desflurane",
+                "C": "Isoflurane",
+                "D": "Sevoflurane"
+            },
+            "correct_answer": "A",
+            "explanations": {
+                "A": "Nitrous oxide has very low blood-gas solubility and, when administered at high inspired concentrations, shows a concentration effect that contributes to rapid onset.",
+                "B": "Desflurane has the lowest blood-gas solubility among the commonly used volatile anaesthetics and therefore has very rapid onset, making this option a potential source of ambiguity.",
+                "C": "Isoflurane is considerably more soluble in blood than nitrous oxide, desflurane, or sevoflurane, so its onset is slower.",
+                "D": "Sevoflurane has relatively low blood-gas solubility and provides rapid induction, but it is not the intended answer in this question."
+            },
+            "calculation": null
+        },
+        "human_status": "pending",
+        "human_reviewed": false
+    },
+    {
+        "status": "needs_review",
+        "review_required": true,
+        "review_reason": "The remembered question is ambiguous and mixes nonstandard time points and thresholds. Interpretation also differs between nonpregnant adults and pregnancy-related OGTT criteria.",
+        "confidence": 0.68,
+        "question_type": "factual",
+        "options_source": "ai_generated",
+        "source_answer": null,
+        "category": "Therapeutics & Patient Care",
+        "topic": "Oral glucose tolerance test interpretation",
+        "difficulty": "medium",
+        "question": "In a nonpregnant adult undergoing a standard 75-g oral glucose tolerance test, which result is most concerning for diabetes mellitus?",
+        "options": {
+            "A": "Fasting plasma glucose greater than 5.0 mmol/L",
+            "B": "2-hour plasma glucose greater than 7.0 mmol/L",
+            "C": "30-minute plasma glucose greater than 9.0 mmol/L",
+            "D": "2-hour plasma glucose greater than 11.1 mmol/L"
+        },
+        "correct_answer": "D",
+        "explanations": {
+            "A": "A fasting glucose above 5.0 mmol/L may be above the normal range, but it is below the usual diagnostic threshold for diabetes in a nonpregnant adult.",
+            "B": "A 2-hour glucose above 7.0 mmol/L may suggest impaired glucose regulation depending on the exact value, but it is not by itself diagnostic of diabetes.",
+            "C": "A 30-minute glucose value is not generally used as the principal diagnostic criterion for diabetes in a standard OGTT.",
+            "D": "A 2-hour plasma glucose of at least 11.1 mmol/L during a 75-g OGTT is in the diagnostic range for diabetes mellitus."
+        },
+        "calculation": null,
+        "source_id": 47,
+        "source_classification": "unknown",
+        "source_text": "Which one is more concerning after the oral glucose tolerance test? Glucose level FBS >5 mmol/l\nAfter 2 hrs > 7mmol \nAfter 30 min > 9mmol/l \nAfter 2 hrs more than 7 \nThese are the correct ranges all",
+        "ai_result": {
+            "status": "needs_review",
+            "review_required": true,
+            "review_reason": "The remembered question is ambiguous and mixes nonstandard time points and thresholds. Interpretation also differs between nonpregnant adults and pregnancy-related OGTT criteria.",
+            "confidence": 0.68,
+            "question_type": "factual",
+            "options_source": "ai_generated",
+            "source_answer": null,
+            "category": "Therapeutics & Patient Care",
+            "topic": "Oral glucose tolerance test interpretation",
+            "difficulty": "medium",
+            "question": "In a nonpregnant adult undergoing a standard 75-g oral glucose tolerance test, which result is most concerning for diabetes mellitus?",
+            "options": {
+                "A": "Fasting plasma glucose greater than 5.0 mmol/L",
+                "B": "2-hour plasma glucose greater than 7.0 mmol/L",
+                "C": "30-minute plasma glucose greater than 9.0 mmol/L",
+                "D": "2-hour plasma glucose greater than 11.1 mmol/L"
+            },
+            "correct_answer": "D",
+            "explanations": {
+                "A": "A fasting glucose above 5.0 mmol/L may be above the normal range, but it is below the usual diagnostic threshold for diabetes in a nonpregnant adult.",
+                "B": "A 2-hour glucose above 7.0 mmol/L may suggest impaired glucose regulation depending on the exact value, but it is not by itself diagnostic of diabetes.",
+                "C": "A 30-minute glucose value is not generally used as the principal diagnostic criterion for diabetes in a standard OGTT.",
+                "D": "A 2-hour plasma glucose of at least 11.1 mmol/L during a 75-g OGTT is in the diagnostic range for diabetes mellitus."
+            },
+            "calculation": null
+        },
+        "human_status": "pending",
+        "human_reviewed": false
+    }
+]
