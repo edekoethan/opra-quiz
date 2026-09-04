@@ -1,1 +1,62 @@
-[]
+[
+    {
+        "status": "needs_review",
+        "review_required": true,
+        "review_reason": "The source indicates nitrous oxide as the intended answer, but the question is scientifically ambiguous: desflurane has the lowest blood-gas solubility among the listed volatile anesthetics, whereas nitrous oxide can produce very rapid induction because of its low solubility and concentration effect.",
+        "confidence": 0.78,
+        "question_type": "factual",
+        "options_source": "ai_generated",
+        "source_answer": "Nitrous oxide",
+        "category": "Pharmacology & Toxicology",
+        "topic": "Inhalational anaesthetic agents",
+        "difficulty": "easy",
+        "question": "Which of the following inhalational anaesthetic agents is generally associated with the fastest onset of anaesthesia?",
+        "options": {
+            "A": "Nitrous oxide",
+            "B": "Desflurane",
+            "C": "Isoflurane",
+            "D": "Sevoflurane"
+        },
+        "correct_answer": "A",
+        "explanations": {
+            "A": "Nitrous oxide has very low blood-gas solubility and, when administered at high inspired concentrations, shows a concentration effect that contributes to rapid onset.",
+            "B": "Desflurane has the lowest blood-gas solubility among the commonly used volatile anaesthetics and therefore has very rapid onset, making this option a potential source of ambiguity.",
+            "C": "Isoflurane is considerably more soluble in blood than nitrous oxide, desflurane, or sevoflurane, so its onset is slower.",
+            "D": "Sevoflurane has relatively low blood-gas solubility and provides rapid induction, but it is not the intended answer in this question."
+        },
+        "calculation": null,
+        "source_id": 32,
+        "source_classification": "unknown",
+        "source_text": "Fastest onset anaesthetic gas?\nNO (nitrous oxide) \nDesflurane \nIsoflurane \nsevoflurane",
+        "ai_result": {
+            "status": "needs_review",
+            "review_required": true,
+            "review_reason": "The source indicates nitrous oxide as the intended answer, but the question is scientifically ambiguous: desflurane has the lowest blood-gas solubility among the listed volatile anesthetics, whereas nitrous oxide can produce very rapid induction because of its low solubility and concentration effect.",
+            "confidence": 0.78,
+            "question_type": "factual",
+            "options_source": "ai_generated",
+            "source_answer": "Nitrous oxide",
+            "category": "Pharmacology & Toxicology",
+            "topic": "Inhalational anaesthetic agents",
+            "difficulty": "easy",
+            "question": "Which of the following inhalational anaesthetic agents is generally associated with the fastest onset of anaesthesia?",
+            "options": {
+                "A": "Nitrous oxide",
+                "B": "Desflurane",
+                "C": "Isoflurane",
+                "D": "Sevoflurane"
+            },
+            "correct_answer": "A",
+            "explanations": {
+                "A": "Nitrous oxide has very low blood-gas solubility and, when administered at high inspired concentrations, shows a concentration effect that contributes to rapid onset.",
+                "B": "Desflurane has the lowest blood-gas solubility among the commonly used volatile anaesthetics and therefore has very rapid onset, making this option a potential source of ambiguity.",
+                "C": "Isoflurane is considerably more soluble in blood than nitrous oxide, desflurane, or sevoflurane, so its onset is slower.",
+                "D": "Sevoflurane has relatively low blood-gas solubility and provides rapid induction, but it is not the intended answer in this question."
+            },
+            "calculation": null
+        },
+        "human_status": "rejected",
+        "human_reviewed": true,
+        "human_review_note": "The question is largerly ambiguous"
+    }
+]
