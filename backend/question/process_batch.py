@@ -30,7 +30,7 @@ OUTPUT_FILE = (
     / "backend"
     / "data"
     / "ai_test"
-    / "ai_batch_11_60.json"
+    / "ai_batch_61_110.json"
 )
 
 
@@ -38,8 +38,8 @@ OUTPUT_FILE = (
 # BATCH SETTINGS
 # ============================================================
 
-START_INDEX = 10       # Question 11
-BATCH_SIZE = 50        # Questions 11–60
+START_INDEX = 60       # Question 61
+BATCH_SIZE = 50        # Questions 61–110
 
 
 # ============================================================

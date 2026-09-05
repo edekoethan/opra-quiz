@@ -1,1 +1,34 @@
-[]
+[
+    {
+        "source_id": 85,
+        "source_classification": "mcq",
+        "source_text": "Which catecholamine is NOT metabolized by COMT?\nA. Adrenaline \nB. Noradrenaline \nC. Dopamine \nD. Isoprenaline \nNONE",
+        "ai_result": {
+            "status": "needs_review",
+            "review_required": true,
+            "review_reason": "All four listed catecholamines—adrenaline, noradrenaline, dopamine, and isoprenaline—contain a catechol group and are metabolized by catechol-O-methyltransferase (COMT). Therefore, none is a uniquely correct answer, and the item cannot function as a single-best-answer MCQ without revision.",
+            "confidence": 0.98,
+            "question_type": "factual",
+            "options_source": "source",
+            "source_answer": null,
+            "category": "Pharmacology & Toxicology",
+            "topic": "Catecholamine metabolism",
+            "difficulty": "medium",
+            "question": "Which catecholamine is NOT metabolized by catechol-O-methyltransferase (COMT)?",
+            "options": {
+                "A": "Adrenaline",
+                "B": "Noradrenaline",
+                "C": "Dopamine",
+                "D": "Isoprenaline"
+            },
+            "correct_answer": null,
+            "explanations": {
+                "A": "Adrenaline is metabolized by COMT to metanephrine, as well as by other metabolic pathways.",
+                "B": "Noradrenaline is metabolized by COMT to normetanephrine, as well as by other metabolic pathways.",
+                "C": "Dopamine is metabolized by COMT to 3-methoxytyramine, as well as by other metabolic pathways.",
+                "D": "Isoprenaline is also metabolized by COMT; therefore, it is not a uniquely correct answer."
+            },
+            "calculation": null
+        }
+    }
+]

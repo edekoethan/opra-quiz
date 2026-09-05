@@ -60,6 +60,126 @@
     "human_review_note": ""
   },
   {
+    "status": "needs_review",
+    "review_required": true,
+    "review_reason": "The source contains only the term \"Tinnitus\" and does not specify the intended question or learning objective. The item has therefore been framed as a definition question.",
+    "confidence": 0.72,
+    "question_type": "factual",
+    "options_source": "ai_generated",
+    "source_answer": null,
+    "category": "Biomedical Sciences",
+    "topic": "Auditory symptoms and otology",
+    "difficulty": "easy",
+    "question": "Which of the following best defines tinnitus?",
+    "options": {
+      "A": "The perception of sound in the absence of an external auditory stimulus",
+      "B": "A sudden loss of hearing caused by obstruction of the external auditory canal",
+      "C": "A painful inflammation of the middle ear associated with fever",
+      "D": "An involuntary rhythmic movement of the eyes caused by vestibular dysfunction"
+    },
+    "correct_answer": "A",
+    "explanations": {
+      "A": "Tinnitus is the perception of sound, such as ringing or buzzing, without a corresponding external sound source.",
+      "B": "This describes conductive hearing loss, which may result from cerumen impaction or another obstruction.",
+      "C": "This is more consistent with acute otitis media rather than tinnitus.",
+      "D": "Involuntary rhythmic eye movements are termed nystagmus and are associated with vestibular or neurological disorders."
+    },
+    "calculation": null,
+    "source_id": 1,
+    "source_classification": "incomplete",
+    "source_text": "Tinnitus",
+    "ai_result": {
+      "status": "needs_review",
+      "review_required": true,
+      "review_reason": "The source contains only the term \"Tinnitus\" and does not specify the intended question or learning objective. The item has therefore been framed as a definition question.",
+      "confidence": 0.72,
+      "question_type": "factual",
+      "options_source": "ai_generated",
+      "source_answer": null,
+      "category": "Biomedical Sciences",
+      "topic": "Auditory symptoms and otology",
+      "difficulty": "easy",
+      "question": "Which of the following best defines tinnitus?",
+      "options": {
+        "A": "The perception of sound in the absence of an external auditory stimulus",
+        "B": "A sudden loss of hearing caused by obstruction of the external auditory canal",
+        "C": "A painful inflammation of the middle ear associated with fever",
+        "D": "An involuntary rhythmic movement of the eyes caused by vestibular dysfunction"
+      },
+      "correct_answer": "A",
+      "explanations": {
+        "A": "Tinnitus is the perception of sound, such as ringing or buzzing, without a corresponding external sound source.",
+        "B": "This describes conductive hearing loss, which may result from cerumen impaction or another obstruction.",
+        "C": "This is more consistent with acute otitis media rather than tinnitus.",
+        "D": "Involuntary rhythmic eye movements are termed nystagmus and are associated with vestibular or neurological disorders."
+      },
+      "calculation": null
+    },
+    "human_status": "approved",
+    "human_reviewed": true,
+    "human_review_note": ""
+  },
+  {
+    "status": "needs_review",
+    "review_required": true,
+    "review_reason": "The source is abbreviated and does not specify the generalized seizure subtype. Lamotrigine is an established broad-spectrum option, but treatment selection varies among generalized seizure syndromes.",
+    "confidence": 0.86,
+    "question_type": "factual",
+    "options_source": "ai_generated",
+    "source_answer": "Lamotrigine",
+    "category": "Therapeutics & Patient Care",
+    "topic": "Epilepsy pharmacotherapy",
+    "difficulty": "easy",
+    "question": "Which of the following is a broad-spectrum antiseizure medication used as a treatment option for generalized seizure disorders?",
+    "options": {
+      "A": "Lamotrigine",
+      "B": "Ethosuximide",
+      "C": "Carbamazepine",
+      "D": "Tiagabine"
+    },
+    "correct_answer": "A",
+    "explanations": {
+      "A": "Lamotrigine is a broad-spectrum antiseizure medication used in the management of several generalized seizure disorders.",
+      "B": "Ethosuximide is primarily used for typical absence seizures rather than generalized seizure disorders broadly.",
+      "C": "Carbamazepine is mainly used for focal-onset seizures and may aggravate some generalized seizure types.",
+      "D": "Tiagabine is primarily used as adjunctive therapy for focal-onset seizures and may worsen generalized seizures."
+    },
+    "calculation": null,
+    "source_id": 1,
+    "source_classification": "unknown",
+    "source_text": "generalized seizure ttt: lamo",
+    "ai_result": {
+      "status": "needs_review",
+      "review_required": true,
+      "review_reason": "The source is abbreviated and does not specify the generalized seizure subtype. Lamotrigine is an established broad-spectrum option, but treatment selection varies among generalized seizure syndromes.",
+      "confidence": 0.86,
+      "question_type": "factual",
+      "options_source": "ai_generated",
+      "source_answer": "Lamotrigine",
+      "category": "Therapeutics & Patient Care",
+      "topic": "Epilepsy pharmacotherapy",
+      "difficulty": "easy",
+      "question": "Which of the following is a broad-spectrum antiseizure medication used as a treatment option for generalized seizure disorders?",
+      "options": {
+        "A": "Lamotrigine",
+        "B": "Ethosuximide",
+        "C": "Carbamazepine",
+        "D": "Tiagabine"
+      },
+      "correct_answer": "A",
+      "explanations": {
+        "A": "Lamotrigine is a broad-spectrum antiseizure medication used in the management of several generalized seizure disorders.",
+        "B": "Ethosuximide is primarily used for typical absence seizures rather than generalized seizure disorders broadly.",
+        "C": "Carbamazepine is mainly used for focal-onset seizures and may aggravate some generalized seizure types.",
+        "D": "Tiagabine is primarily used as adjunctive therapy for focal-onset seizures and may worsen generalized seizures."
+      },
+      "calculation": null
+    },
+    "human_status": "approved",
+    "human_reviewed": true,
+    "human_review_note": ""
+  },
+  {
     "source_id": 2,
     "source_classification": "fragment",
     "source_text": "2. metformin (cause lactic acidosis)",
@@ -90,6 +210,490 @@
       },
       "calculation": null
     }
+  },
+  {
+    "source_id": 2,
+    "source_classification": "unknown",
+    "source_text": "raloxifen agonist in bone and lipid",
+    "ai_result": {
+      "status": "approved",
+      "review_required": false,
+      "review_reason": null,
+      "confidence": 0.96,
+      "question_type": "factual",
+      "options_source": "ai_generated",
+      "source_answer": null,
+      "category": "Pharmacology & Toxicology",
+      "topic": "Selective estrogen receptor modulators",
+      "difficulty": "easy",
+      "question": "Raloxifene produces estrogen agonist effects primarily in which sites?",
+      "options": {
+        "A": "Bone and lipid metabolism",
+        "B": "Breast and endometrium",
+        "C": "Breast and hypothalamus",
+        "D": "Endometrium and ovarian tissue"
+      },
+      "correct_answer": "A",
+      "explanations": {
+        "A": "Correct. Raloxifene acts as an estrogen agonist in bone and has favorable estrogen-like effects on lipid metabolism.",
+        "B": "Incorrect. Raloxifene generally acts as an estrogen antagonist in breast tissue and does not stimulate the endometrium.",
+        "C": "Incorrect. Raloxifene is not characterized primarily by estrogen agonist effects in breast tissue or the hypothalamus.",
+        "D": "Incorrect. Raloxifene does not produce its principal estrogen agonist effects in the endometrium or ovary."
+      },
+      "calculation": null
+    }
+  },
+  {
+    "status": "needs_review",
+    "review_required": true,
+    "review_reason": "The source contains only the topic term \"Urticaria\" and does not specify the intended learning objective or question focus.",
+    "confidence": 0.78,
+    "question_type": "factual",
+    "options_source": "ai_generated",
+    "source_answer": null,
+    "category": "Therapeutics & Patient Care",
+    "topic": "Urticaria and dermatologic disorders",
+    "difficulty": "easy",
+    "question": "Which description best characterizes urticaria?",
+    "options": {
+      "A": "Transient, pruritic, raised wheals caused by localized dermal edema",
+      "B": "Persistent, scaly plaques caused by epidermal hyperproliferation",
+      "C": "Painful, fluid-filled vesicles caused by viral infection of the epidermis",
+      "D": "Non-blanching purpuric lesions caused by bleeding into the dermis"
+    },
+    "correct_answer": "A",
+    "explanations": {
+      "A": "Urticaria is characterized by transient, itchy wheals resulting from localized edema of the superficial dermis, often due to mediator release such as histamine.",
+      "B": "Persistent scaly plaques are more characteristic of disorders such as psoriasis or eczema, not urticaria.",
+      "C": "Painful fluid-filled vesicles are typical of some viral infections, such as herpesvirus infections, rather than urticaria.",
+      "D": "Non-blanching purpura indicates extravasated blood or vascular inflammation and is not the typical appearance of urticaria."
+    },
+    "calculation": null,
+    "source_id": 2,
+    "source_classification": "incomplete",
+    "source_text": "Urticaria",
+    "ai_result": {
+      "status": "needs_review",
+      "review_required": true,
+      "review_reason": "The source contains only the topic term \"Urticaria\" and does not specify the intended learning objective or question focus.",
+      "confidence": 0.78,
+      "question_type": "factual",
+      "options_source": "ai_generated",
+      "source_answer": null,
+      "category": "Therapeutics & Patient Care",
+      "topic": "Urticaria and dermatologic disorders",
+      "difficulty": "easy",
+      "question": "Which description best characterizes urticaria?",
+      "options": {
+        "A": "Transient, pruritic, raised wheals caused by localized dermal edema",
+        "B": "Persistent, scaly plaques caused by epidermal hyperproliferation",
+        "C": "Painful, fluid-filled vesicles caused by viral infection of the epidermis",
+        "D": "Non-blanching purpuric lesions caused by bleeding into the dermis"
+      },
+      "correct_answer": "A",
+      "explanations": {
+        "A": "Urticaria is characterized by transient, itchy wheals resulting from localized edema of the superficial dermis, often due to mediator release such as histamine.",
+        "B": "Persistent scaly plaques are more characteristic of disorders such as psoriasis or eczema, not urticaria.",
+        "C": "Painful fluid-filled vesicles are typical of some viral infections, such as herpesvirus infections, rather than urticaria.",
+        "D": "Non-blanching purpura indicates extravasated blood or vascular inflammation and is not the typical appearance of urticaria."
+      },
+      "calculation": null
+    },
+    "human_status": "approved",
+    "human_reviewed": true,
+    "human_review_note": ""
+  },
+  {
+    "status": "needs_review",
+    "review_required": true,
+    "review_reason": "The source contains only the topic 'Urticaria' and does not specify the intended learning point or answer. The question below uses a standard first-line treatment interpretation.",
+    "confidence": 0.78,
+    "question_type": "factual",
+    "options_source": "ai_generated",
+    "source_answer": null,
+    "category": "Therapeutics & Patient Care",
+    "topic": "Pharmacological management of urticaria",
+    "difficulty": "easy",
+    "question": "For uncomplicated acute urticaria, which pharmacological treatment is generally recommended as first-line therapy?",
+    "options": {
+      "A": "A leukotriene receptor antagonist alone",
+      "B": "A second-generation, non-sedating H1-antihistamine",
+      "C": "A first-generation, sedating H1-antihistamine as routine therapy",
+      "D": "Long-term oral corticosteroid therapy"
+    },
+    "correct_answer": "B",
+    "explanations": {
+      "A": "Leukotriene receptor antagonists are not generally preferred as sole first-line treatment for uncomplicated urticaria.",
+      "B": "Second-generation H1-antihistamines are generally preferred because they reduce histamine-mediated whealing and pruritus with less sedation than older agents.",
+      "C": "First-generation H1-antihistamines can be effective but are generally not preferred routinely because of sedation and anticholinergic adverse effects.",
+      "D": "Systemic corticosteroids may occasionally be used for severe or refractory episodes, but long-term therapy is inappropriate for uncomplicated urticaria."
+    },
+    "calculation": null,
+    "source_id": 2,
+    "source_classification": "incomplete",
+    "source_text": "Urticaria",
+    "ai_result": {
+      "status": "needs_review",
+      "review_required": true,
+      "review_reason": "The source contains only the topic 'Urticaria' and does not specify the intended learning point or answer. The question below uses a standard first-line treatment interpretation.",
+      "confidence": 0.78,
+      "question_type": "factual",
+      "options_source": "ai_generated",
+      "source_answer": null,
+      "category": "Therapeutics & Patient Care",
+      "topic": "Pharmacological management of urticaria",
+      "difficulty": "easy",
+      "question": "For uncomplicated acute urticaria, which pharmacological treatment is generally recommended as first-line therapy?",
+      "options": {
+        "A": "A leukotriene receptor antagonist alone",
+        "B": "A second-generation, non-sedating H1-antihistamine",
+        "C": "A first-generation, sedating H1-antihistamine as routine therapy",
+        "D": "Long-term oral corticosteroid therapy"
+      },
+      "correct_answer": "B",
+      "explanations": {
+        "A": "Leukotriene receptor antagonists are not generally preferred as sole first-line treatment for uncomplicated urticaria.",
+        "B": "Second-generation H1-antihistamines are generally preferred because they reduce histamine-mediated whealing and pruritus with less sedation than older agents.",
+        "C": "First-generation H1-antihistamines can be effective but are generally not preferred routinely because of sedation and anticholinergic adverse effects.",
+        "D": "Systemic corticosteroids may occasionally be used for severe or refractory episodes, but long-term therapy is inappropriate for uncomplicated urticaria."
+      },
+      "calculation": null
+    },
+    "human_status": "approved",
+    "human_reviewed": true,
+    "human_review_note": ""
+  },
+  {
+    "source_id": 3,
+    "source_classification": "calculation",
+    "source_text": "preservative in ophthalmic preparations: benzalkonium,",
+    "ai_result": {
+      "status": "approved",
+      "review_required": false,
+      "review_reason": null,
+      "confidence": 0.96,
+      "question_type": "factual",
+      "options_source": "ai_generated",
+      "source_answer": "Benzalkonium chloride",
+      "category": "Medicinal Chemistry & Biopharmaceutics",
+      "topic": "Preservatives in ophthalmic preparations",
+      "difficulty": "easy",
+      "question": "Which of the following is a quaternary ammonium preservative commonly used in ophthalmic preparations?",
+      "options": {
+        "A": "Benzalkonium chloride",
+        "B": "Chlorobutanol",
+        "C": "Phenylmercuric nitrate",
+        "D": "Sodium perborate"
+      },
+      "correct_answer": "A",
+      "explanations": {
+        "A": "Benzalkonium chloride is a quaternary ammonium compound widely used as a preservative in multidose ophthalmic preparations.",
+        "B": "Chlorobutanol can be used as an ophthalmic preservative, but it is an alcohol rather than a quaternary ammonium compound.",
+        "C": "Phenylmercuric nitrate is an organomercurial preservative, not a quaternary ammonium compound.",
+        "D": "Sodium perborate may be used in some preservative systems but is not a quaternary ammonium preservative."
+      },
+      "calculation": null
+    }
+  },
+  {
+    "status": "needs_review",
+    "review_required": true,
+    "review_reason": "The source consists only of the phrase \"Bleeding risk\" and does not specify the drug, disease, or clinical context being tested. The question has therefore been reconstructed using anticoagulant-associated bleeding as the most likely intended topic.",
+    "confidence": 0.62,
+    "question_type": "factual",
+    "options_source": "ai_generated",
+    "source_answer": null,
+    "category": "Pharmacology & Toxicology",
+    "topic": "Adverse effects of anticoagulants",
+    "difficulty": "easy",
+    "question": "Which of the following is a major clinically important risk associated with anticoagulant therapy?",
+    "options": {
+      "A": "Bleeding",
+      "B": "Severe constipation",
+      "C": "Hypoglycaemia",
+      "D": "Ototoxicity"
+    },
+    "correct_answer": "A",
+    "explanations": {
+      "A": "Bleeding is the principal clinically important adverse effect and toxicity risk associated with anticoagulant therapy.",
+      "B": "Constipation is not a characteristic major risk of anticoagulant therapy.",
+      "C": "Hypoglycaemia is primarily associated with glucose-lowering medicines, not anticoagulants.",
+      "D": "Ototoxicity is associated with certain antimicrobial and other medicines but is not a major general risk of anticoagulants."
+    },
+    "calculation": null,
+    "source_id": 3,
+    "source_classification": "incomplete",
+    "source_text": "Bleeding risk",
+    "ai_result": {
+      "status": "needs_review",
+      "review_required": true,
+      "review_reason": "The source consists only of the phrase \"Bleeding risk\" and does not specify the drug, disease, or clinical context being tested. The question has therefore been reconstructed using anticoagulant-associated bleeding as the most likely intended topic.",
+      "confidence": 0.62,
+      "question_type": "factual",
+      "options_source": "ai_generated",
+      "source_answer": null,
+      "category": "Pharmacology & Toxicology",
+      "topic": "Adverse effects of anticoagulants",
+      "difficulty": "easy",
+      "question": "Which of the following is a major clinically important risk associated with anticoagulant therapy?",
+      "options": {
+        "A": "Bleeding",
+        "B": "Severe constipation",
+        "C": "Hypoglycaemia",
+        "D": "Ototoxicity"
+      },
+      "correct_answer": "A",
+      "explanations": {
+        "A": "Bleeding is the principal clinically important adverse effect and toxicity risk associated with anticoagulant therapy.",
+        "B": "Constipation is not a characteristic major risk of anticoagulant therapy.",
+        "C": "Hypoglycaemia is primarily associated with glucose-lowering medicines, not anticoagulants.",
+        "D": "Ototoxicity is associated with certain antimicrobial and other medicines but is not a major general risk of anticoagulants."
+      },
+      "calculation": null
+    },
+    "human_status": "approved",
+    "human_reviewed": true,
+    "human_review_note": ""
+  },
+  {
+    "status": "needs_review",
+    "review_required": true,
+    "review_reason": "The source material consists only of the phrase \"Bleeding risk\" and does not identify the drug, disease state, or specific knowledge point intended to be tested. The item below assumes a general anticoagulant-safety context.",
+    "confidence": 0.42,
+    "question_type": "factual",
+    "options_source": "ai_generated",
+    "source_answer": null,
+    "category": "Therapeutics & Patient Care",
+    "topic": "Anticoagulant safety and bleeding risk",
+    "difficulty": "easy",
+    "question": "Which outcome best describes the principal safety concern referred to as \"bleeding risk\" during anticoagulant therapy?",
+    "options": {
+      "A": "An increased likelihood of clinically significant hemorrhage",
+      "B": "An increased likelihood of severe hypoglycaemia",
+      "C": "A reduction in renal drug clearance",
+      "D": "An increased likelihood of bacterial infection"
+    },
+    "correct_answer": "A",
+    "explanations": {
+      "A": "Correct. Bleeding risk refers to the increased probability of clinically significant bleeding or hemorrhage, particularly during anticoagulant therapy.",
+      "B": "Incorrect. Severe hypoglycaemia is primarily associated with glucose-lowering medicines such as insulin and sulfonylureas.",
+      "C": "Incorrect. Reduced renal drug clearance may increase exposure to some medicines but does not define bleeding risk.",
+      "D": "Incorrect. Increased susceptibility to bacterial infection is not the principal safety concern described by bleeding risk."
+    },
+    "calculation": null,
+    "source_id": 3,
+    "source_classification": "incomplete",
+    "source_text": "Bleeding risk",
+    "ai_result": {
+      "status": "needs_review",
+      "review_required": true,
+      "review_reason": "The source material consists only of the phrase \"Bleeding risk\" and does not identify the drug, disease state, or specific knowledge point intended to be tested. The item below assumes a general anticoagulant-safety context.",
+      "confidence": 0.42,
+      "question_type": "factual",
+      "options_source": "ai_generated",
+      "source_answer": null,
+      "category": "Therapeutics & Patient Care",
+      "topic": "Anticoagulant safety and bleeding risk",
+      "difficulty": "easy",
+      "question": "Which outcome best describes the principal safety concern referred to as \"bleeding risk\" during anticoagulant therapy?",
+      "options": {
+        "A": "An increased likelihood of clinically significant hemorrhage",
+        "B": "An increased likelihood of severe hypoglycaemia",
+        "C": "A reduction in renal drug clearance",
+        "D": "An increased likelihood of bacterial infection"
+      },
+      "correct_answer": "A",
+      "explanations": {
+        "A": "Correct. Bleeding risk refers to the increased probability of clinically significant bleeding or hemorrhage, particularly during anticoagulant therapy.",
+        "B": "Incorrect. Severe hypoglycaemia is primarily associated with glucose-lowering medicines such as insulin and sulfonylureas.",
+        "C": "Incorrect. Reduced renal drug clearance may increase exposure to some medicines but does not define bleeding risk.",
+        "D": "Incorrect. Increased susceptibility to bacterial infection is not the principal safety concern described by bleeding risk."
+      },
+      "calculation": null
+    },
+    "human_status": "approved",
+    "human_reviewed": true,
+    "human_review_note": ""
+  },
+  {
+    "status": "needs_review",
+    "review_required": true,
+    "review_reason": "The source prompt is incomplete and does not specify the interacting drug or the intended clinical context. The question has been constructed around the well-established interaction between dipyridamole and adenosine.",
+    "confidence": 0.72,
+    "question_type": "factual",
+    "options_source": "ai_generated",
+    "source_answer": null,
+    "category": "Pharmacology & Toxicology",
+    "topic": "Dipyridamole drug interactions",
+    "difficulty": "medium",
+    "question": "Dipyridamole can potentiate the pharmacological effects of which drug by inhibiting its cellular uptake?",
+    "options": {
+      "A": "Adenosine",
+      "B": "Atropine",
+      "C": "Lidocaine",
+      "D": "Digoxin"
+    },
+    "correct_answer": "A",
+    "explanations": {
+      "A": "Correct. Dipyridamole inhibits cellular uptake of adenosine, thereby increasing and prolonging its effects.",
+      "B": "Incorrect. Atropine is a muscarinic antagonist and is not the characteristic interaction tested with dipyridamole.",
+      "C": "Incorrect. Lidocaine does not have a clinically characteristic interaction with dipyridamole through inhibition of cellular uptake.",
+      "D": "Incorrect. Digoxin may interact with various cardiovascular drugs, but dipyridamole does not characteristically potentiate it by inhibiting cellular uptake."
+    },
+    "calculation": null,
+    "source_id": 4,
+    "source_classification": "incomplete",
+    "source_text": "Interaction with dipyridamole",
+    "ai_result": {
+      "status": "needs_review",
+      "review_required": true,
+      "review_reason": "The source prompt is incomplete and does not specify the interacting drug or the intended clinical context. The question has been constructed around the well-established interaction between dipyridamole and adenosine.",
+      "confidence": 0.72,
+      "question_type": "factual",
+      "options_source": "ai_generated",
+      "source_answer": null,
+      "category": "Pharmacology & Toxicology",
+      "topic": "Dipyridamole drug interactions",
+      "difficulty": "medium",
+      "question": "Dipyridamole can potentiate the pharmacological effects of which drug by inhibiting its cellular uptake?",
+      "options": {
+        "A": "Adenosine",
+        "B": "Atropine",
+        "C": "Lidocaine",
+        "D": "Digoxin"
+      },
+      "correct_answer": "A",
+      "explanations": {
+        "A": "Correct. Dipyridamole inhibits cellular uptake of adenosine, thereby increasing and prolonging its effects.",
+        "B": "Incorrect. Atropine is a muscarinic antagonist and is not the characteristic interaction tested with dipyridamole.",
+        "C": "Incorrect. Lidocaine does not have a clinically characteristic interaction with dipyridamole through inhibition of cellular uptake.",
+        "D": "Incorrect. Digoxin may interact with various cardiovascular drugs, but dipyridamole does not characteristically potentiate it by inhibiting cellular uptake."
+      },
+      "calculation": null
+    },
+    "human_status": "approved",
+    "human_reviewed": true,
+    "human_review_note": ""
+  },
+  {
+    "status": "needs_review",
+    "review_required": true,
+    "review_reason": "The source consists only of the phrase \"Interaction with dipyridamole\" and does not specify the interacting medicine or the intended direction of the interaction. The question below uses the well-established interaction between dipyridamole and adenosine, but the original examination intent cannot be confirmed.",
+    "confidence": 0.72,
+    "question_type": "factual",
+    "options_source": "ai_generated",
+    "source_answer": "Adenosine",
+    "category": "Pharmacology & Toxicology",
+    "topic": "Dipyridamole drug interactions",
+    "difficulty": "medium",
+    "question": "Dipyridamole can produce a clinically important interaction by potentiating the effects of which drug?",
+    "options": {
+      "A": "Adenosine",
+      "B": "Warfarin",
+      "C": "Digoxin",
+      "D": "Propranolol"
+    },
+    "correct_answer": "A",
+    "explanations": {
+      "A": "Dipyridamole inhibits cellular uptake and metabolism of adenosine, thereby potentiating its vasodilator and cardiac effects.",
+      "B": "Warfarin may be coadministered with antiplatelet drugs with increased bleeding risk, but this is not the characteristic direct interaction tested here.",
+      "C": "Dipyridamole does not characteristically potentiate digoxin through inhibition of its clearance or effect.",
+      "D": "Dipyridamole does not have a specific clinically defining interaction with propranolol."
+    },
+    "calculation": null,
+    "source_id": 4,
+    "source_classification": "incomplete",
+    "source_text": "Interaction with dipyridamole",
+    "ai_result": {
+      "status": "needs_review",
+      "review_required": true,
+      "review_reason": "The source consists only of the phrase \"Interaction with dipyridamole\" and does not specify the interacting medicine or the intended direction of the interaction. The question below uses the well-established interaction between dipyridamole and adenosine, but the original examination intent cannot be confirmed.",
+      "confidence": 0.72,
+      "question_type": "factual",
+      "options_source": "ai_generated",
+      "source_answer": "Adenosine",
+      "category": "Pharmacology & Toxicology",
+      "topic": "Dipyridamole drug interactions",
+      "difficulty": "medium",
+      "question": "Dipyridamole can produce a clinically important interaction by potentiating the effects of which drug?",
+      "options": {
+        "A": "Adenosine",
+        "B": "Warfarin",
+        "C": "Digoxin",
+        "D": "Propranolol"
+      },
+      "correct_answer": "A",
+      "explanations": {
+        "A": "Dipyridamole inhibits cellular uptake and metabolism of adenosine, thereby potentiating its vasodilator and cardiac effects.",
+        "B": "Warfarin may be coadministered with antiplatelet drugs with increased bleeding risk, but this is not the characteristic direct interaction tested here.",
+        "C": "Dipyridamole does not characteristically potentiate digoxin through inhibition of its clearance or effect.",
+        "D": "Dipyridamole does not have a specific clinically defining interaction with propranolol."
+      },
+      "calculation": null
+    },
+    "human_status": "approved",
+    "human_reviewed": true,
+    "human_review_note": ""
+  },
+  {
+    "status": "needs_review",
+    "review_required": true,
+    "review_reason": "The source consists only of the phrase \"Hypercatabolic state\" and does not specify the intended question or learning objective. The item below interprets it as asking for the defining metabolic features of hypercatabolism.",
+    "confidence": 0.82,
+    "question_type": "factual",
+    "options_source": "ai_generated",
+    "source_answer": null,
+    "category": "Biomedical Sciences",
+    "topic": "Energy metabolism and protein catabolism",
+    "difficulty": "easy",
+    "question": "Which description best characterizes a hypercatabolic state?",
+    "options": {
+      "A": "Increased energy expenditure with net breakdown of body protein exceeding protein synthesis",
+      "B": "Reduced energy expenditure with net protein synthesis and positive nitrogen balance",
+      "C": "Normal energy expenditure with protein breakdown balanced by protein synthesis",
+      "D": "Increased protein synthesis with preferential storage of nitrogen and body energy"
+    },
+    "correct_answer": "A",
+    "explanations": {
+      "A": "Correct. A hypercatabolic state involves increased metabolic demands and net tissue breakdown, particularly protein catabolism exceeding synthesis.",
+      "B": "Incorrect. This describes an anabolic state rather than a hypercatabolic state.",
+      "C": "Incorrect. Balanced protein turnover and normal energy expenditure do not define hypercatabolism.",
+      "D": "Incorrect. Increased protein synthesis and nitrogen storage are features of anabolism, not net catabolism."
+    },
+    "calculation": null,
+    "source_id": 4,
+    "source_classification": "incomplete",
+    "source_text": "Hypercatabolic state",
+    "ai_result": {
+      "status": "needs_review",
+      "review_required": true,
+      "review_reason": "The source consists only of the phrase \"Hypercatabolic state\" and does not specify the intended question or learning objective. The item below interprets it as asking for the defining metabolic features of hypercatabolism.",
+      "confidence": 0.82,
+      "question_type": "factual",
+      "options_source": "ai_generated",
+      "source_answer": null,
+      "category": "Biomedical Sciences",
+      "topic": "Energy metabolism and protein catabolism",
+      "difficulty": "easy",
+      "question": "Which description best characterizes a hypercatabolic state?",
+      "options": {
+        "A": "Increased energy expenditure with net breakdown of body protein exceeding protein synthesis",
+        "B": "Reduced energy expenditure with net protein synthesis and positive nitrogen balance",
+        "C": "Normal energy expenditure with protein breakdown balanced by protein synthesis",
+        "D": "Increased protein synthesis with preferential storage of nitrogen and body energy"
+      },
+      "correct_answer": "A",
+      "explanations": {
+        "A": "Correct. A hypercatabolic state involves increased metabolic demands and net tissue breakdown, particularly protein catabolism exceeding synthesis.",
+        "B": "Incorrect. This describes an anabolic state rather than a hypercatabolic state.",
+        "C": "Incorrect. Balanced protein turnover and normal energy expenditure do not define hypercatabolism.",
+        "D": "Incorrect. Increased protein synthesis and nitrogen storage are features of anabolism, not net catabolism."
+      },
+      "calculation": null
+    },
+    "human_status": "approved",
+    "human_reviewed": true,
+    "human_review_note": ""
   },
   {
     "status": "needs_review",
@@ -2270,66 +2874,6 @@
   {
     "status": "needs_review",
     "review_required": true,
-    "review_reason": "Clomifene is commonly started on cycle day 2, 3, 4, or 5 and continued for 5 days; days 5-9 is a recognized regimen, but the question does not acknowledge variation in starting protocols.",
-    "confidence": 0.88,
-    "question_type": "mcq",
-    "options_source": "source",
-    "source_answer": null,
-    "category": "Therapeutics & Patient Care",
-    "topic": "Ovulation induction with clomifene",
-    "difficulty": "easy",
-    "question": "When should clomifene be taken to induce ovulation?",
-    "options": {
-      "A": "Days 0-5 of the menstrual cycle",
-      "B": "Days 5-9 of the menstrual cycle",
-      "C": "Days 10-14 of the menstrual cycle",
-      "D": "Days 20-24 of the menstrual cycle"
-    },
-    "correct_answer": "B",
-    "explanations": {
-      "A": "This is not the usual regimen because cycle day 0 is not conventionally used, and clomifene is generally started from cycle day 2 to 5 for five consecutive days.",
-      "B": "This is a recognized regimen in which clomifene is taken for five consecutive days beginning on cycle day 5.",
-      "C": "Starting on days 10-14 is later than the usual initiation period and is not the standard clomifene regimen.",
-      "D": "Days 20-24 are too late in the cycle for the usual initiation of clomifene-induced ovulation."
-    },
-    "calculation": null,
-    "source_id": 54,
-    "source_classification": "mcq",
-    "source_text": "When should clomifene be taken to induce ovulation?\nA. Days 0-5 of the menstrual cycle \nB. Days 5-9 of the menstrual cycle \nC. Days 10-14 of the menstrual cycle \nD. Days 20-24 of the menstrual cycle",
-    "ai_result": {
-      "status": "needs_review",
-      "review_required": true,
-      "review_reason": "Clomifene is commonly started on cycle day 2, 3, 4, or 5 and continued for 5 days; days 5-9 is a recognized regimen, but the question does not acknowledge variation in starting protocols.",
-      "confidence": 0.88,
-      "question_type": "mcq",
-      "options_source": "source",
-      "source_answer": null,
-      "category": "Therapeutics & Patient Care",
-      "topic": "Ovulation induction with clomifene",
-      "difficulty": "easy",
-      "question": "When should clomifene be taken to induce ovulation?",
-      "options": {
-        "A": "Days 0-5 of the menstrual cycle",
-        "B": "Days 5-9 of the menstrual cycle",
-        "C": "Days 10-14 of the menstrual cycle",
-        "D": "Days 20-24 of the menstrual cycle"
-      },
-      "correct_answer": "B",
-      "explanations": {
-        "A": "This is not the usual regimen because cycle day 0 is not conventionally used, and clomifene is generally started from cycle day 2 to 5 for five consecutive days.",
-        "B": "This is a recognized regimen in which clomifene is taken for five consecutive days beginning on cycle day 5.",
-        "C": "Starting on days 10-14 is later than the usual initiation period and is not the standard clomifene regimen.",
-        "D": "Days 20-24 are too late in the cycle for the usual initiation of clomifene-induced ovulation."
-      },
-      "calculation": null
-    },
-    "human_status": "approved",
-    "human_reviewed": true,
-    "human_review_note": ""
-  },
-  {
-    "status": "needs_review",
-    "review_required": true,
     "review_reason": "The source question is medically ambiguous because combined oral contraceptives are not generally indicated for migraine and may be contraindicated in patients with migraine with aura. They may be considered in selected patients with migraine without aura, including some cases of menstrual migraine.",
     "confidence": 0.78,
     "question_type": "mcq",
@@ -2571,6 +3115,1702 @@
         "B": "A cautious starting dose of 25 micrograms once daily is appropriate for a frail, elderly patient, with subsequent titration based on thyroid function tests and clinical response.",
         "C": "Starting at 75 micrograms daily may be excessive in a frail older patient and increases the risk of cardiovascular adverse effects.",
         "D": "A starting dose of 150 micrograms daily is too high for a frail, elderly patient and may precipitate cardiac complications or symptoms of thyroid hormone excess."
+      },
+      "calculation": null
+    }
+  },
+  {
+    "source_id": 61,
+    "source_classification": "unknown",
+    "source_text": "Drug used for movement symptoms in Lewy Body Dementia: A) Levodopa\nB) Haloperidol \nC) Phenytoin \nD) Digoxin",
+    "ai_result": {
+      "status": "approved",
+      "review_required": false,
+      "review_reason": null,
+      "confidence": 0.98,
+      "question_type": "factual",
+      "options_source": "ai_generated",
+      "source_answer": null,
+      "category": "Therapeutics & Patient Care",
+      "topic": "Pharmacological management of motor symptoms in Lewy body dementia",
+      "difficulty": "easy",
+      "question": "Which drug may be used to treat parkinsonian movement symptoms in a patient with Lewy body dementia?",
+      "options": {
+        "A": "Levodopa",
+        "B": "Haloperidol",
+        "C": "Phenytoin",
+        "D": "Digoxin"
+      },
+      "correct_answer": "A",
+      "explanations": {
+        "A": "Levodopa may improve parkinsonian motor symptoms in Lewy body dementia, although the response can be limited and treatment requires cautious dosing.",
+        "B": "Haloperidol can markedly worsen parkinsonism and may cause severe sensitivity reactions in patients with Lewy body dementia.",
+        "C": "Phenytoin is an antiseizure medication and is not used to treat parkinsonian movement symptoms.",
+        "D": "Digoxin is a cardiac glycoside used in selected cardiac conditions and has no role in treating parkinsonian symptoms."
+      },
+      "calculation": null
+    }
+  },
+  {
+    "source_id": 62,
+    "source_classification": "unknown",
+    "source_text": "Preferred antipsychotic for hallucinations in Lewy Body Dementia: A) Haloperidol\nB) Chlorpromazine \nC) Quetiapine \nD) Risperidone",
+    "ai_result": {
+      "status": "approved",
+      "review_required": false,
+      "review_reason": null,
+      "confidence": 0.98,
+      "question_type": "factual",
+      "options_source": "source_original",
+      "source_answer": "C",
+      "category": "Therapeutics & Patient Care",
+      "topic": "Antipsychotic use in Lewy body dementia",
+      "difficulty": "easy",
+      "question": "Which antipsychotic is generally preferred when treatment of distressing hallucinations is necessary in a patient with Lewy body dementia?",
+      "options": {
+        "A": "Haloperidol",
+        "B": "Chlorpromazine",
+        "C": "Quetiapine",
+        "D": "Risperidone"
+      },
+      "correct_answer": "C",
+      "explanations": {
+        "A": "Haloperidol is a potent dopamine D2 antagonist and may cause severe neuroleptic sensitivity and worsening parkinsonism in Lewy body dementia.",
+        "B": "Chlorpromazine can worsen extrapyramidal symptoms, sedation, and autonomic effects, making it unsuitable as the preferred option.",
+        "C": "Quetiapine has relatively low dopamine D2-receptor antagonism and is commonly preferred when an antipsychotic is essential in Lewy body dementia.",
+        "D": "Risperidone may cause substantial D2 blockade, worsening parkinsonism and neuroleptic sensitivity in patients with Lewy body dementia."
+      },
+      "calculation": null
+    }
+  },
+  {
+    "source_id": 63,
+    "source_classification": "unknown",
+    "source_text": "Drug commonly used for cognitive symptoms in Lewy Body Dementia: A) Rivastigmine\nB) Haloperidol \nC) Diazepam \nD) Carbamazapine",
+    "ai_result": {
+      "status": "approved",
+      "review_required": false,
+      "review_reason": null,
+      "confidence": 0.99,
+      "question_type": "factual",
+      "options_source": "ai_generated",
+      "source_answer": null,
+      "category": "Therapeutics & Patient Care",
+      "topic": "Pharmacological management of cognitive symptoms in Lewy body dementia",
+      "difficulty": "easy",
+      "question": "Which drug is commonly used to manage cognitive symptoms in patients with Lewy body dementia?",
+      "options": {
+        "A": "Rivastigmine",
+        "B": "Haloperidol",
+        "C": "Diazepam",
+        "D": "Carbamazepine"
+      },
+      "correct_answer": "A",
+      "explanations": {
+        "A": "Rivastigmine, an acetylcholinesterase inhibitor, is commonly used to improve or stabilize cognitive symptoms in Lewy body dementia.",
+        "B": "Haloperidol is an antipsychotic and may worsen parkinsonism or cause severe sensitivity reactions in patients with Lewy body dementia.",
+        "C": "Diazepam is a benzodiazepine used primarily for anxiety, seizures, or sedation and is not a standard treatment for cognitive symptoms in Lewy body dementia.",
+        "D": "Carbamazepine is mainly used for epilepsy and trigeminal neuralgia and is not a standard treatment for cognitive symptoms in Lewy body dementia."
+      },
+      "calculation": null
+    }
+  },
+  {
+    "status": "needs_review",
+    "review_required": true,
+    "review_reason": "The source note appears to suggest withholding all information from another healthcare professional, but disclosure rules vary by jurisdiction and organizational policy. In many settings, relevant information may be disclosed for patient care after verifying the requester's identity and authority, with consent or another lawful basis where required.",
+    "confidence": 0.78,
+    "question_type": "factual",
+    "options_source": "ai_generated",
+    "source_answer": null,
+    "category": "Therapeutics & Patient Care",
+    "topic": "Patient confidentiality and disclosure of health information",
+    "difficulty": "medium",
+    "question": "Another healthcare professional contacts you requesting information about a patient. Which response is least appropriate?",
+    "options": {
+      "A": "Obtain the patient's consent before disclosing the information, unless a recognized legal or clinical exception applies.",
+      "B": "Disclose only information relevant to the patient's care and the purpose of the request.",
+      "C": "Verify the identity and professional authority of the requesting healthcare professional before disclosure.",
+      "D": "Refuse to provide any information solely because the requester is another healthcare professional."
+    },
+    "correct_answer": "D",
+    "explanations": {
+      "A": "Obtaining consent is an important safeguard when required by law, policy, or the circumstances of the disclosure. However, some disclosures for treatment or other lawful purposes may not require separate consent.",
+      "B": "Only the minimum relevant information should generally be disclosed to protect patient confidentiality.",
+      "C": "The requester's identity and authority should be authenticated before any patient information is shared.",
+      "D": "This is least appropriate because another healthcare professional may be entitled to relevant information for patient care when proper authorization or another lawful basis exists. The fact that the requester is an HCP does not by itself require either automatic disclosure or automatic refusal."
+    },
+    "calculation": null,
+    "source_id": 64,
+    "source_classification": "fragment",
+    "source_text": "Another HCP contacted u requesting for information regarding a patient, Least correct:\n1-take patient consent first \n2-provide relevant information only \n3-deidentify the information provided \n4-check the authenticity of HCP \nNote: Another health care provider HCP so not give any information",
+    "ai_result": {
+      "status": "needs_review",
+      "review_required": true,
+      "review_reason": "The source note appears to suggest withholding all information from another healthcare professional, but disclosure rules vary by jurisdiction and organizational policy. In many settings, relevant information may be disclosed for patient care after verifying the requester's identity and authority, with consent or another lawful basis where required.",
+      "confidence": 0.78,
+      "question_type": "factual",
+      "options_source": "ai_generated",
+      "source_answer": null,
+      "category": "Therapeutics & Patient Care",
+      "topic": "Patient confidentiality and disclosure of health information",
+      "difficulty": "medium",
+      "question": "Another healthcare professional contacts you requesting information about a patient. Which response is least appropriate?",
+      "options": {
+        "A": "Obtain the patient's consent before disclosing the information, unless a recognized legal or clinical exception applies.",
+        "B": "Disclose only information relevant to the patient's care and the purpose of the request.",
+        "C": "Verify the identity and professional authority of the requesting healthcare professional before disclosure.",
+        "D": "Refuse to provide any information solely because the requester is another healthcare professional."
+      },
+      "correct_answer": "D",
+      "explanations": {
+        "A": "Obtaining consent is an important safeguard when required by law, policy, or the circumstances of the disclosure. However, some disclosures for treatment or other lawful purposes may not require separate consent.",
+        "B": "Only the minimum relevant information should generally be disclosed to protect patient confidentiality.",
+        "C": "The requester's identity and authority should be authenticated before any patient information is shared.",
+        "D": "This is least appropriate because another healthcare professional may be entitled to relevant information for patient care when proper authorization or another lawful basis exists. The fact that the requester is an HCP does not by itself require either automatic disclosure or automatic refusal."
+      },
+      "calculation": null
+    },
+    "human_status": "approved",
+    "human_reviewed": true,
+    "human_review_note": ""
+  },
+  {
+    "source_id": 66,
+    "source_classification": "mcq",
+    "source_text": "Which ONE of the following drugs is MOST likely to cause a clinically significant pharmacokinetic drug interaction with warfarin?\nA. Sodium valproate \nB. Paroxetine \nC. Omeprazole \nD. Fluconazole",
+    "ai_result": {
+      "status": "approved",
+      "review_required": false,
+      "review_reason": null,
+      "confidence": 0.98,
+      "question_type": "factual",
+      "options_source": "original",
+      "source_answer": null,
+      "category": "Pharmacology & Toxicology",
+      "topic": "Warfarin drug interactions",
+      "difficulty": "medium",
+      "question": "Which ONE of the following drugs is MOST likely to cause a clinically significant pharmacokinetic drug interaction with warfarin?",
+      "options": {
+        "A": "Sodium valproate",
+        "B": "Paroxetine",
+        "C": "Omeprazole",
+        "D": "Fluconazole"
+      },
+      "correct_answer": "D",
+      "explanations": {
+        "A": "Sodium valproate may increase bleeding risk and can interact with warfarin, but it is generally a less predictable or less prominent pharmacokinetic interaction than that caused by fluconazole.",
+        "B": "Paroxetine can increase bleeding risk through effects on platelet serotonin uptake, but this is primarily a pharmacodynamic interaction rather than a clinically significant pharmacokinetic interaction with warfarin.",
+        "C": "Omeprazole may produce a modest interaction with warfarin in some patients, but it is less clinically significant and less consistent than the interaction with fluconazole.",
+        "D": "Fluconazole strongly inhibits CYP2C9, an important enzyme involved in the metabolism of the more potent S-enantiomer of warfarin, thereby increasing warfarin exposure and anticoagulant effect."
+      },
+      "calculation": null
+    }
+  },
+  {
+    "status": "needs_review",
+    "review_required": true,
+    "review_reason": "The core pharmacology question is interpretable, but the appended statement about patient consent, health providers, and court orders appears unrelated and may be extraneous source material.",
+    "confidence": 0.9,
+    "question_type": "factual",
+    "options_source": "ai_generated",
+    "source_answer": null,
+    "category": "Pharmacology & Toxicology",
+    "topic": "Steroid hormones and anabolic-androgenic steroids",
+    "difficulty": "easy",
+    "question": "Which of the following steroids has a markedly different primary physiological activity from the other three?",
+    "options": {
+      "A": "Norethisterone",
+      "B": "Levonorgestrel",
+      "C": "Nandrolone",
+      "D": "Megestrol"
+    },
+    "correct_answer": "C",
+    "explanations": {
+      "A": "Norethisterone is a synthetic progestogen, although it also has some androgenic activity.",
+      "B": "Levonorgestrel is primarily a synthetic progestogen used for contraception.",
+      "C": "Nandrolone is primarily an anabolic-androgenic steroid, distinguishing it from the predominantly progestogenic drugs listed.",
+      "D": "Megestrol is a synthetic progestogen with predominantly progestational activity."
+    },
+    "calculation": null,
+    "source_id": 67,
+    "source_classification": "unknown",
+    "source_text": "Which steroid has a markedly different physiological property to the other three? A. Norethisterone\n\nB. Levonorgestrel C. Nandrolone D. Megestrol \nWe just can give information by Patient consent \nHealth provider Court order",
+    "ai_result": {
+      "status": "needs_review",
+      "review_required": true,
+      "review_reason": "The core pharmacology question is interpretable, but the appended statement about patient consent, health providers, and court orders appears unrelated and may be extraneous source material.",
+      "confidence": 0.9,
+      "question_type": "factual",
+      "options_source": "ai_generated",
+      "source_answer": null,
+      "category": "Pharmacology & Toxicology",
+      "topic": "Steroid hormones and anabolic-androgenic steroids",
+      "difficulty": "easy",
+      "question": "Which of the following steroids has a markedly different primary physiological activity from the other three?",
+      "options": {
+        "A": "Norethisterone",
+        "B": "Levonorgestrel",
+        "C": "Nandrolone",
+        "D": "Megestrol"
+      },
+      "correct_answer": "C",
+      "explanations": {
+        "A": "Norethisterone is a synthetic progestogen, although it also has some androgenic activity.",
+        "B": "Levonorgestrel is primarily a synthetic progestogen used for contraception.",
+        "C": "Nandrolone is primarily an anabolic-androgenic steroid, distinguishing it from the predominantly progestogenic drugs listed.",
+        "D": "Megestrol is a synthetic progestogen with predominantly progestational activity."
+      },
+      "calculation": null
+    },
+    "human_status": "approved",
+    "human_reviewed": true,
+    "human_review_note": ""
+  },
+  {
+    "status": "needs_review",
+    "review_required": true,
+    "review_reason": "The source wording is ambiguous because antipsychotic-induced dystonia can be reversible after dose reduction or discontinuation, while acute dystonia typically develops within hours to a few days rather than necessarily immediately after a dose. The question has been clarified to test the timing of acute dystonia.",
+    "confidence": 0.9,
+    "question_type": "factual",
+    "options_source": "ai_generated",
+    "source_answer": null,
+    "category": "Pharmacology & Toxicology",
+    "topic": "Antipsychotic-induced extrapyramidal adverse effects",
+    "difficulty": "easy",
+    "question": "Which statement best describes acute dystonia caused by antipsychotic medicines?",
+    "options": {
+      "A": "It usually begins only after several weeks of continuous treatment.",
+      "B": "It is a persistent, irreversible effect that is unaffected by dose reduction or discontinuation.",
+      "C": "It typically develops within hours to a few days after treatment initiation or a dose increase.",
+      "D": "It is unrelated to antipsychotic treatment and indicates an independent neurological disorder."
+    },
+    "correct_answer": "C",
+    "explanations": {
+      "A": "Symptoms developing after several weeks or longer are more characteristic of other extrapyramidal syndromes, such as akathisia or tardive syndromes, rather than acute dystonia.",
+      "B": "Acute dystonia is generally reversible, particularly with prompt treatment and adjustment or discontinuation of the causative medicine.",
+      "C": "Acute dystonia commonly occurs within hours to a few days after starting an antipsychotic or increasing its dose.",
+      "D": "Antipsychotics are a recognized cause of acute dystonia through dopamine D2-receptor blockade in motor pathways."
+    },
+    "calculation": null,
+    "source_id": 68,
+    "source_classification": "calculation",
+    "source_text": "What is the most appropriate description of dystonia caused by antipsychotics? A. The symptoms happen after a few weeks of taking the medication. B. Dystonia is reversible after decreasing the dose or stopping the medication. C. The symptoms occur immediately after taking the medication.\nD. Dystonia is not related to antipsychotic use.",
+    "ai_result": {
+      "status": "needs_review",
+      "review_required": true,
+      "review_reason": "The source wording is ambiguous because antipsychotic-induced dystonia can be reversible after dose reduction or discontinuation, while acute dystonia typically develops within hours to a few days rather than necessarily immediately after a dose. The question has been clarified to test the timing of acute dystonia.",
+      "confidence": 0.9,
+      "question_type": "factual",
+      "options_source": "ai_generated",
+      "source_answer": null,
+      "category": "Pharmacology & Toxicology",
+      "topic": "Antipsychotic-induced extrapyramidal adverse effects",
+      "difficulty": "easy",
+      "question": "Which statement best describes acute dystonia caused by antipsychotic medicines?",
+      "options": {
+        "A": "It usually begins only after several weeks of continuous treatment.",
+        "B": "It is a persistent, irreversible effect that is unaffected by dose reduction or discontinuation.",
+        "C": "It typically develops within hours to a few days after treatment initiation or a dose increase.",
+        "D": "It is unrelated to antipsychotic treatment and indicates an independent neurological disorder."
+      },
+      "correct_answer": "C",
+      "explanations": {
+        "A": "Symptoms developing after several weeks or longer are more characteristic of other extrapyramidal syndromes, such as akathisia or tardive syndromes, rather than acute dystonia.",
+        "B": "Acute dystonia is generally reversible, particularly with prompt treatment and adjustment or discontinuation of the causative medicine.",
+        "C": "Acute dystonia commonly occurs within hours to a few days after starting an antipsychotic or increasing its dose.",
+        "D": "Antipsychotics are a recognized cause of acute dystonia through dopamine D2-receptor blockade in motor pathways."
+      },
+      "calculation": null
+    },
+    "human_status": "approved",
+    "human_reviewed": true,
+    "human_review_note": ""
+  },
+  {
+    "source_id": 70,
+    "source_classification": "mcq",
+    "source_text": "Which drug should be used cautiously in psoriatic arthritis?\nA. Methotrexate \nB. Hydroxychloroquine \nC. Sulfasalazine \nD. Leflunomide \nAnswer: B. Hydroxychloroquine \nAs Hcq worsen psoriatic arthirithis ua it still used ? Or the ans should be Mtx used with caution to avoid myelosupression etc",
+    "ai_result": {
+      "status": "approved",
+      "review_required": false,
+      "review_reason": null,
+      "confidence": 0.95,
+      "question_type": "factual",
+      "options_source": "original",
+      "source_answer": "B",
+      "category": "Therapeutics & Patient Care",
+      "topic": "Pharmacotherapy of psoriatic arthritis",
+      "difficulty": "easy",
+      "question": "Which drug should be used cautiously in psoriatic arthritis because it may exacerbate psoriasis?",
+      "options": {
+        "A": "Methotrexate",
+        "B": "Hydroxychloroquine",
+        "C": "Sulfasalazine",
+        "D": "Leflunomide"
+      },
+      "correct_answer": "B",
+      "explanations": {
+        "A": "Methotrexate is used therapeutically in psoriatic arthritis and psoriasis, although it requires monitoring for adverse effects such as myelosuppression and hepatotoxicity.",
+        "B": "Hydroxychloroquine may precipitate or worsen psoriasis, so it should generally be avoided or used cautiously in patients with psoriatic arthritis.",
+        "C": "Sulfasalazine may be used as a conventional disease-modifying antirheumatic drug in selected patients with psoriatic arthritis and is not characteristically associated with worsening psoriasis.",
+        "D": "Leflunomide is an established treatment option for psoriatic arthritis; although it has important toxicities requiring monitoring, it is not selected specifically because it worsens psoriasis."
+      },
+      "calculation": null
+    }
+  },
+  {
+    "status": "needs_review",
+    "review_required": true,
+    "review_reason": "Source question is incomplete and requires human verification before publication.",
+    "confidence": 0.97,
+    "question_type": "factual",
+    "options_source": "ai_generated",
+    "source_answer": null,
+    "category": "Biomedical Sciences",
+    "topic": "Electrolyte and acid-base balance",
+    "difficulty": "easy",
+    "question": "Hyperchloremia is most characteristically associated with which acid-base disturbance?",
+    "options": {
+      "A": "Normal-anion-gap metabolic acidosis",
+      "B": "High-anion-gap metabolic acidosis",
+      "C": "Metabolic alkalosis",
+      "D": "Respiratory alkalosis"
+    },
+    "correct_answer": "A",
+    "explanations": {
+      "A": "Correct. Increased chloride is classically associated with hyperchloremic, or normal-anion-gap, metabolic acidosis, often because bicarbonate is reduced.",
+      "B": "High-anion-gap metabolic acidosis results from accumulation of unmeasured acids and is not the characteristic disturbance caused by hyperchloremia.",
+      "C": "Metabolic alkalosis is generally associated with increased bicarbonate rather than the bicarbonate reduction seen in hyperchloremic acidosis.",
+      "D": "Respiratory alkalosis is caused by excessive alveolar ventilation and reduced arterial carbon dioxide, not primarily by elevated chloride."
+    },
+    "calculation": null,
+    "source_id": 71,
+    "source_classification": "incomplete",
+    "source_text": "Hyperchloremia (abnormally high level of chloride in the blood) leads to metabolic acidosis",
+    "ai_result": {
+      "status": "needs_review",
+      "review_required": true,
+      "review_reason": "Source question is incomplete and requires human verification before publication.",
+      "confidence": 0.97,
+      "question_type": "factual",
+      "options_source": "ai_generated",
+      "source_answer": null,
+      "category": "Biomedical Sciences",
+      "topic": "Electrolyte and acid-base balance",
+      "difficulty": "easy",
+      "question": "Hyperchloremia is most characteristically associated with which acid-base disturbance?",
+      "options": {
+        "A": "Normal-anion-gap metabolic acidosis",
+        "B": "High-anion-gap metabolic acidosis",
+        "C": "Metabolic alkalosis",
+        "D": "Respiratory alkalosis"
+      },
+      "correct_answer": "A",
+      "explanations": {
+        "A": "Correct. Increased chloride is classically associated with hyperchloremic, or normal-anion-gap, metabolic acidosis, often because bicarbonate is reduced.",
+        "B": "High-anion-gap metabolic acidosis results from accumulation of unmeasured acids and is not the characteristic disturbance caused by hyperchloremia.",
+        "C": "Metabolic alkalosis is generally associated with increased bicarbonate rather than the bicarbonate reduction seen in hyperchloremic acidosis.",
+        "D": "Respiratory alkalosis is caused by excessive alveolar ventilation and reduced arterial carbon dioxide, not primarily by elevated chloride."
+      },
+      "calculation": null
+    },
+    "human_status": "approved",
+    "human_reviewed": true,
+    "human_review_note": ""
+  },
+  {
+    "status": "needs_review",
+    "review_required": true,
+    "review_reason": "The source is an incomplete fragment, although it most likely refers to lithium-induced nephrogenic diabetes insipidus.",
+    "confidence": 0.96,
+    "question_type": "factual",
+    "options_source": "ai_generated",
+    "source_answer": null,
+    "category": "Pharmacology & Toxicology",
+    "topic": "Lithium adverse effects",
+    "difficulty": "easy",
+    "question": "Which renal adverse effect is classically associated with chronic lithium therapy?",
+    "options": {
+      "A": "Nephrogenic diabetes insipidus",
+      "B": "Central diabetes insipidus",
+      "C": "Syndrome of inappropriate antidiuretic hormone secretion",
+      "D": "Acute postrenal kidney injury"
+    },
+    "correct_answer": "A",
+    "explanations": {
+      "A": "Lithium can reduce collecting-duct responsiveness to antidiuretic hormone, causing nephrogenic diabetes insipidus with polyuria and polydipsia.",
+      "B": "Central diabetes insipidus results from inadequate production or release of antidiuretic hormone and is not the characteristic renal effect of lithium.",
+      "C": "Syndrome of inappropriate antidiuretic hormone secretion causes excessive water retention and hyponatremia, rather than the polyuria associated with lithium.",
+      "D": "Acute postrenal kidney injury is caused by urinary tract obstruction and is not the classic renal adverse effect of lithium."
+    },
+    "calculation": null,
+    "source_id": 72,
+    "source_classification": "incomplete",
+    "source_text": "Li cause nephrogenic",
+    "ai_result": {
+      "status": "needs_review",
+      "review_required": true,
+      "review_reason": "The source is an incomplete fragment, although it most likely refers to lithium-induced nephrogenic diabetes insipidus.",
+      "confidence": 0.96,
+      "question_type": "factual",
+      "options_source": "ai_generated",
+      "source_answer": null,
+      "category": "Pharmacology & Toxicology",
+      "topic": "Lithium adverse effects",
+      "difficulty": "easy",
+      "question": "Which renal adverse effect is classically associated with chronic lithium therapy?",
+      "options": {
+        "A": "Nephrogenic diabetes insipidus",
+        "B": "Central diabetes insipidus",
+        "C": "Syndrome of inappropriate antidiuretic hormone secretion",
+        "D": "Acute postrenal kidney injury"
+      },
+      "correct_answer": "A",
+      "explanations": {
+        "A": "Lithium can reduce collecting-duct responsiveness to antidiuretic hormone, causing nephrogenic diabetes insipidus with polyuria and polydipsia.",
+        "B": "Central diabetes insipidus results from inadequate production or release of antidiuretic hormone and is not the characteristic renal effect of lithium.",
+        "C": "Syndrome of inappropriate antidiuretic hormone secretion causes excessive water retention and hyponatremia, rather than the polyuria associated with lithium.",
+        "D": "Acute postrenal kidney injury is caused by urinary tract obstruction and is not the classic renal adverse effect of lithium."
+      },
+      "calculation": null
+    },
+    "human_status": "approved",
+    "human_reviewed": true,
+    "human_review_note": ""
+  },
+  {
+    "status": "needs_review",
+    "review_required": true,
+    "review_reason": "The source is incomplete and does not specify whether the question concerns acute anaphylaxis evaluation or later allergy investigation. Tryptase is the best marker for confirming recent mast-cell activation in suspected immediate systemic reactions, whereas drug-specific IgE may be considered during subsequent allergy evaluation.",
+    "confidence": 0.9,
+    "question_type": "factual",
+    "options_source": "ai_generated",
+    "source_answer": "Tryptase",
+    "category": "Pharmacology & Toxicology",
+    "topic": "Drug hypersensitivity and anaphylaxis",
+    "difficulty": "easy",
+    "question": "Following a suspected immediate systemic allergic reaction to cephalexin, which laboratory marker is most appropriate to assess recent mast-cell activation?",
+    "options": {
+      "A": "Serum tryptase",
+      "B": "Cephalexin-specific IgE",
+      "C": "Total serum IgE",
+      "D": "Peripheral blood eosinophil count"
+    },
+    "correct_answer": "A",
+    "explanations": {
+      "A": "Serum tryptase is released during mast-cell activation and can support the diagnosis of a recent systemic immediate hypersensitivity reaction such as anaphylaxis.",
+      "B": "Cephalexin-specific IgE may be relevant to later allergy investigation, but it is not the primary marker of acute mast-cell activation.",
+      "C": "Total IgE is nonspecific and does not establish that cephalexin caused an immediate allergic reaction.",
+      "D": "Eosinophil counts are not useful for confirming an acute immediate hypersensitivity reaction."
+    },
+    "calculation": null,
+    "source_id": 73,
+    "source_classification": "unknown",
+    "source_text": "Allergy from cephalexin what to check tryptase or ige ?\nTryptase",
+    "ai_result": {
+      "status": "needs_review",
+      "review_required": true,
+      "review_reason": "The source is incomplete and does not specify whether the question concerns acute anaphylaxis evaluation or later allergy investigation. Tryptase is the best marker for confirming recent mast-cell activation in suspected immediate systemic reactions, whereas drug-specific IgE may be considered during subsequent allergy evaluation.",
+      "confidence": 0.9,
+      "question_type": "factual",
+      "options_source": "ai_generated",
+      "source_answer": "Tryptase",
+      "category": "Pharmacology & Toxicology",
+      "topic": "Drug hypersensitivity and anaphylaxis",
+      "difficulty": "easy",
+      "question": "Following a suspected immediate systemic allergic reaction to cephalexin, which laboratory marker is most appropriate to assess recent mast-cell activation?",
+      "options": {
+        "A": "Serum tryptase",
+        "B": "Cephalexin-specific IgE",
+        "C": "Total serum IgE",
+        "D": "Peripheral blood eosinophil count"
+      },
+      "correct_answer": "A",
+      "explanations": {
+        "A": "Serum tryptase is released during mast-cell activation and can support the diagnosis of a recent systemic immediate hypersensitivity reaction such as anaphylaxis.",
+        "B": "Cephalexin-specific IgE may be relevant to later allergy investigation, but it is not the primary marker of acute mast-cell activation.",
+        "C": "Total IgE is nonspecific and does not establish that cephalexin caused an immediate allergic reaction.",
+        "D": "Eosinophil counts are not useful for confirming an acute immediate hypersensitivity reaction."
+      },
+      "calculation": null
+    },
+    "human_status": "approved",
+    "human_reviewed": true,
+    "human_review_note": ""
+  },
+  {
+    "status": "needs_review",
+    "review_required": true,
+    "review_reason": "The source is abbreviated and does not specify the porphyria subtype. Thiopental and phenytoin are considered unsafe in acute hepatic porphyrias, but the wording should not be generalized to every porphyria subtype.",
+    "confidence": 0.92,
+    "question_type": "factual",
+    "options_source": "ai_generated",
+    "source_answer": "Both thiopental and phenytoin",
+    "category": "Pharmacology & Toxicology",
+    "topic": "Drug safety in acute hepatic porphyria",
+    "difficulty": "easy",
+    "question": "Which of the following drugs are contraindicated or considered unsafe in patients with acute hepatic porphyria?",
+    "options": {
+      "A": "Thiopental and phenytoin",
+      "B": "Thiopental only",
+      "C": "Phenytoin only",
+      "D": "Neither thiopental nor phenytoin"
+    },
+    "correct_answer": "A",
+    "explanations": {
+      "A": "Correct. Thiopental and phenytoin can induce hepatic heme synthesis and may precipitate an acute porphyric attack; both are therefore considered unsafe in acute hepatic porphyrias.",
+      "B": "Incorrect. Although thiopental is porphyrinogenic, phenytoin is also considered unsafe in acute hepatic porphyria.",
+      "C": "Incorrect. Phenytoin is unsafe, but thiopental is also contraindicated or strongly discouraged in acute hepatic porphyria.",
+      "D": "Incorrect. Both drugs have been associated with precipitation or worsening of acute porphyric attacks."
+    },
+    "calculation": null,
+    "source_id": 74,
+    "source_classification": "unknown",
+    "source_text": "In Porphyria C/I __ thiopental and phenytoin\nBoth",
+    "ai_result": {
+      "status": "needs_review",
+      "review_required": true,
+      "review_reason": "The source is abbreviated and does not specify the porphyria subtype. Thiopental and phenytoin are considered unsafe in acute hepatic porphyrias, but the wording should not be generalized to every porphyria subtype.",
+      "confidence": 0.92,
+      "question_type": "factual",
+      "options_source": "ai_generated",
+      "source_answer": "Both thiopental and phenytoin",
+      "category": "Pharmacology & Toxicology",
+      "topic": "Drug safety in acute hepatic porphyria",
+      "difficulty": "easy",
+      "question": "Which of the following drugs are contraindicated or considered unsafe in patients with acute hepatic porphyria?",
+      "options": {
+        "A": "Thiopental and phenytoin",
+        "B": "Thiopental only",
+        "C": "Phenytoin only",
+        "D": "Neither thiopental nor phenytoin"
+      },
+      "correct_answer": "A",
+      "explanations": {
+        "A": "Correct. Thiopental and phenytoin can induce hepatic heme synthesis and may precipitate an acute porphyric attack; both are therefore considered unsafe in acute hepatic porphyrias.",
+        "B": "Incorrect. Although thiopental is porphyrinogenic, phenytoin is also considered unsafe in acute hepatic porphyria.",
+        "C": "Incorrect. Phenytoin is unsafe, but thiopental is also contraindicated or strongly discouraged in acute hepatic porphyria.",
+        "D": "Incorrect. Both drugs have been associated with precipitation or worsening of acute porphyric attacks."
+      },
+      "calculation": null
+    },
+    "human_status": "approved",
+    "human_reviewed": true,
+    "human_review_note": ""
+  },
+  {
+    "status": "needs_review",
+    "review_required": true,
+    "review_reason": "The source is an incomplete note rather than a full question. The statement is broadly consistent with systemic retinoids, but contraindications may differ between individual retinoids and dosage forms, particularly during breastfeeding.",
+    "confidence": 0.9,
+    "question_type": "factual",
+    "options_source": "ai_generated",
+    "source_answer": "Retinoids",
+    "category": "Pharmacology & Toxicology",
+    "topic": "Teratogenic medicines and retinoid safety",
+    "difficulty": "easy",
+    "question": "Which class of medicines is contraindicated during both pregnancy and breastfeeding because of serious fetal or infant toxicity?",
+    "options": {
+      "A": "Systemic retinoids",
+      "B": "Penicillin antibiotics",
+      "C": "Proton-pump inhibitors",
+      "D": "Inhaled corticosteroids"
+    },
+    "correct_answer": "A",
+    "explanations": {
+      "A": "Systemic retinoids, such as isotretinoin and acitretin, are strongly teratogenic and should not be used during pregnancy or breastfeeding.",
+      "B": "Many penicillin antibiotics can be used during pregnancy and breastfeeding when clinically indicated.",
+      "C": "Proton-pump inhibitors are not generally contraindicated in both pregnancy and breastfeeding, although individual agents should be assessed.",
+      "D": "Inhaled corticosteroids are commonly used during pregnancy and breastfeeding when needed for asthma control."
+    },
+    "calculation": null,
+    "source_id": 75,
+    "source_classification": "unknown",
+    "source_text": "RETINOIDS CONTRAINDICATED PREGNANCY AND BREASTFEEDING Both",
+    "ai_result": {
+      "status": "needs_review",
+      "review_required": true,
+      "review_reason": "The source is an incomplete note rather than a full question. The statement is broadly consistent with systemic retinoids, but contraindications may differ between individual retinoids and dosage forms, particularly during breastfeeding.",
+      "confidence": 0.9,
+      "question_type": "factual",
+      "options_source": "ai_generated",
+      "source_answer": "Retinoids",
+      "category": "Pharmacology & Toxicology",
+      "topic": "Teratogenic medicines and retinoid safety",
+      "difficulty": "easy",
+      "question": "Which class of medicines is contraindicated during both pregnancy and breastfeeding because of serious fetal or infant toxicity?",
+      "options": {
+        "A": "Systemic retinoids",
+        "B": "Penicillin antibiotics",
+        "C": "Proton-pump inhibitors",
+        "D": "Inhaled corticosteroids"
+      },
+      "correct_answer": "A",
+      "explanations": {
+        "A": "Systemic retinoids, such as isotretinoin and acitretin, are strongly teratogenic and should not be used during pregnancy or breastfeeding.",
+        "B": "Many penicillin antibiotics can be used during pregnancy and breastfeeding when clinically indicated.",
+        "C": "Proton-pump inhibitors are not generally contraindicated in both pregnancy and breastfeeding, although individual agents should be assessed.",
+        "D": "Inhaled corticosteroids are commonly used during pregnancy and breastfeeding when needed for asthma control."
+      },
+      "calculation": null
+    },
+    "human_status": "approved",
+    "human_reviewed": true,
+    "human_review_note": ""
+  },
+  {
+    "status": "needs_review",
+    "review_required": true,
+    "review_reason": "The source wording says \"regulates gene expression,\" but the listed RNA types suggest the intended concept is which RNA carries genetic information and participates in gene expression. Strictly speaking, mRNA mediates gene expression rather than regulating it; regulatory RNAs such as microRNA were not supplied in the source.",
+    "confidence": 0.82,
+    "question_type": "factual",
+    "options_source": "ai_generated",
+    "source_answer": null,
+    "category": "Biomedical Sciences",
+    "topic": "RNA types and gene expression",
+    "difficulty": "easy",
+    "question": "Which type of RNA carries the genetic information from DNA to the ribosome and participates directly in protein expression?",
+    "options": {
+      "A": "Messenger RNA (mRNA)",
+      "B": "Transfer RNA (tRNA)",
+      "C": "Ribosomal RNA (rRNA)",
+      "D": "Small nuclear RNA (snRNA)"
+    },
+    "correct_answer": "A",
+    "explanations": {
+      "A": "mRNA carries the coding information transcribed from DNA to the ribosome, where it serves as the template for protein synthesis.",
+      "B": "tRNA delivers specific amino acids to the ribosome and pairs its anticodon with mRNA codons.",
+      "C": "rRNA forms the structural and catalytic core of the ribosome but does not carry the genetic message from DNA.",
+      "D": "snRNA participates mainly in pre-mRNA splicing within the nucleus."
+    },
+    "calculation": null,
+    "source_id": 76,
+    "source_classification": "unknown",
+    "source_text": "Which regulates gene expression?\nmRna \ntRna \ntRNA just delivering Amino acids",
+    "ai_result": {
+      "status": "needs_review",
+      "review_required": true,
+      "review_reason": "The source wording says \"regulates gene expression,\" but the listed RNA types suggest the intended concept is which RNA carries genetic information and participates in gene expression. Strictly speaking, mRNA mediates gene expression rather than regulating it; regulatory RNAs such as microRNA were not supplied in the source.",
+      "confidence": 0.82,
+      "question_type": "factual",
+      "options_source": "ai_generated",
+      "source_answer": null,
+      "category": "Biomedical Sciences",
+      "topic": "RNA types and gene expression",
+      "difficulty": "easy",
+      "question": "Which type of RNA carries the genetic information from DNA to the ribosome and participates directly in protein expression?",
+      "options": {
+        "A": "Messenger RNA (mRNA)",
+        "B": "Transfer RNA (tRNA)",
+        "C": "Ribosomal RNA (rRNA)",
+        "D": "Small nuclear RNA (snRNA)"
+      },
+      "correct_answer": "A",
+      "explanations": {
+        "A": "mRNA carries the coding information transcribed from DNA to the ribosome, where it serves as the template for protein synthesis.",
+        "B": "tRNA delivers specific amino acids to the ribosome and pairs its anticodon with mRNA codons.",
+        "C": "rRNA forms the structural and catalytic core of the ribosome but does not carry the genetic message from DNA.",
+        "D": "snRNA participates mainly in pre-mRNA splicing within the nucleus."
+      },
+      "calculation": null
+    },
+    "human_status": "approved",
+    "human_reviewed": true,
+    "human_review_note": ""
+  },
+  {
+    "status": "needs_review",
+    "review_required": true,
+    "review_reason": "The intended incorrect statement is likely C because amiodarone commonly requires digoxin dose reduction by approximately 50%, not specifically to one-third. However, the magnitude of dose reduction varies by reference and patient factors, so the wording is not fully precise.",
+    "confidence": 0.88,
+    "question_type": "calculation",
+    "options_source": "source_preserved_with_ai_formatting",
+    "source_answer": null,
+    "category": "Pharmacology & Toxicology",
+    "topic": "Drug-drug interactions involving amiodarone",
+    "difficulty": "medium",
+    "question": "Which statement about amiodarone interactions is not correct?",
+    "options": {
+      "A": "A. Amiodarone can cause hypothyroidism or hyperthyroidism and may therefore alter thyroid-hormone treatment requirements.",
+      "B": "Amiodarone inhibits CYP3A4/5.",
+      "C": "When amiodarone is initiated, the digoxin dose should routinely be reduced to one-third of the original dose.",
+      "D": "Amiodarone can contribute to QT prolongation when used with venlafaxine."
+    },
+    "correct_answer": "C",
+    "explanations": {
+      "A": "Correct. Amiodarone can cause thyroid dysfunction and alter thyroid hormone requirements, potentially affecting patients treated with levothyroxine.",
+      "B": "Correct. Amiodarone inhibits CYP3A4 and can increase exposure to drugs metabolized by this pathway.",
+      "C": "Incorrect. Amiodarone increases digoxin exposure, and digoxin dosage is commonly reduced by about 50% with close monitoring; a fixed reduction to one-third is not routinely appropriate for all patients.",
+      "D": "Correct. Amiodarone and venlafaxine can both prolong the QT interval, increasing the risk of additive QT prolongation."
+    },
+    "calculation": null,
+    "source_id": 77,
+    "source_classification": "calculation",
+    "source_text": "Which statement about amiodarone interactions is not correct? A. It interacts with levothyroxine and can affect controlled hypothyroidism B. It is an inhibitor of CYP3A4/5\nC. Digoxin dose should be reduced to one-third \nD. It causes QT prolongation with venlafaxine",
+    "ai_result": {
+      "status": "needs_review",
+      "review_required": true,
+      "review_reason": "The intended incorrect statement is likely C because amiodarone commonly requires digoxin dose reduction by approximately 50%, not specifically to one-third. However, the magnitude of dose reduction varies by reference and patient factors, so the wording is not fully precise.",
+      "confidence": 0.88,
+      "question_type": "calculation",
+      "options_source": "source_preserved_with_ai_formatting",
+      "source_answer": null,
+      "category": "Pharmacology & Toxicology",
+      "topic": "Drug-drug interactions involving amiodarone",
+      "difficulty": "medium",
+      "question": "Which statement about amiodarone interactions is not correct?",
+      "options": {
+        "A": "A. Amiodarone can cause hypothyroidism or hyperthyroidism and may therefore alter thyroid-hormone treatment requirements.",
+        "B": "Amiodarone inhibits CYP3A4/5.",
+        "C": "When amiodarone is initiated, the digoxin dose should routinely be reduced to one-third of the original dose.",
+        "D": "Amiodarone can contribute to QT prolongation when used with venlafaxine."
+      },
+      "correct_answer": "C",
+      "explanations": {
+        "A": "Correct. Amiodarone can cause thyroid dysfunction and alter thyroid hormone requirements, potentially affecting patients treated with levothyroxine.",
+        "B": "Correct. Amiodarone inhibits CYP3A4 and can increase exposure to drugs metabolized by this pathway.",
+        "C": "Incorrect. Amiodarone increases digoxin exposure, and digoxin dosage is commonly reduced by about 50% with close monitoring; a fixed reduction to one-third is not routinely appropriate for all patients.",
+        "D": "Correct. Amiodarone and venlafaxine can both prolong the QT interval, increasing the risk of additive QT prolongation."
+      },
+      "calculation": null
+    },
+    "human_status": "approved",
+    "human_reviewed": true,
+    "human_review_note": "Approved after human editing."
+  },
+  {
+    "status": "needs_review",
+    "review_required": true,
+    "review_reason": "The source question provides no answer options or clinical context, so the intended meaning of 'least associated' is uncertain. The item has been reconstructed using common pharmacological effects and adverse effects of aspirin.",
+    "confidence": 0.82,
+    "question_type": "factual",
+    "options_source": "ai_generated",
+    "source_answer": null,
+    "category": "Pharmacology & Toxicology",
+    "topic": "Aspirin pharmacology and adverse effects",
+    "difficulty": "easy",
+    "question": "Which of the following is least associated with aspirin use?",
+    "options": {
+      "A": "Gastrointestinal irritation and bleeding",
+      "B": "Inhibition of platelet aggregation",
+      "C": "Tinnitus, particularly in salicylate toxicity",
+      "D": "Marked respiratory depression at therapeutic doses"
+    },
+    "correct_answer": "D",
+    "explanations": {
+      "A": "Aspirin inhibits protective prostaglandin synthesis in the gastrointestinal tract and can cause irritation, ulceration, and bleeding.",
+      "B": "Aspirin irreversibly inhibits platelet cyclooxygenase-1, reducing thromboxane A2 formation and platelet aggregation.",
+      "C": "Tinnitus is a recognized symptom of salicylate toxicity and may indicate excessive aspirin exposure.",
+      "D": "Marked respiratory depression is not a typical effect of aspirin at therapeutic doses; salicylate toxicity more commonly causes hyperventilation and respiratory alkalosis initially."
+    },
+    "calculation": null,
+    "source_id": 79,
+    "source_classification": "unknown",
+    "source_text": "Which is least associated with aspirin?",
+    "ai_result": {
+      "status": "needs_review",
+      "review_required": true,
+      "review_reason": "The source question provides no answer options or clinical context, so the intended meaning of 'least associated' is uncertain. The item has been reconstructed using common pharmacological effects and adverse effects of aspirin.",
+      "confidence": 0.82,
+      "question_type": "factual",
+      "options_source": "ai_generated",
+      "source_answer": null,
+      "category": "Pharmacology & Toxicology",
+      "topic": "Aspirin pharmacology and adverse effects",
+      "difficulty": "easy",
+      "question": "Which of the following is least associated with aspirin use?",
+      "options": {
+        "A": "Gastrointestinal irritation and bleeding",
+        "B": "Inhibition of platelet aggregation",
+        "C": "Tinnitus, particularly in salicylate toxicity",
+        "D": "Marked respiratory depression at therapeutic doses"
+      },
+      "correct_answer": "D",
+      "explanations": {
+        "A": "Aspirin inhibits protective prostaglandin synthesis in the gastrointestinal tract and can cause irritation, ulceration, and bleeding.",
+        "B": "Aspirin irreversibly inhibits platelet cyclooxygenase-1, reducing thromboxane A2 formation and platelet aggregation.",
+        "C": "Tinnitus is a recognized symptom of salicylate toxicity and may indicate excessive aspirin exposure.",
+        "D": "Marked respiratory depression is not a typical effect of aspirin at therapeutic doses; salicylate toxicity more commonly causes hyperventilation and respiratory alkalosis initially."
+      },
+      "calculation": null
+    },
+    "human_status": "approved",
+    "human_reviewed": true,
+    "human_review_note": ""
+  },
+  {
+    "source_id": 80,
+    "source_classification": "mcq",
+    "source_text": "Scleroderma mainly affects which tissue?\nA. Epithelial cells \nB. Striated muscle \nC. Connective tissue with fibrosis and collagen deposition \nD. Red blood cells",
+    "ai_result": {
+      "status": "approved",
+      "review_required": false,
+      "review_reason": null,
+      "confidence": 0.99,
+      "question_type": "factual",
+      "options_source": "provided",
+      "source_answer": null,
+      "category": "Biomedical Sciences",
+      "topic": "Scleroderma and connective tissue pathology",
+      "difficulty": "easy",
+      "question": "Scleroderma mainly affects which tissue?",
+      "options": {
+        "A": "Epithelial cells",
+        "B": "Striated muscle",
+        "C": "Connective tissue with fibrosis and collagen deposition",
+        "D": "Red blood cells"
+      },
+      "correct_answer": "C",
+      "explanations": {
+        "A": "Epithelial cells are not the primary tissue affected in scleroderma.",
+        "B": "Striated muscle is not the principal site of the characteristic scleroderma pathology.",
+        "C": "Scleroderma is a connective tissue disorder characterized by excessive collagen deposition and fibrosis, leading to skin thickening and possible internal-organ involvement.",
+        "D": "Red blood cells are not the primary tissue affected by scleroderma."
+      },
+      "calculation": null
+    }
+  },
+  {
+    "status": "needs_review",
+    "review_required": true,
+    "review_reason": "Codeine is the best answer among the listed options, but it is not risk-free in pregnancy and the question does not specify gestational age, dose, or clinical indication. Ibuprofen may be used in limited circumstances earlier in pregnancy but should be avoided later, particularly in the third trimester.",
+    "confidence": 0.84,
+    "question_type": "factual",
+    "options_source": "source",
+    "source_answer": null,
+    "category": "Therapeutics & Patient Care",
+    "topic": "Medication safety in pregnancy",
+    "difficulty": "easy",
+    "question": "Which of the following medications is generally considered safer to use in pregnant women?",
+    "options": {
+      "A": "Ibuprofen",
+      "B": "Codeine",
+      "C": "Carbamazepine",
+      "D": "Warfarin"
+    },
+    "correct_answer": "B",
+    "explanations": {
+      "A": "Ibuprofen and other NSAIDs should generally be avoided later in pregnancy, especially during the third trimester, because of fetal and neonatal risks.",
+      "B": "Codeine may be used during pregnancy when clinically necessary and when the benefits outweigh the risks, although prolonged or late-pregnancy use may cause neonatal respiratory depression or withdrawal.",
+      "C": "Carbamazepine is associated with congenital malformations, including neural tube defects, and should be used in pregnancy only when clearly indicated.",
+      "D": "Warfarin crosses the placenta and is associated with fetal bleeding and embryopathy, so it is generally avoided during pregnancy."
+    },
+    "calculation": null,
+    "source_id": 81,
+    "source_classification": "mcq",
+    "source_text": "Which of the following medications is generally considered safer to use in pregnant women?\nA. Ibuprofen \nB. Codeine \nC. Carbamazepine \nD. Warfarin \nagain NOT in BF but Ok pregnant",
+    "ai_result": {
+      "status": "needs_review",
+      "review_required": true,
+      "review_reason": "Codeine is the best answer among the listed options, but it is not risk-free in pregnancy and the question does not specify gestational age, dose, or clinical indication. Ibuprofen may be used in limited circumstances earlier in pregnancy but should be avoided later, particularly in the third trimester.",
+      "confidence": 0.84,
+      "question_type": "factual",
+      "options_source": "source",
+      "source_answer": null,
+      "category": "Therapeutics & Patient Care",
+      "topic": "Medication safety in pregnancy",
+      "difficulty": "easy",
+      "question": "Which of the following medications is generally considered safer to use in pregnant women?",
+      "options": {
+        "A": "Ibuprofen",
+        "B": "Codeine",
+        "C": "Carbamazepine",
+        "D": "Warfarin"
+      },
+      "correct_answer": "B",
+      "explanations": {
+        "A": "Ibuprofen and other NSAIDs should generally be avoided later in pregnancy, especially during the third trimester, because of fetal and neonatal risks.",
+        "B": "Codeine may be used during pregnancy when clinically necessary and when the benefits outweigh the risks, although prolonged or late-pregnancy use may cause neonatal respiratory depression or withdrawal.",
+        "C": "Carbamazepine is associated with congenital malformations, including neural tube defects, and should be used in pregnancy only when clearly indicated.",
+        "D": "Warfarin crosses the placenta and is associated with fetal bleeding and embryopathy, so it is generally avoided during pregnancy."
+      },
+      "calculation": null
+    },
+    "human_status": "approved",
+    "human_reviewed": true,
+    "human_review_note": ""
+  },
+  {
+    "status": "needs_review",
+    "review_required": true,
+    "review_reason": "The remembered stem is incomplete and ambiguous ('Broad spectrum cover +/-?'). The intended concept appears to be broad-spectrum antibacterial activity against Gram-positive and Gram-negative organisms, with amoxicillin–clavulanate identified as the answer.",
+    "confidence": 0.88,
+    "question_type": "factual",
+    "options_source": "ai_generated",
+    "source_answer": "Amoxicillin–clavulanate (co-amoxiclav, amoxiclav)",
+    "category": "Pharmacology & Toxicology",
+    "topic": "Antibacterial spectrum and beta-lactamase inhibition",
+    "difficulty": "easy",
+    "question": "Which antibiotic combination is commonly used to provide broad-spectrum coverage against many Gram-positive and Gram-negative bacteria, including some beta-lactamase-producing organisms?",
+    "options": {
+      "A": "Benzylpenicillin",
+      "B": "Amoxicillin–clavulanate",
+      "C": "Flucloxacillin",
+      "D": "Aztreonam"
+    },
+    "correct_answer": "B",
+    "explanations": {
+      "A": "Benzylpenicillin has a relatively narrow antibacterial spectrum and is susceptible to many beta-lactamases.",
+      "B": "Amoxicillin–clavulanate combines the broad-spectrum aminopenicillin amoxicillin with clavulanate, which inhibits some beta-lactamases and extends activity against certain resistant organisms.",
+      "C": "Flucloxacillin is relatively narrow-spectrum and is primarily used for susceptible staphylococcal infections.",
+      "D": "Aztreonam mainly targets aerobic Gram-negative bacteria and does not provide broad Gram-positive and Gram-negative coverage."
+    },
+    "calculation": null,
+    "source_id": 82,
+    "source_classification": "unknown",
+    "source_text": "Broad spetrum cover +/- ?\nAmoxiclav (Correct )",
+    "ai_result": {
+      "status": "needs_review",
+      "review_required": true,
+      "review_reason": "The remembered stem is incomplete and ambiguous ('Broad spectrum cover +/-?'). The intended concept appears to be broad-spectrum antibacterial activity against Gram-positive and Gram-negative organisms, with amoxicillin–clavulanate identified as the answer.",
+      "confidence": 0.88,
+      "question_type": "factual",
+      "options_source": "ai_generated",
+      "source_answer": "Amoxicillin–clavulanate (co-amoxiclav, amoxiclav)",
+      "category": "Pharmacology & Toxicology",
+      "topic": "Antibacterial spectrum and beta-lactamase inhibition",
+      "difficulty": "easy",
+      "question": "Which antibiotic combination is commonly used to provide broad-spectrum coverage against many Gram-positive and Gram-negative bacteria, including some beta-lactamase-producing organisms?",
+      "options": {
+        "A": "Benzylpenicillin",
+        "B": "Amoxicillin–clavulanate",
+        "C": "Flucloxacillin",
+        "D": "Aztreonam"
+      },
+      "correct_answer": "B",
+      "explanations": {
+        "A": "Benzylpenicillin has a relatively narrow antibacterial spectrum and is susceptible to many beta-lactamases.",
+        "B": "Amoxicillin–clavulanate combines the broad-spectrum aminopenicillin amoxicillin with clavulanate, which inhibits some beta-lactamases and extends activity against certain resistant organisms.",
+        "C": "Flucloxacillin is relatively narrow-spectrum and is primarily used for susceptible staphylococcal infections.",
+        "D": "Aztreonam mainly targets aerobic Gram-negative bacteria and does not provide broad Gram-positive and Gram-negative coverage."
+      },
+      "calculation": null
+    },
+    "human_status": "approved",
+    "human_reviewed": true,
+    "human_review_note": ""
+  },
+  {
+    "status": "needs_review",
+    "review_required": true,
+    "review_reason": "The remembered source is incomplete and ambiguous, but the clinically relevant interaction is the increased risk of serotonin syndrome when St John's wort is combined with fluoxetine.",
+    "confidence": 0.94,
+    "question_type": "factual",
+    "options_source": "ai_generated",
+    "source_answer": null,
+    "category": "Pharmacology & Toxicology",
+    "topic": "Herb–drug interactions and serotonin syndrome",
+    "difficulty": "easy",
+    "question": "What is the main clinically important concern when St John's wort is used concomitantly with fluoxetine?",
+    "options": {
+      "A": "Increased risk of serotonin syndrome",
+      "B": "Severe hypoglycaemia due to an additive insulin-like effect",
+      "C": "Marked reduction in fluoxetine absorption caused by gastric pH elevation",
+      "D": "Additive QT-interval shortening leading to ventricular arrhythmias"
+    },
+    "correct_answer": "A",
+    "explanations": {
+      "A": "Correct. Both St John's wort and fluoxetine can enhance serotonergic neurotransmission, so concomitant use may increase the risk of serotonin syndrome and is generally avoided.",
+      "B": "Incorrect. Neither St John's wort nor fluoxetine typically causes clinically significant hypoglycaemia through an insulin-like mechanism.",
+      "C": "Incorrect. A major reduction in fluoxetine absorption from increased gastric pH is not the principal interaction between these agents.",
+      "D": "Incorrect. QT-interval shortening is not the characteristic interaction associated with combining St John's wort and fluoxetine."
+    },
+    "calculation": null,
+    "source_id": 83,
+    "source_classification": "unknown",
+    "source_text": "Can you conferm about st john and flouxitine rxn ?\nNo interaction \nSertonin syndrome ? \n@Mustafa NO RX",
+    "ai_result": {
+      "status": "needs_review",
+      "review_required": true,
+      "review_reason": "The remembered source is incomplete and ambiguous, but the clinically relevant interaction is the increased risk of serotonin syndrome when St John's wort is combined with fluoxetine.",
+      "confidence": 0.94,
+      "question_type": "factual",
+      "options_source": "ai_generated",
+      "source_answer": null,
+      "category": "Pharmacology & Toxicology",
+      "topic": "Herb–drug interactions and serotonin syndrome",
+      "difficulty": "easy",
+      "question": "What is the main clinically important concern when St John's wort is used concomitantly with fluoxetine?",
+      "options": {
+        "A": "Increased risk of serotonin syndrome",
+        "B": "Severe hypoglycaemia due to an additive insulin-like effect",
+        "C": "Marked reduction in fluoxetine absorption caused by gastric pH elevation",
+        "D": "Additive QT-interval shortening leading to ventricular arrhythmias"
+      },
+      "correct_answer": "A",
+      "explanations": {
+        "A": "Correct. Both St John's wort and fluoxetine can enhance serotonergic neurotransmission, so concomitant use may increase the risk of serotonin syndrome and is generally avoided.",
+        "B": "Incorrect. Neither St John's wort nor fluoxetine typically causes clinically significant hypoglycaemia through an insulin-like mechanism.",
+        "C": "Incorrect. A major reduction in fluoxetine absorption from increased gastric pH is not the principal interaction between these agents.",
+        "D": "Incorrect. QT-interval shortening is not the characteristic interaction associated with combining St John's wort and fluoxetine."
+      },
+      "calculation": null
+    },
+    "human_status": "approved",
+    "human_reviewed": true,
+    "human_review_note": ""
+  },
+  {
+    "status": "needs_review",
+    "review_required": true,
+    "review_reason": "The source is a brief, incomplete statement and does not specify the intended legal or ethical context. The question has been interpreted as testing patient confidentiality and consent requirements.",
+    "confidence": 0.88,
+    "question_type": "principle-based",
+    "options_source": "ai_generated",
+    "source_answer": null,
+    "category": "Therapeutics & Patient Care",
+    "topic": "Patient confidentiality and disclosure of health information",
+    "difficulty": "easy",
+    "question": "Which statement best reflects the general rule for disclosing a patient's health information?",
+    "options": {
+      "A": "Disclose the information only with the patient's valid consent or when disclosure is otherwise legally authorized.",
+      "B": "Disclose the information to any family member who requests it, provided they claim to be involved in the patient's care.",
+      "C": "Disclose the information to any healthcare professional without consent whenever it may be useful.",
+      "D": "Disclose the information whenever another person believes that access would be beneficial to the patient."
+    },
+    "correct_answer": "A",
+    "explanations": {
+      "A": "Patient health information is confidential and should generally be disclosed only with valid consent or under a recognized legal or professional exception.",
+      "B": "Family relationships or claimed involvement in care do not automatically authorize access to confidential patient information.",
+      "C": "Being a healthcare professional does not by itself permit unrestricted access to a patient's information without consent or another lawful basis.",
+      "D": "A perceived benefit to the patient alone is insufficient to justify disclosure of confidential information."
+    },
+    "calculation": null,
+    "source_id": 84,
+    "source_classification": "unknown",
+    "source_text": "Don’t give Health provider patient information without consent",
+    "ai_result": {
+      "status": "needs_review",
+      "review_required": true,
+      "review_reason": "The source is a brief, incomplete statement and does not specify the intended legal or ethical context. The question has been interpreted as testing patient confidentiality and consent requirements.",
+      "confidence": 0.88,
+      "question_type": "principle-based",
+      "options_source": "ai_generated",
+      "source_answer": null,
+      "category": "Therapeutics & Patient Care",
+      "topic": "Patient confidentiality and disclosure of health information",
+      "difficulty": "easy",
+      "question": "Which statement best reflects the general rule for disclosing a patient's health information?",
+      "options": {
+        "A": "Disclose the information only with the patient's valid consent or when disclosure is otherwise legally authorized.",
+        "B": "Disclose the information to any family member who requests it, provided they claim to be involved in the patient's care.",
+        "C": "Disclose the information to any healthcare professional without consent whenever it may be useful.",
+        "D": "Disclose the information whenever another person believes that access would be beneficial to the patient."
+      },
+      "correct_answer": "A",
+      "explanations": {
+        "A": "Patient health information is confidential and should generally be disclosed only with valid consent or under a recognized legal or professional exception.",
+        "B": "Family relationships or claimed involvement in care do not automatically authorize access to confidential patient information.",
+        "C": "Being a healthcare professional does not by itself permit unrestricted access to a patient's information without consent or another lawful basis.",
+        "D": "A perceived benefit to the patient alone is insufficient to justify disclosure of confidential information."
+      },
+      "calculation": null
+    },
+    "human_status": "approved",
+    "human_reviewed": true,
+    "human_review_note": ""
+  },
+  {
+    "status": "needs_review",
+    "review_required": true,
+    "review_reason": "Both aminoglycosides and oral vancomycin have negligible systemic oral bioavailability. The intended answer appears to be aminoglycosides, but the original wording is ambiguous unless the distinction between systemic therapy and local intestinal treatment is stated.",
+    "confidence": 0.78,
+    "question_type": "factual",
+    "options_source": "ai_generated",
+    "source_answer": "Aminoglycosides",
+    "category": "Pharmacokinetics & Pharmacodynamics",
+    "topic": "Oral bioavailability of antibiotics",
+    "difficulty": "easy",
+    "question": "Which antibiotic class is generally administered parenterally for systemic infections because of negligible gastrointestinal absorption?",
+    "options": {
+      "A": "Aminoglycosides",
+      "B": "Vancomycin",
+      "C": "Dapsone",
+      "D": "Amoxicillin"
+    },
+    "correct_answer": "A",
+    "explanations": {
+      "A": "Aminoglycosides are highly polar molecules with negligible gastrointestinal absorption, so they are generally administered parenterally for systemic infections.",
+      "B": "Oral vancomycin also has negligible systemic absorption, but it is administered orally for local intestinal treatment, particularly Clostridioides difficile colitis; therefore, this option creates ambiguity in the original question.",
+      "C": "Dapsone is well absorbed after oral administration and is routinely used by the oral route.",
+      "D": "Amoxicillin is absorbed orally and is commonly administered by mouth for susceptible infections."
+    },
+    "calculation": null,
+    "source_id": 86,
+    "source_classification": "incomplete",
+    "source_text": "Which of following antibiotic has least oral bioavailibility ?\nAminoglycosides *1st* \nVancomycin *2* \nDapsone \nNo oral routes for Aminoglycosides \nVanco can be used as local action in case colitis",
+    "ai_result": {
+      "status": "needs_review",
+      "review_required": true,
+      "review_reason": "Both aminoglycosides and oral vancomycin have negligible systemic oral bioavailability. The intended answer appears to be aminoglycosides, but the original wording is ambiguous unless the distinction between systemic therapy and local intestinal treatment is stated.",
+      "confidence": 0.78,
+      "question_type": "factual",
+      "options_source": "ai_generated",
+      "source_answer": "Aminoglycosides",
+      "category": "Pharmacokinetics & Pharmacodynamics",
+      "topic": "Oral bioavailability of antibiotics",
+      "difficulty": "easy",
+      "question": "Which of the following antibiotic groups is generally not available as an oral systemic therapy because of negligible gastrointestinal absorption?",
+      "options": {
+        "A": "Aminoglycosides",
+        "B": "Vancomycin",
+        "C": "Dapsone",
+        "D": "Amoxicillin"
+      },
+      "correct_answer": "A",
+      "explanations": {
+        "A": "Aminoglycosides are highly polar molecules with negligible gastrointestinal absorption, so they are generally administered parenterally for systemic infections.",
+        "B": "Oral vancomycin also has negligible systemic absorption, but it is administered orally for local intestinal treatment, particularly Clostridioides difficile colitis; therefore, this option creates ambiguity in the original question.",
+        "C": "Dapsone is well absorbed after oral administration and is routinely used by the oral route.",
+        "D": "Amoxicillin is absorbed orally and is commonly administered by mouth for susceptible infections."
+      },
+      "calculation": null
+    },
+    "human_status": "approved",
+    "human_reviewed": true,
+    "human_review_note": "Approved after human editing."
+  },
+  {
+    "source_id": 87,
+    "source_classification": "unknown",
+    "source_text": "If a patient has been ordered salbutamol aerosol and beclomethasone aerosol, both to be inhaled four times a day, the patient should inhale the beclomethasone. a. 10 minutes after salbutamol\nb. Immediately after salbutamol \nc. 10 minutes before salbutamol \nd. Immediately before salbutamol \ne. At any convenient time",
+    "ai_result": {
+      "status": "approved",
+      "review_required": false,
+      "review_reason": null,
+      "confidence": 0.98,
+      "question_type": "factual",
+      "options_source": "ai_generated",
+      "source_answer": null,
+      "category": "Therapeutics & Patient Care",
+      "topic": "Sequence of administration of inhaled bronchodilators and corticosteroids",
+      "difficulty": "easy",
+      "question": "If a patient is prescribed salbutamol aerosol and beclomethasone aerosol, both to be inhaled four times daily, when should the patient inhale the beclomethasone?",
+      "options": {
+        "A": "Approximately 10 minutes after salbutamol",
+        "B": "Immediately after salbutamol without waiting",
+        "C": "Approximately 10 minutes before salbutamol",
+        "D": "Immediately before salbutamol"
+      },
+      "correct_answer": "A",
+      "explanations": {
+        "A": "Correct. Salbutamol should be inhaled first to produce bronchodilation, allowing better delivery of the subsequently administered beclomethasone to the lower airways.",
+        "B": "Incorrect. Although the bronchodilator should be given first, allowing several minutes for its effect is preferred before administering beclomethasone.",
+        "C": "Incorrect. Administering beclomethasone before salbutamol may reduce delivery of the corticosteroid when bronchoconstriction is present.",
+        "D": "Incorrect. Beclomethasone should not routinely be administered immediately before the bronchodilator; salbutamol is generally used first."
+      },
+      "calculation": null
+    }
+  },
+  {
+    "status": "needs_review",
+    "review_required": true,
+    "review_reason": "Clomifene is commonly started on days 2-5 and taken for 5 days, so a days 5-9 regimen is a recognized protocol but is not universally preferred. Option A is also problematic because cycle day 0 is not standard and the interval overlaps commonly used starting schedules.",
+    "confidence": 0.82,
+    "question_type": "factual",
+    "options_source": "original",
+    "source_answer": null,
+    "category": "Therapeutics & Patient Care",
+    "topic": "Ovulation induction with clomifene",
+    "difficulty": "easy",
+    "question": "When should clomifene be taken to induce ovulation?",
+    "options": {
+      "A": "Days 0-5 of the menstrual cycle",
+      "B": "Days 5-9 of the menstrual cycle",
+      "C": "Days 10-14 of the menstrual cycle",
+      "D": "Days 20-24 of the menstrual cycle"
+    },
+    "correct_answer": "B",
+    "explanations": {
+      "A": "This is not conventionally expressed because cycle day 0 is not a standard menstrual-cycle designation. Clomifene may be started between days 2 and 5, but this option is ambiguous and overlaps with other regimens.",
+      "B": "This represents a recognized 5-day clomifene regimen beginning on day 5, and is the intended best answer among the listed options.",
+      "C": "Starting clomifene on days 10-14 is generally too late for the usual ovulation-induction regimen, which is normally initiated early in the cycle.",
+      "D": "Days 20-24 are generally too late in the cycle for initiating clomifene treatment and would not be the usual ovulation-induction schedule."
+    },
+    "calculation": null,
+    "source_id": 88,
+    "source_classification": "mcq",
+    "source_text": "When should clomifene be taken to induce ovulation?\nA. Days 0-5 of the menstrual cycle \nB. Days 5-9 of the menstrual cycle \nC. Days 10-14 of the menstrual cycle \nD. Days 20-24 of the menstrual cycle \nB \nNote: if there is not option of 2 to 5 days than we choose B",
+    "ai_result": {
+      "status": "needs_review",
+      "review_required": true,
+      "review_reason": "Clomifene is commonly started on days 2-5 and taken for 5 days, so a days 5-9 regimen is a recognized protocol but is not universally preferred. Option A is also problematic because cycle day 0 is not standard and the interval overlaps commonly used starting schedules.",
+      "confidence": 0.82,
+      "question_type": "factual",
+      "options_source": "original",
+      "source_answer": null,
+      "category": "Therapeutics & Patient Care",
+      "topic": "Ovulation induction with clomifene",
+      "difficulty": "easy",
+      "question": "When should clomifene be taken to induce ovulation?",
+      "options": {
+        "A": "Days 0-5 of the menstrual cycle",
+        "B": "Days 5-9 of the menstrual cycle",
+        "C": "Days 10-14 of the menstrual cycle",
+        "D": "Days 20-24 of the menstrual cycle"
+      },
+      "correct_answer": "B",
+      "explanations": {
+        "A": "This is not conventionally expressed because cycle day 0 is not a standard menstrual-cycle designation. Clomifene may be started between days 2 and 5, but this option is ambiguous and overlaps with other regimens.",
+        "B": "This represents a recognized 5-day clomifene regimen beginning on day 5, and is the intended best answer among the listed options.",
+        "C": "Starting clomifene on days 10-14 is generally too late for the usual ovulation-induction regimen, which is normally initiated early in the cycle.",
+        "D": "Days 20-24 are generally too late in the cycle for initiating clomifene treatment and would not be the usual ovulation-induction schedule."
+      },
+      "calculation": null
+    },
+    "human_status": "approved",
+    "human_reviewed": true,
+    "human_review_note": ""
+  },
+  {
+    "status": "needs_review",
+    "review_required": true,
+    "review_reason": "The source stem is incomplete because it does not specify the type of association or provide answer options. The question has been interpreted as asking about adverse effects of aspirin.",
+    "confidence": 0.78,
+    "question_type": "factual",
+    "options_source": "ai_generated",
+    "source_answer": null,
+    "category": "Pharmacology & Toxicology",
+    "topic": "Aspirin adverse effects",
+    "difficulty": "easy",
+    "question": "Which of the following adverse effects is least associated with aspirin?",
+    "options": {
+      "A": "Gastrointestinal bleeding",
+      "B": "Tinnitus",
+      "C": "Bronchospasm in susceptible individuals",
+      "D": "Constipation"
+    },
+    "correct_answer": "D",
+    "explanations": {
+      "A": "Aspirin inhibits platelet aggregation and can damage the gastric mucosa, increasing the risk of gastrointestinal bleeding.",
+      "B": "Tinnitus is a recognized manifestation of salicylate toxicity, particularly at higher doses.",
+      "C": "Aspirin can precipitate bronchospasm in patients with aspirin-exacerbated respiratory disease or other susceptible individuals.",
+      "D": "Constipation is not a characteristic or commonly recognized adverse effect of aspirin."
+    },
+    "calculation": null,
+    "source_id": 89,
+    "source_classification": "unknown",
+    "source_text": "Which is least associated with aspirin?",
+    "ai_result": {
+      "status": "needs_review",
+      "review_required": true,
+      "review_reason": "The source stem is incomplete because it does not specify the type of association or provide answer options. The question has been interpreted as asking about adverse effects of aspirin.",
+      "confidence": 0.78,
+      "question_type": "factual",
+      "options_source": "ai_generated",
+      "source_answer": null,
+      "category": "Pharmacology & Toxicology",
+      "topic": "Aspirin adverse effects",
+      "difficulty": "easy",
+      "question": "Which of the following adverse effects is least associated with aspirin?",
+      "options": {
+        "A": "Gastrointestinal bleeding",
+        "B": "Tinnitus",
+        "C": "Bronchospasm in susceptible individuals",
+        "D": "Constipation"
+      },
+      "correct_answer": "D",
+      "explanations": {
+        "A": "Aspirin inhibits platelet aggregation and can damage the gastric mucosa, increasing the risk of gastrointestinal bleeding.",
+        "B": "Tinnitus is a recognized manifestation of salicylate toxicity, particularly at higher doses.",
+        "C": "Aspirin can precipitate bronchospasm in patients with aspirin-exacerbated respiratory disease or other susceptible individuals.",
+        "D": "Constipation is not a characteristic or commonly recognized adverse effect of aspirin."
+      },
+      "calculation": null
+    },
+    "human_status": "approved",
+    "human_reviewed": true,
+    "human_review_note": ""
+  },
+  {
+    "status": "needs_review",
+    "review_required": true,
+    "review_reason": "The original wording is ambiguous because non-selective beta-blockers can cause both cold extremities and increased airway resistance. The question was narrowed to pulmonary effects to establish a single best answer.",
+    "confidence": 0.94,
+    "question_type": "factual",
+    "options_source": "ai_generated",
+    "source_answer": "C",
+    "category": "Pharmacology & Toxicology",
+    "topic": "Adverse effects of non-selective beta-blockers",
+    "difficulty": "easy",
+    "question": "Which pulmonary effect may occur with non-selective beta-blocker therapy?",
+    "options": {
+      "A": "Cold extremities due to peripheral vasoconstriction",
+      "B": "Heart failure in every patient",
+      "C": "Increased airway resistance due to bronchoconstriction",
+      "D": "Decreased airway resistance due to bronchodilation"
+    },
+    "correct_answer": "C",
+    "explanations": {
+      "A": "Cold extremities may occur with beta-blockers because of reduced peripheral circulation, but this is not a pulmonary effect.",
+      "B": "Non-selective beta-blockers do not cause heart failure in every patient; some beta-blockers are used therapeutically in selected patients with stable heart failure.",
+      "C": "Correct. Blockade of pulmonary beta-2 receptors can cause bronchoconstriction and increased airway resistance, particularly in susceptible patients.",
+      "D": "Decreased airway resistance would require bronchodilation, which is opposed by beta-2 receptor blockade."
+    },
+    "calculation": null,
+    "source_id": 90,
+    "source_classification": "unknown",
+    "source_text": "Non-selective beta-blockers may cause which effect? A. Cold extremities\nB. Heart failure always \nC. Increased airway/lung resistance \nD. Decreased airway/lung resistance",
+    "ai_result": {
+      "status": "needs_review",
+      "review_required": true,
+      "review_reason": "The original wording is ambiguous because non-selective beta-blockers can cause both cold extremities and increased airway resistance. The question was narrowed to pulmonary effects to establish a single best answer.",
+      "confidence": 0.94,
+      "question_type": "factual",
+      "options_source": "ai_generated",
+      "source_answer": "C",
+      "category": "Pharmacology & Toxicology",
+      "topic": "Adverse effects of non-selective beta-blockers",
+      "difficulty": "easy",
+      "question": "Which pulmonary effect may occur with non-selective beta-blocker therapy?",
+      "options": {
+        "A": "Cold extremities due to peripheral vasoconstriction",
+        "B": "Heart failure in every patient",
+        "C": "Increased airway resistance due to bronchoconstriction",
+        "D": "Decreased airway resistance due to bronchodilation"
+      },
+      "correct_answer": "C",
+      "explanations": {
+        "A": "Cold extremities may occur with beta-blockers because of reduced peripheral circulation, but this is not a pulmonary effect.",
+        "B": "Non-selective beta-blockers do not cause heart failure in every patient; some beta-blockers are used therapeutically in selected patients with stable heart failure.",
+        "C": "Correct. Blockade of pulmonary beta-2 receptors can cause bronchoconstriction and increased airway resistance, particularly in susceptible patients.",
+        "D": "Decreased airway resistance would require bronchodilation, which is opposed by beta-2 receptor blockade."
+      },
+      "calculation": null
+    },
+    "human_status": "approved",
+    "human_reviewed": true,
+    "human_review_note": ""
+  },
+  {
+    "status": "needs_review",
+    "review_required": true,
+    "review_reason": "The source is fragmentary and does not clearly state the full clinical scenario or intended wording. The answer is inferred as meloxicam because NSAIDs have the most clinically significant interaction with spironolactone among the listed options.",
+    "confidence": 0.88,
+    "question_type": "factual",
+    "options_source": "ai_generated",
+    "source_answer": null,
+    "category": "Therapeutics & Patient Care",
+    "topic": "Drug interactions involving spironolactone",
+    "difficulty": "medium",
+    "question": "A patient taking spironolactone requires an analgesic. Which option is most likely to cause a clinically significant interaction with spironolactone?",
+    "options": {
+      "A": "Codeine",
+      "B": "Tramadol",
+      "C": "Amitriptyline",
+      "D": "Meloxicam"
+    },
+    "correct_answer": "D",
+    "explanations": {
+      "A": "Codeine does not have a major, clinically important pharmacokinetic or pharmacodynamic interaction with spironolactone in most patients.",
+      "B": "Tramadol has important interactions with serotonergic medicines and seizure risk factors, but it does not have a major direct interaction with spironolactone.",
+      "C": "Amitriptyline may cause anticholinergic effects, sedation, and cardiac conduction abnormalities, but it is not the most significant interaction with spironolactone among these options.",
+      "D": "Meloxicam is an NSAID and may reduce the diuretic and antihypertensive effects of spironolactone while increasing the risk of renal impairment and hyperkalaemia."
+    },
+    "calculation": null,
+    "source_id": 91,
+    "source_classification": "fragment",
+    "source_text": "Most interaction with spironolactone, recently treated for acne 1.codeine\n2.tramadol \n3.amitriptyline \n4.meloxicam",
+    "ai_result": {
+      "status": "needs_review",
+      "review_required": true,
+      "review_reason": "The source is fragmentary and does not clearly state the full clinical scenario or intended wording. The answer is inferred as meloxicam because NSAIDs have the most clinically significant interaction with spironolactone among the listed options.",
+      "confidence": 0.88,
+      "question_type": "factual",
+      "options_source": "ai_generated",
+      "source_answer": null,
+      "category": "Therapeutics & Patient Care",
+      "topic": "Drug interactions involving spironolactone",
+      "difficulty": "medium",
+      "question": "A patient taking spironolactone requires an analgesic. Which option is most likely to cause a clinically significant interaction with spironolactone?",
+      "options": {
+        "A": "Codeine",
+        "B": "Tramadol",
+        "C": "Amitriptyline",
+        "D": "Meloxicam"
+      },
+      "correct_answer": "D",
+      "explanations": {
+        "A": "Codeine does not have a major, clinically important pharmacokinetic or pharmacodynamic interaction with spironolactone in most patients.",
+        "B": "Tramadol has important interactions with serotonergic medicines and seizure risk factors, but it does not have a major direct interaction with spironolactone.",
+        "C": "Amitriptyline may cause anticholinergic effects, sedation, and cardiac conduction abnormalities, but it is not the most significant interaction with spironolactone among these options.",
+        "D": "Meloxicam is an NSAID and may reduce the diuretic and antihypertensive effects of spironolactone while increasing the risk of renal impairment and hyperkalaemia."
+      },
+      "calculation": null
+    },
+    "human_status": "approved",
+    "human_reviewed": true,
+    "human_review_note": ""
+  },
+  {
+    "status": "needs_review",
+    "review_required": true,
+    "review_reason": "Uncomplicated hypertension is not a typical direct cause of increased urea, but chronic or severe hypertension can cause renal impairment and thereby increase urea. The intended answer is inferred to be hypertension.",
+    "confidence": 0.88,
+    "question_type": "calculation",
+    "options_source": "ai_generated",
+    "source_answer": null,
+    "category": "Biomedical Sciences",
+    "topic": "Causes of increased blood urea",
+    "difficulty": "easy",
+    "question": "Which of the following does not typically cause an increase in blood urea?",
+    "options": {
+      "A": "Hypertension",
+      "B": "Dehydration",
+      "C": "Gastrointestinal blood loss",
+      "D": "A high-protein diet"
+    },
+    "correct_answer": "A",
+    "explanations": {
+      "A": "Uncomplicated hypertension does not usually directly increase blood urea. However, chronic or severe hypertension may do so indirectly by causing renal impairment.",
+      "B": "Dehydration reduces renal perfusion and increases tubular reabsorption of urea, causing blood urea to rise.",
+      "C": "Gastrointestinal blood loss, particularly from the upper gastrointestinal tract, increases urea production from digested blood proteins and may raise blood urea.",
+      "D": "A high-protein diet increases nitrogen breakdown and urea production, which can increase blood urea."
+    },
+    "calculation": null,
+    "source_id": 92,
+    "source_classification": "calculation",
+    "source_text": "What does not cause urea to increase\n1.Hypertension \n2.Dehydration \n3.Gastrointestinal blood loss",
+    "ai_result": {
+      "status": "needs_review",
+      "review_required": true,
+      "review_reason": "Uncomplicated hypertension is not a typical direct cause of increased urea, but chronic or severe hypertension can cause renal impairment and thereby increase urea. The intended answer is inferred to be hypertension.",
+      "confidence": 0.88,
+      "question_type": "calculation",
+      "options_source": "ai_generated",
+      "source_answer": null,
+      "category": "Biomedical Sciences",
+      "topic": "Causes of increased blood urea",
+      "difficulty": "easy",
+      "question": "Which of the following does not typically cause an increase in blood urea?",
+      "options": {
+        "A": "Hypertension",
+        "B": "Dehydration",
+        "C": "Gastrointestinal blood loss",
+        "D": "A high-protein diet"
+      },
+      "correct_answer": "A",
+      "explanations": {
+        "A": "Uncomplicated hypertension does not usually directly increase blood urea. However, chronic or severe hypertension may do so indirectly by causing renal impairment.",
+        "B": "Dehydration reduces renal perfusion and increases tubular reabsorption of urea, causing blood urea to rise.",
+        "C": "Gastrointestinal blood loss, particularly from the upper gastrointestinal tract, increases urea production from digested blood proteins and may raise blood urea.",
+        "D": "A high-protein diet increases nitrogen breakdown and urea production, which can increase blood urea."
+      },
+      "calculation": null
+    },
+    "human_status": "approved",
+    "human_reviewed": true,
+    "human_review_note": ""
+  },
+  {
+    "status": "needs_review",
+    "review_required": true,
+    "review_reason": "Confidentiality and provision of contraception to minors are jurisdiction-dependent and may be subject to age, consent, safeguarding, and reporting laws. The intended general ethical answer is to maintain confidentiality and provide appropriate care, subject to applicable law.",
+    "confidence": 0.94,
+    "question_type": "scenario-based",
+    "options_source": "ai_generated",
+    "source_answer": null,
+    "category": "Therapeutics & Patient Care",
+    "topic": "Confidentiality and contraceptive care for minors",
+    "difficulty": "medium",
+    "question": "A Gillick-competent minor requests contraception and there are no identified safeguarding concerns. What is the most appropriate initial action for the pharmacist?",
+    "options": {
+      "A": "Inform the minor's parents immediately",
+      "B": "Refuse to provide or facilitate contraceptive care",
+      "C": "Maintain confidentiality and provide appropriate care",
+      "D": "Report the minor to the police"
+    },
+    "correct_answer": "C",
+    "explanations": {
+      "A": "Parents should not automatically be informed because competent minors may be entitled to confidential sexual and reproductive health care, depending on local law and the circumstances.",
+      "B": "Refusing care solely because the patient is a minor may deny appropriate healthcare and is not generally justified without a specific legal or safeguarding reason.",
+      "C": "The pharmacist should respect confidentiality and provide appropriate, nonjudgmental care while assessing competence, consent, safeguarding concerns, and applicable legal requirements.",
+      "D": "A request for contraception is not, by itself, grounds for police involvement. Reporting may be required only when specific legal or safeguarding concerns are identified."
+    },
+    "calculation": null,
+    "source_id": 94,
+    "source_classification": "unknown",
+    "source_text": "A minor requests contraception. The most appropriate pharmacist action is: A) Inform parents immediately\nB) Refuse service \nC) Maintain confidentiality and provide appropriate care \nD) Report to police",
+    "ai_result": {
+      "status": "needs_review",
+      "review_required": true,
+      "review_reason": "Confidentiality and provision of contraception to minors are jurisdiction-dependent and may be subject to age, consent, safeguarding, and reporting laws. The intended general ethical answer is to maintain confidentiality and provide appropriate care, subject to applicable law.",
+      "confidence": 0.94,
+      "question_type": "scenario-based",
+      "options_source": "ai_generated",
+      "source_answer": null,
+      "category": "Therapeutics & Patient Care",
+      "topic": "Confidentiality and contraceptive care for minors",
+      "difficulty": "medium",
+      "question": "A minor requests contraception. What is the most appropriate initial action for the pharmacist, subject to applicable law and safeguarding requirements?",
+      "options": {
+        "A": "Inform the minor's parents immediately",
+        "B": "Refuse to provide or facilitate contraceptive care",
+        "C": "Maintain confidentiality and provide appropriate care",
+        "D": "Report the minor to the police"
+      },
+      "correct_answer": "C",
+      "explanations": {
+        "A": "Parents should not automatically be informed because competent minors may be entitled to confidential sexual and reproductive health care, depending on local law and the circumstances.",
+        "B": "Refusing care solely because the patient is a minor may deny appropriate healthcare and is not generally justified without a specific legal or safeguarding reason.",
+        "C": "The pharmacist should respect confidentiality and provide appropriate, nonjudgmental care while assessing competence, consent, safeguarding concerns, and applicable legal requirements.",
+        "D": "A request for contraception is not, by itself, grounds for police involvement. Reporting may be required only when specific legal or safeguarding concerns are identified."
+      },
+      "calculation": null
+    },
+    "human_status": "approved",
+    "human_reviewed": true,
+    "human_review_note": "Approved after human editing."
+  },
+  {
+    "status": "needs_review",
+    "review_required": true,
+    "review_reason": "The indication is not specified, and the exact duration of tranexamic acid treatment varies by indication and product guidance. Option A is the intended best answer for heavy menstrual bleeding, but 'first 4 days' is not universally applicable.",
+    "confidence": 0.9,
+    "question_type": "factual",
+    "options_source": "source",
+    "source_answer": null,
+    "category": "Therapeutics & Patient Care",
+    "topic": "Tranexamic acid counselling for heavy menstrual bleeding",
+    "difficulty": "easy",
+    "question": "For heavy menstrual bleeding, which counselling point about tranexamic acid is most appropriate?",
+    "options": {
+      "A": "Take it only during the days of heavy menstrual bleeding, for the duration prescribed",
+      "B": "Should not be used with progesterone",
+      "C": "Must be taken with antibiotics",
+      "D": "Only used in pregnancy"
+    },
+    "correct_answer": "A",
+    "explanations": {
+      "A": "Tranexamic acid for heavy menstrual bleeding is taken during menstruation rather than continuously, commonly for up to the first 4 days according to the prescribed regimen.",
+      "B": "Tranexamic acid is not universally contraindicated with progesterone; use depends on the patient's indication, formulation, and thrombotic risk.",
+      "C": "Tranexamic acid does not require concomitant antibiotic treatment.",
+      "D": "Tranexamic acid has uses other than pregnancy, including heavy menstrual bleeding and prevention or treatment of bleeding in some surgical or traumatic settings."
+    },
+    "calculation": null,
+    "source_id": 95,
+    "source_classification": "mcq",
+    "source_text": "Most appropriate counselling for tranexamic acid use is:\nA) Use only for first 4 days then stop \nB) Should not be used with progesterone \nC) Must be taken with antibiotics \nD) Only used in pregnancy",
+    "ai_result": {
+      "status": "needs_review",
+      "review_required": true,
+      "review_reason": "The indication is not specified, and the exact duration of tranexamic acid treatment varies by indication and product guidance. Option A is the intended best answer for heavy menstrual bleeding, but 'first 4 days' is not universally applicable.",
+      "confidence": 0.9,
+      "question_type": "factual",
+      "options_source": "source",
+      "source_answer": null,
+      "category": "Therapeutics & Patient Care",
+      "topic": "Tranexamic acid counselling for heavy menstrual bleeding",
+      "difficulty": "easy",
+      "question": "For heavy menstrual bleeding, the most appropriate counselling regarding tranexamic acid use is:",
+      "options": {
+        "A": "Take it only during the days of heavy menstrual bleeding, for the duration prescribed",
+        "B": "Should not be used with progesterone",
+        "C": "Must be taken with antibiotics",
+        "D": "Only used in pregnancy"
+      },
+      "correct_answer": "A",
+      "explanations": {
+        "A": "Tranexamic acid for heavy menstrual bleeding is taken during menstruation rather than continuously, commonly for up to the first 4 days according to the prescribed regimen.",
+        "B": "Tranexamic acid is not universally contraindicated with progesterone; use depends on the patient's indication, formulation, and thrombotic risk.",
+        "C": "Tranexamic acid does not require concomitant antibiotic treatment.",
+        "D": "Tranexamic acid has uses other than pregnancy, including heavy menstrual bleeding and prevention or treatment of bleeding in some surgical or traumatic settings."
+      },
+      "calculation": null
+    },
+    "human_status": "approved",
+    "human_reviewed": true,
+    "human_review_note": "Approved after human editing."
+  },
+  {
+    "status": "needs_review",
+    "review_required": true,
+    "review_reason": "The drug name and wording are unclear; the intended drug is likely lercanidipine (also known as lercanidipine hydrochloride), and the comparative adverse-effect claim is inferred from the source. Lercanidipine is generally associated with a lower incidence of pedal edema than many other dihydropyridine calcium-channel blockers.",
+    "confidence": 0.84,
+    "question_type": "factual",
+    "options_source": "ai_generated",
+    "source_answer": "Pedal edema",
+    "category": "Pharmacology & Toxicology",
+    "topic": "Adverse effects of dihydropyridine calcium-channel blockers",
+    "difficulty": "medium",
+    "question": "Compared with older dihydropyridine calcium-channel blockers such as amlodipine and nifedipine, lercanidipine is associated with a lower incidence of which adverse effect?",
+    "options": {
+      "A": "Pedal edema",
+      "B": "Postural hypotension",
+      "C": "Headache",
+      "D": "Flushing"
+    },
+    "correct_answer": "A",
+    "explanations": {
+      "A": "Correct. Lercanidipine has a gradual vasodilator effect and is generally associated with less ankle or pedal edema than many other dihydropyridine calcium-channel blockers.",
+      "B": "Incorrect. Although lercanidipine may cause less abrupt hypotension than some agents, postural hypotension can still occur and is not the characteristic comparative advantage intended here.",
+      "C": "Incorrect. Headache is a recognized adverse effect of dihydropyridine calcium-channel blockers, including lercanidipine.",
+      "D": "Incorrect. Flushing can occur with peripheral vasodilation caused by dihydropyridine calcium-channel blockers."
+    },
+    "calculation": null,
+    "source_id": 96,
+    "source_classification": "unknown",
+    "source_text": "Lacarnidipine is least associated with following side effects, like benefits over the other?\nPedal edema \nPostural hypotension \nHeadache",
+    "ai_result": {
+      "status": "needs_review",
+      "review_required": true,
+      "review_reason": "The drug name and wording are unclear; the intended drug is likely lercanidipine (also known as lercanidipine hydrochloride), and the comparative adverse-effect claim is inferred from the source. Lercanidipine is generally associated with a lower incidence of pedal edema than many other dihydropyridine calcium-channel blockers.",
+      "confidence": 0.84,
+      "question_type": "factual",
+      "options_source": "ai_generated",
+      "source_answer": "Pedal edema",
+      "category": "Pharmacology & Toxicology",
+      "topic": "Adverse effects of dihydropyridine calcium-channel blockers",
+      "difficulty": "medium",
+      "question": "Compared with many other dihydropyridine calcium-channel blockers, lercanidipine is relatively least likely to cause which adverse effect?",
+      "options": {
+        "A": "Pedal edema",
+        "B": "Postural hypotension",
+        "C": "Headache",
+        "D": "Flushing"
+      },
+      "correct_answer": "A",
+      "explanations": {
+        "A": "Correct. Lercanidipine has a gradual vasodilator effect and is generally associated with less ankle or pedal edema than many other dihydropyridine calcium-channel blockers.",
+        "B": "Incorrect. Although lercanidipine may cause less abrupt hypotension than some agents, postural hypotension can still occur and is not the characteristic comparative advantage intended here.",
+        "C": "Incorrect. Headache is a recognized adverse effect of dihydropyridine calcium-channel blockers, including lercanidipine.",
+        "D": "Incorrect. Flushing can occur with peripheral vasodilation caused by dihydropyridine calcium-channel blockers."
+      },
+      "calculation": null
+    },
+    "human_status": "approved",
+    "human_reviewed": true,
+    "human_review_note": ""
+  },
+  {
+    "source_id": 97,
+    "source_classification": "unknown",
+    "source_text": "Atenolol Suspension\nThixotropic or psudoplastic ? \nSuspensions show pseudoplasticity with thixotropy \nBoth",
+    "ai_result": {
+      "status": "approved",
+      "review_required": false,
+      "review_reason": null,
+      "confidence": 0.93,
+      "question_type": "factual",
+      "options_source": "ai_generated",
+      "source_answer": "Both pseudoplasticity and thixotropy",
+      "category": "Medicinal Chemistry & Biopharmaceutics",
+      "topic": "Rheology of pharmaceutical suspensions",
+      "difficulty": "easy",
+      "question": "Which rheological behavior is typically associated with a properly formulated atenolol suspension?",
+      "options": {
+        "A": "Newtonian flow only",
+        "B": "Dilatant flow only",
+        "C": "Pseudoplastic flow accompanied by thixotropy",
+        "D": "Pseudoplastic flow without time-dependent behavior"
+      },
+      "correct_answer": "C",
+      "explanations": {
+        "A": "Newtonian fluids have a constant viscosity regardless of shear rate and do not represent the typical behavior intended for this suspension.",
+        "B": "Dilatant flow involves increasing viscosity with increasing shear rate and is not the rheological behavior indicated in the source material.",
+        "C": "Pharmaceutical suspensions are commonly formulated to exhibit pseudoplastic flow with thixotropy, facilitating pourability during shaking while promoting stability at rest.",
+        "D": "Pseudoplasticity may occur, but the source specifically indicates that it is accompanied by thixotropy."
       },
       "calculation": null
     }

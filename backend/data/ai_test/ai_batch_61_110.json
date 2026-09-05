@@ -1,5 +1,101 @@
 [
     {
+        "source_id": 61,
+        "source_classification": "unknown",
+        "source_text": "Drug used for movement symptoms in Lewy Body Dementia: A) Levodopa\nB) Haloperidol \nC) Phenytoin \nD) Digoxin",
+        "ai_result": {
+            "status": "approved",
+            "review_required": false,
+            "review_reason": null,
+            "confidence": 0.98,
+            "question_type": "factual",
+            "options_source": "ai_generated",
+            "source_answer": null,
+            "category": "Therapeutics & Patient Care",
+            "topic": "Pharmacological management of motor symptoms in Lewy body dementia",
+            "difficulty": "easy",
+            "question": "Which drug may be used to treat parkinsonian movement symptoms in a patient with Lewy body dementia?",
+            "options": {
+                "A": "Levodopa",
+                "B": "Haloperidol",
+                "C": "Phenytoin",
+                "D": "Digoxin"
+            },
+            "correct_answer": "A",
+            "explanations": {
+                "A": "Levodopa may improve parkinsonian motor symptoms in Lewy body dementia, although the response can be limited and treatment requires cautious dosing.",
+                "B": "Haloperidol can markedly worsen parkinsonism and may cause severe sensitivity reactions in patients with Lewy body dementia.",
+                "C": "Phenytoin is an antiseizure medication and is not used to treat parkinsonian movement symptoms.",
+                "D": "Digoxin is a cardiac glycoside used in selected cardiac conditions and has no role in treating parkinsonian symptoms."
+            },
+            "calculation": null
+        }
+    },
+    {
+        "source_id": 62,
+        "source_classification": "unknown",
+        "source_text": "Preferred antipsychotic for hallucinations in Lewy Body Dementia: A) Haloperidol\nB) Chlorpromazine \nC) Quetiapine \nD) Risperidone",
+        "ai_result": {
+            "status": "approved",
+            "review_required": false,
+            "review_reason": null,
+            "confidence": 0.98,
+            "question_type": "factual",
+            "options_source": "source_original",
+            "source_answer": "C",
+            "category": "Therapeutics & Patient Care",
+            "topic": "Antipsychotic use in Lewy body dementia",
+            "difficulty": "easy",
+            "question": "Which antipsychotic is generally preferred when treatment of distressing hallucinations is necessary in a patient with Lewy body dementia?",
+            "options": {
+                "A": "Haloperidol",
+                "B": "Chlorpromazine",
+                "C": "Quetiapine",
+                "D": "Risperidone"
+            },
+            "correct_answer": "C",
+            "explanations": {
+                "A": "Haloperidol is a potent dopamine D2 antagonist and may cause severe neuroleptic sensitivity and worsening parkinsonism in Lewy body dementia.",
+                "B": "Chlorpromazine can worsen extrapyramidal symptoms, sedation, and autonomic effects, making it unsuitable as the preferred option.",
+                "C": "Quetiapine has relatively low dopamine D2-receptor antagonism and is commonly preferred when an antipsychotic is essential in Lewy body dementia.",
+                "D": "Risperidone may cause substantial D2 blockade, worsening parkinsonism and neuroleptic sensitivity in patients with Lewy body dementia."
+            },
+            "calculation": null
+        }
+    },
+    {
+        "source_id": 63,
+        "source_classification": "unknown",
+        "source_text": "Drug commonly used for cognitive symptoms in Lewy Body Dementia: A) Rivastigmine\nB) Haloperidol \nC) Diazepam \nD) Carbamazapine",
+        "ai_result": {
+            "status": "approved",
+            "review_required": false,
+            "review_reason": null,
+            "confidence": 0.99,
+            "question_type": "factual",
+            "options_source": "ai_generated",
+            "source_answer": null,
+            "category": "Therapeutics & Patient Care",
+            "topic": "Pharmacological management of cognitive symptoms in Lewy body dementia",
+            "difficulty": "easy",
+            "question": "Which drug is commonly used to manage cognitive symptoms in patients with Lewy body dementia?",
+            "options": {
+                "A": "Rivastigmine",
+                "B": "Haloperidol",
+                "C": "Diazepam",
+                "D": "Carbamazepine"
+            },
+            "correct_answer": "A",
+            "explanations": {
+                "A": "Rivastigmine, an acetylcholinesterase inhibitor, is commonly used to improve or stabilize cognitive symptoms in Lewy body dementia.",
+                "B": "Haloperidol is an antipsychotic and may worsen parkinsonism or cause severe sensitivity reactions in patients with Lewy body dementia.",
+                "C": "Diazepam is a benzodiazepine used primarily for anxiety, seizures, or sedation and is not a standard treatment for cognitive symptoms in Lewy body dementia.",
+                "D": "Carbamazepine is mainly used for epilepsy and trigeminal neuralgia and is not a standard treatment for cognitive symptoms in Lewy body dementia."
+            },
+            "calculation": null
+        }
+    },
+    {
         "source_id": 64,
         "source_classification": "fragment",
         "source_text": "Another HCP contacted u requesting for information regarding a patient, Least correct:\n1-take patient consent first \n2-provide relevant information only \n3-deidentify the information provided \n4-check the authenticity of HCP \nNote: Another health care provider HCP so not give any information",
@@ -59,6 +155,38 @@
                 "B": "Only information relevant to the stated purpose should be disclosed, and disclosure should occur after appropriate identity and authorization checks. The word \"just\" makes this option potentially inadequate if it implies disclosure without verification.",
                 "C": "This is designated as the supplied answer, but de-identifying information is generally a privacy-protective and appropriate action for a report when identifiable information is not required. Its status as the incorrect option is therefore questionable.",
                 "D": "Checking the healthcare provider's authorization or credentials is an appropriate safeguard before disclosing private medication information."
+            },
+            "calculation": null
+        }
+    },
+    {
+        "source_id": 66,
+        "source_classification": "mcq",
+        "source_text": "Which ONE of the following drugs is MOST likely to cause a clinically significant pharmacokinetic drug interaction with warfarin?\nA. Sodium valproate \nB. Paroxetine \nC. Omeprazole \nD. Fluconazole",
+        "ai_result": {
+            "status": "approved",
+            "review_required": false,
+            "review_reason": null,
+            "confidence": 0.98,
+            "question_type": "factual",
+            "options_source": "original",
+            "source_answer": null,
+            "category": "Pharmacology & Toxicology",
+            "topic": "Warfarin drug interactions",
+            "difficulty": "medium",
+            "question": "Which ONE of the following drugs is MOST likely to cause a clinically significant pharmacokinetic drug interaction with warfarin?",
+            "options": {
+                "A": "Sodium valproate",
+                "B": "Paroxetine",
+                "C": "Omeprazole",
+                "D": "Fluconazole"
+            },
+            "correct_answer": "D",
+            "explanations": {
+                "A": "Sodium valproate may increase bleeding risk and can interact with warfarin, but it is generally a less predictable or less prominent pharmacokinetic interaction than that caused by fluconazole.",
+                "B": "Paroxetine can increase bleeding risk through effects on platelet serotonin uptake, but this is primarily a pharmacodynamic interaction rather than a clinically significant pharmacokinetic interaction with warfarin.",
+                "C": "Omeprazole may produce a modest interaction with warfarin in some patients, but it is less clinically significant and less consistent than the interaction with fluconazole.",
+                "D": "Fluconazole strongly inhibits CYP2C9, an important enzyme involved in the metabolism of the more potent S-enantiomer of warfarin, thereby increasing warfarin exposure and anticoagulant effect."
             },
             "calculation": null
         }
@@ -155,6 +283,38 @@
                 "B": "Sertraline is serotonergic, and concurrent use with St John's wort may increase the risk of serotonin syndrome.",
                 "C": "Paroxetine is serotonergic, so combination with St John's wort may produce additive serotonergic effects and toxicity.",
                 "D": "Methadone can still interact with St John's wort through enzyme and transporter induction, but its interaction is generally less directly serotonergic than those of the selective serotonin reuptake inhibitors listed."
+            },
+            "calculation": null
+        }
+    },
+    {
+        "source_id": 70,
+        "source_classification": "mcq",
+        "source_text": "Which drug should be used cautiously in psoriatic arthritis?\nA. Methotrexate \nB. Hydroxychloroquine \nC. Sulfasalazine \nD. Leflunomide \nAnswer: B. Hydroxychloroquine \nAs Hcq worsen psoriatic arthirithis ua it still used ? Or the ans should be Mtx used with caution to avoid myelosupression etc",
+        "ai_result": {
+            "status": "approved",
+            "review_required": false,
+            "review_reason": null,
+            "confidence": 0.95,
+            "question_type": "factual",
+            "options_source": "original",
+            "source_answer": "B",
+            "category": "Therapeutics & Patient Care",
+            "topic": "Pharmacotherapy of psoriatic arthritis",
+            "difficulty": "easy",
+            "question": "Which drug should be used cautiously in psoriatic arthritis because it may exacerbate psoriasis?",
+            "options": {
+                "A": "Methotrexate",
+                "B": "Hydroxychloroquine",
+                "C": "Sulfasalazine",
+                "D": "Leflunomide"
+            },
+            "correct_answer": "B",
+            "explanations": {
+                "A": "Methotrexate is used therapeutically in psoriatic arthritis and psoriasis, although it requires monitoring for adverse effects such as myelosuppression and hepatotoxicity.",
+                "B": "Hydroxychloroquine may precipitate or worsen psoriasis, so it should generally be avoided or used cautiously in patients with psoriatic arthritis.",
+                "C": "Sulfasalazine may be used as a conventional disease-modifying antirheumatic drug in selected patients with psoriatic arthritis and is not characteristically associated with worsening psoriasis.",
+                "D": "Leflunomide is an established treatment option for psoriatic arthritis; although it has important toxicities requiring monitoring, it is not selected specifically because it worsens psoriasis."
             },
             "calculation": null
         }
@@ -576,6 +736,38 @@
         }
     },
     {
+        "source_id": 80,
+        "source_classification": "mcq",
+        "source_text": "Scleroderma mainly affects which tissue?\nA. Epithelial cells \nB. Striated muscle \nC. Connective tissue with fibrosis and collagen deposition \nD. Red blood cells",
+        "ai_result": {
+            "status": "approved",
+            "review_required": false,
+            "review_reason": null,
+            "confidence": 0.99,
+            "question_type": "factual",
+            "options_source": "provided",
+            "source_answer": null,
+            "category": "Biomedical Sciences",
+            "topic": "Scleroderma and connective tissue pathology",
+            "difficulty": "easy",
+            "question": "Scleroderma mainly affects which tissue?",
+            "options": {
+                "A": "Epithelial cells",
+                "B": "Striated muscle",
+                "C": "Connective tissue with fibrosis and collagen deposition",
+                "D": "Red blood cells"
+            },
+            "correct_answer": "C",
+            "explanations": {
+                "A": "Epithelial cells are not the primary tissue affected in scleroderma.",
+                "B": "Striated muscle is not the principal site of the characteristic scleroderma pathology.",
+                "C": "Scleroderma is a connective tissue disorder characterized by excessive collagen deposition and fibrosis, leading to skin thickening and possible internal-organ involvement.",
+                "D": "Red blood cells are not the primary tissue affected by scleroderma."
+            },
+            "calculation": null
+        }
+    },
+    {
         "source_id": 81,
         "source_classification": "mcq",
         "source_text": "Which of the following medications is generally considered safer to use in pregnant women?\nA. Ibuprofen \nB. Codeine \nC. Carbamazepine \nD. Warfarin \nagain NOT in BF but Ok pregnant",
@@ -704,6 +896,38 @@
         }
     },
     {
+        "source_id": 85,
+        "source_classification": "mcq",
+        "source_text": "Which catecholamine is NOT metabolized by COMT?\nA. Adrenaline \nB. Noradrenaline \nC. Dopamine \nD. Isoprenaline \nNONE",
+        "ai_result": {
+            "status": "needs_review",
+            "review_required": true,
+            "review_reason": "All four listed catecholamines—adrenaline, noradrenaline, dopamine, and isoprenaline—contain a catechol group and are metabolized by catechol-O-methyltransferase (COMT). Therefore, none is a uniquely correct answer, and the item cannot function as a single-best-answer MCQ without revision.",
+            "confidence": 0.98,
+            "question_type": "factual",
+            "options_source": "source",
+            "source_answer": null,
+            "category": "Pharmacology & Toxicology",
+            "topic": "Catecholamine metabolism",
+            "difficulty": "medium",
+            "question": "Which catecholamine is NOT metabolized by catechol-O-methyltransferase (COMT)?",
+            "options": {
+                "A": "Adrenaline",
+                "B": "Noradrenaline",
+                "C": "Dopamine",
+                "D": "Isoprenaline"
+            },
+            "correct_answer": null,
+            "explanations": {
+                "A": "Adrenaline is metabolized by COMT to metanephrine, as well as by other metabolic pathways.",
+                "B": "Noradrenaline is metabolized by COMT to normetanephrine, as well as by other metabolic pathways.",
+                "C": "Dopamine is metabolized by COMT to 3-methoxytyramine, as well as by other metabolic pathways.",
+                "D": "Isoprenaline is also metabolized by COMT; therefore, it is not a uniquely correct answer."
+            },
+            "calculation": null
+        }
+    },
+    {
         "source_id": 86,
         "source_classification": "incomplete",
         "source_text": "Which of following antibiotic has least oral bioavailibility ?\nAminoglycosides *1st* \nVancomycin *2* \nDapsone \nNo oral routes for Aminoglycosides \nVanco can be used as local action in case colitis",
@@ -731,6 +955,38 @@
                 "B": "Oral vancomycin also has negligible systemic absorption, but it is administered orally for local intestinal treatment, particularly Clostridioides difficile colitis; therefore, this option creates ambiguity in the original question.",
                 "C": "Dapsone is well absorbed after oral administration and is routinely used by the oral route.",
                 "D": "Amoxicillin is absorbed orally and is commonly administered by mouth for susceptible infections."
+            },
+            "calculation": null
+        }
+    },
+    {
+        "source_id": 87,
+        "source_classification": "unknown",
+        "source_text": "If a patient has been ordered salbutamol aerosol and beclomethasone aerosol, both to be inhaled four times a day, the patient should inhale the beclomethasone. a. 10 minutes after salbutamol\nb. Immediately after salbutamol \nc. 10 minutes before salbutamol \nd. Immediately before salbutamol \ne. At any convenient time",
+        "ai_result": {
+            "status": "approved",
+            "review_required": false,
+            "review_reason": null,
+            "confidence": 0.98,
+            "question_type": "factual",
+            "options_source": "ai_generated",
+            "source_answer": null,
+            "category": "Therapeutics & Patient Care",
+            "topic": "Sequence of administration of inhaled bronchodilators and corticosteroids",
+            "difficulty": "easy",
+            "question": "If a patient is prescribed salbutamol aerosol and beclomethasone aerosol, both to be inhaled four times daily, when should the patient inhale the beclomethasone?",
+            "options": {
+                "A": "Approximately 10 minutes after salbutamol",
+                "B": "Immediately after salbutamol without waiting",
+                "C": "Approximately 10 minutes before salbutamol",
+                "D": "Immediately before salbutamol"
+            },
+            "correct_answer": "A",
+            "explanations": {
+                "A": "Correct. Salbutamol should be inhaled first to produce bronchodilation, allowing better delivery of the subsequently administered beclomethasone to the lower airways.",
+                "B": "Incorrect. Although the bronchodilator should be given first, allowing several minutes for its effect is preferred before administering beclomethasone.",
+                "C": "Incorrect. Administering beclomethasone before salbutamol may reduce delivery of the corticosteroid when bronchoconstriction is present.",
+                "D": "Incorrect. Beclomethasone should not routinely be administered immediately before the bronchodilator; salbutamol is generally used first."
             },
             "calculation": null
         }
@@ -1184,6 +1440,38 @@
         }
     },
     {
+        "source_id": 97,
+        "source_classification": "unknown",
+        "source_text": "Atenolol Suspension\nThixotropic or psudoplastic ? \nSuspensions show pseudoplasticity with thixotropy \nBoth",
+        "ai_result": {
+            "status": "approved",
+            "review_required": false,
+            "review_reason": null,
+            "confidence": 0.93,
+            "question_type": "factual",
+            "options_source": "ai_generated",
+            "source_answer": "Both pseudoplasticity and thixotropy",
+            "category": "Medicinal Chemistry & Biopharmaceutics",
+            "topic": "Rheology of pharmaceutical suspensions",
+            "difficulty": "easy",
+            "question": "Which rheological behavior is typically associated with a properly formulated atenolol suspension?",
+            "options": {
+                "A": "Newtonian flow only",
+                "B": "Dilatant flow only",
+                "C": "Pseudoplastic flow accompanied by thixotropy",
+                "D": "Pseudoplastic flow without time-dependent behavior"
+            },
+            "correct_answer": "C",
+            "explanations": {
+                "A": "Newtonian fluids have a constant viscosity regardless of shear rate and do not represent the typical behavior intended for this suspension.",
+                "B": "Dilatant flow involves increasing viscosity with increasing shear rate and is not the rheological behavior indicated in the source material.",
+                "C": "Pharmaceutical suspensions are commonly formulated to exhibit pseudoplastic flow with thixotropy, facilitating pourability during shaking while promoting stability at rest.",
+                "D": "Pseudoplasticity may occur, but the source specifically indicates that it is accompanied by thixotropy."
+            },
+            "calculation": null
+        }
+    },
+    {
         "source_id": 98,
         "source_classification": "mcq",
         "source_text": "Which benzodiazepines causes the most withdrawal symptoms?\na. Temazepam \nb. Lorazepam \nc. Flunitrazepam \nd. Diazepam \nImages \n\nVancomycin and penems \n\n* A A) Nicotine \nA \n\nChoose sle 1st B \n Sitagliptin✅\n\nThe July 2025\nHuge thanks to everyone who shared recalls\nAnswered by Mariam Nader",
@@ -1243,6 +1531,70 @@
                 "B": "Ethosuximide is primarily used for typical absence seizures rather than generalized seizure disorders broadly.",
                 "C": "Carbamazepine is mainly used for focal-onset seizures and may aggravate some generalized seizure types.",
                 "D": "Tiagabine is primarily used as adjunctive therapy for focal-onset seizures and may worsen generalized seizures."
+            },
+            "calculation": null
+        }
+    },
+    {
+        "source_id": 2,
+        "source_classification": "unknown",
+        "source_text": "raloxifen agonist in bone and lipid",
+        "ai_result": {
+            "status": "approved",
+            "review_required": false,
+            "review_reason": null,
+            "confidence": 0.96,
+            "question_type": "factual",
+            "options_source": "ai_generated",
+            "source_answer": null,
+            "category": "Pharmacology & Toxicology",
+            "topic": "Selective estrogen receptor modulators",
+            "difficulty": "easy",
+            "question": "Raloxifene produces estrogen agonist effects primarily in which sites?",
+            "options": {
+                "A": "Bone and lipid metabolism",
+                "B": "Breast and endometrium",
+                "C": "Breast and hypothalamus",
+                "D": "Endometrium and ovarian tissue"
+            },
+            "correct_answer": "A",
+            "explanations": {
+                "A": "Correct. Raloxifene acts as an estrogen agonist in bone and has favorable estrogen-like effects on lipid metabolism.",
+                "B": "Incorrect. Raloxifene generally acts as an estrogen antagonist in breast tissue and does not stimulate the endometrium.",
+                "C": "Incorrect. Raloxifene is not characterized primarily by estrogen agonist effects in breast tissue or the hypothalamus.",
+                "D": "Incorrect. Raloxifene does not produce its principal estrogen agonist effects in the endometrium or ovary."
+            },
+            "calculation": null
+        }
+    },
+    {
+        "source_id": 3,
+        "source_classification": "calculation",
+        "source_text": "preservative in ophthalmic preparations: benzalkonium,",
+        "ai_result": {
+            "status": "approved",
+            "review_required": false,
+            "review_reason": null,
+            "confidence": 0.96,
+            "question_type": "factual",
+            "options_source": "ai_generated",
+            "source_answer": "Benzalkonium chloride",
+            "category": "Medicinal Chemistry & Biopharmaceutics",
+            "topic": "Preservatives in ophthalmic preparations",
+            "difficulty": "easy",
+            "question": "Which of the following is a quaternary ammonium preservative commonly used in ophthalmic preparations?",
+            "options": {
+                "A": "Benzalkonium chloride",
+                "B": "Chlorobutanol",
+                "C": "Phenylmercuric nitrate",
+                "D": "Sodium perborate"
+            },
+            "correct_answer": "A",
+            "explanations": {
+                "A": "Benzalkonium chloride is a quaternary ammonium compound widely used as a preservative in multidose ophthalmic preparations.",
+                "B": "Chlorobutanol can be used as an ophthalmic preservative, but it is an alcohol rather than a quaternary ammonium compound.",
+                "C": "Phenylmercuric nitrate is an organomercurial preservative, not a quaternary ammonium compound.",
+                "D": "Sodium perborate may be used in some preservative systems but is not a quaternary ammonium preservative."
             },
             "calculation": null
         }

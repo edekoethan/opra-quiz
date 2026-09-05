@@ -58,5 +58,305 @@
         "human_status": "rejected",
         "human_reviewed": true,
         "human_review_note": "The question is largerly ambiguous"
+    },
+    {
+        "status": "needs_review",
+        "review_required": true,
+        "review_reason": "The supplied source answer is conflicting: the instructions identify C as the source answer, while the question text marks B as the answer. In addition, de-identifying information is generally an appropriate privacy-protective measure, whereas providing information without first confirming authorization may also be inappropriate. The intended answer therefore requires human review.",
+        "confidence": 0.55,
+        "question_type": "factual",
+        "options_source": "original",
+        "source_answer": "C",
+        "category": "Therapeutics & Patient Care",
+        "topic": "Confidentiality and disclosure of patient medication information",
+        "difficulty": "medium",
+        "question": "A healthcare provider calls the pharmacist asking for private medication information for a report. Which one is INCORRECT?",
+        "options": {
+            "A": "Ask for patient's consent",
+            "B": "Just provide related information (ans)",
+            "C": "De-identify the provided information",
+            "D": "Check his authorization documents"
+        },
+        "correct_answer": "C",
+        "explanations": {
+            "A": "Obtaining the patient's consent is an appropriate way to support disclosure of private medication information, subject to applicable law and policy.",
+            "B": "Only information relevant to the stated purpose should be disclosed, and disclosure should occur after appropriate identity and authorization checks. The word \"just\" makes this option potentially inadequate if it implies disclosure without verification.",
+            "C": "This is designated as the supplied answer, but de-identifying information is generally a privacy-protective and appropriate action for a report when identifiable information is not required. Its status as the incorrect option is therefore questionable.",
+            "D": "Checking the healthcare provider's authorization or credentials is an appropriate safeguard before disclosing private medication information."
+        },
+        "calculation": null,
+        "source_id": 65,
+        "source_classification": "mcq",
+        "source_text": "A healthcare provider calls the pharmacist asking for private medication information for a report. Which one is INCORRECT?\nA. Ask for patient's consent \nB. Just provide related information (ans) \nC. De-identify the provided information \nD. Check his authorization documents \nB \nHere not another hcp it’s specific HCP",
+        "ai_result": {
+            "status": "needs_review",
+            "review_required": true,
+            "review_reason": "The supplied source answer is conflicting: the instructions identify C as the source answer, while the question text marks B as the answer. In addition, de-identifying information is generally an appropriate privacy-protective measure, whereas providing information without first confirming authorization may also be inappropriate. The intended answer therefore requires human review.",
+            "confidence": 0.55,
+            "question_type": "factual",
+            "options_source": "original",
+            "source_answer": "C",
+            "category": "Therapeutics & Patient Care",
+            "topic": "Confidentiality and disclosure of patient medication information",
+            "difficulty": "medium",
+            "question": "A healthcare provider calls the pharmacist asking for private medication information for a report. Which one is INCORRECT?",
+            "options": {
+                "A": "Ask for patient's consent",
+                "B": "Just provide related information (ans)",
+                "C": "De-identify the provided information",
+                "D": "Check his authorization documents"
+            },
+            "correct_answer": "C",
+            "explanations": {
+                "A": "Obtaining the patient's consent is an appropriate way to support disclosure of private medication information, subject to applicable law and policy.",
+                "B": "Only information relevant to the stated purpose should be disclosed, and disclosure should occur after appropriate identity and authorization checks. The word \"just\" makes this option potentially inadequate if it implies disclosure without verification.",
+                "C": "This is designated as the supplied answer, but de-identifying information is generally a privacy-protective and appropriate action for a report when identifiable information is not required. Its status as the incorrect option is therefore questionable.",
+                "D": "Checking the healthcare provider's authorization or credentials is an appropriate safeguard before disclosing private medication information."
+            },
+            "calculation": null
+        },
+        "human_status": "rejected",
+        "human_reviewed": true,
+        "human_review_note": "ambiguous"
+    },
+    {
+        "status": "needs_review",
+        "review_required": true,
+        "review_reason": "The source wording is incomplete and does not identify an answer. Both fluoxetine and methadone can interact with St John's wort, although fluoxetine presents a particularly important serotonergic interaction; therefore, 'least likely to interact' is context-dependent.",
+        "confidence": 0.72,
+        "question_type": "factual",
+        "options_source": "ai_generated",
+        "source_answer": null,
+        "category": "Pharmacology & Toxicology",
+        "topic": "Herbal medicine–drug interactions",
+        "difficulty": "medium",
+        "question": "Among the following medicines, which is least likely to have a clinically significant interaction with St John's wort?",
+        "options": {
+            "A": "Fluoxetine",
+            "B": "Sertraline",
+            "C": "Paroxetine",
+            "D": "Methadone"
+        },
+        "correct_answer": "D",
+        "explanations": {
+            "A": "Fluoxetine has a clinically important serotonergic interaction with St John's wort and may increase the risk of serotonin toxicity.",
+            "B": "Sertraline is serotonergic, and concurrent use with St John's wort may increase the risk of serotonin syndrome.",
+            "C": "Paroxetine is serotonergic, so combination with St John's wort may produce additive serotonergic effects and toxicity.",
+            "D": "Methadone can still interact with St John's wort through enzyme and transporter induction, but its interaction is generally less directly serotonergic than those of the selective serotonin reuptake inhibitors listed."
+        },
+        "calculation": null,
+        "source_id": 69,
+        "source_classification": "unknown",
+        "source_text": "ST JOHN WORTH Least react with\nFluoxetine \nMethadone",
+        "ai_result": {
+            "status": "needs_review",
+            "review_required": true,
+            "review_reason": "The source wording is incomplete and does not identify an answer. Both fluoxetine and methadone can interact with St John's wort, although fluoxetine presents a particularly important serotonergic interaction; therefore, 'least likely to interact' is context-dependent.",
+            "confidence": 0.72,
+            "question_type": "factual",
+            "options_source": "ai_generated",
+            "source_answer": null,
+            "category": "Pharmacology & Toxicology",
+            "topic": "Herbal medicine–drug interactions",
+            "difficulty": "medium",
+            "question": "Among the following medicines, which is least likely to have a clinically significant interaction with St John's wort?",
+            "options": {
+                "A": "Fluoxetine",
+                "B": "Sertraline",
+                "C": "Paroxetine",
+                "D": "Methadone"
+            },
+            "correct_answer": "D",
+            "explanations": {
+                "A": "Fluoxetine has a clinically important serotonergic interaction with St John's wort and may increase the risk of serotonin toxicity.",
+                "B": "Sertraline is serotonergic, and concurrent use with St John's wort may increase the risk of serotonin syndrome.",
+                "C": "Paroxetine is serotonergic, so combination with St John's wort may produce additive serotonergic effects and toxicity.",
+                "D": "Methadone can still interact with St John's wort through enzyme and transporter induction, but its interaction is generally less directly serotonergic than those of the selective serotonin reuptake inhibitors listed."
+            },
+            "calculation": null
+        },
+        "human_status": "rejected",
+        "human_reviewed": true,
+        "human_review_note": ""
+    },
+    {
+        "status": "approved",
+        "review_required": false,
+        "review_reason": null,
+        "confidence": 0.86,
+        "question_type": "factual",
+        "options_source": "source",
+        "source_answer": null,
+        "category": "Pharmacology & Toxicology",
+        "topic": "Drug-induced photosensitivity",
+        "difficulty": "easy",
+        "question": "Photosensitivity is not a typical adverse-effect concern with which medication?",
+        "options": {
+            "A": "Fenofibrate",
+            "B": "Doxycycline",
+            "C": "Mycophenolate",
+            "D": "Cyclosporine"
+        },
+        "correct_answer": "D",
+        "explanations": {
+            "A": "Fenofibrate can rarely cause photosensitivity reactions, so sun-related precautions may be relevant.",
+            "B": "Doxycycline is a well-known cause of photosensitivity and can increase the risk of sunburn.",
+            "C": "Mycophenolate therapy is associated with skin-related sun precautions, including concern about photosensitivity and increased skin-cancer risk.",
+            "D": "Cyclosporine is not typically associated with direct drug-induced photosensitivity, although immunosuppression increases the risk of ultraviolet-related skin cancers."
+        },
+        "calculation": null,
+        "source_id": 78,
+        "source_classification": "mcq",
+        "source_text": "Photosensitivity NOT a issue with\nA. Fenofibrate \nB. Doxycycline \nC. Mycophenolate \nD. Cyclosporine",
+        "ai_result": {
+            "status": "approved",
+            "review_required": false,
+            "review_reason": null,
+            "confidence": 0.86,
+            "question_type": "factual",
+            "options_source": "source",
+            "source_answer": null,
+            "category": "Pharmacology & Toxicology",
+            "topic": "Drug-induced photosensitivity",
+            "difficulty": "easy",
+            "question": "Photosensitivity is not a typical adverse-effect concern with which medication?",
+            "options": {
+                "A": "Fenofibrate",
+                "B": "Doxycycline",
+                "C": "Mycophenolate",
+                "D": "Cyclosporine"
+            },
+            "correct_answer": "D",
+            "explanations": {
+                "A": "Fenofibrate can rarely cause photosensitivity reactions, so sun-related precautions may be relevant.",
+                "B": "Doxycycline is a well-known cause of photosensitivity and can increase the risk of sunburn.",
+                "C": "Mycophenolate therapy is associated with skin-related sun precautions, including concern about photosensitivity and increased skin-cancer risk.",
+                "D": "Cyclosporine is not typically associated with direct drug-induced photosensitivity, although immunosuppression increases the risk of ultraviolet-related skin cancers."
+            },
+            "calculation": null
+        },
+        "human_status": "rejected",
+        "human_reviewed": true,
+        "human_review_note": ""
+    },
+    {
+        "status": "needs_review",
+        "review_required": true,
+        "review_reason": "The source uses ambiguous abbreviations and includes a potentially uncommon formulation ('dexchlorpheniramine spray'). The intended answer appears to be that all listed treatment pairings are correct, but the clinical appropriateness and exact product formulations should be verified.",
+        "confidence": 0.7,
+        "question_type": "factual",
+        "options_source": "ai_generated",
+        "source_answer": null,
+        "category": "Therapeutics & Patient Care",
+        "topic": "Symptomatic treatment of upper respiratory and allergic symptoms",
+        "difficulty": "medium",
+        "question": "According to the remembered source material, which option correctly matches all of the listed patient scenarios with their recommended symptomatic treatments? RN = runny nose, ST = sore throat, Fv = fever, HTN = hypertension, ACEI = angiotensin-converting enzyme inhibitor, HF = hay fever, and AR = allergic rhinitis.",
+        "options": {
+            "A": "Statin plus ACEI with flu-like symptoms/RN: dexchlorpheniramine spray plus paracetamol; statin plus ACEI with RN and ST: dexchlorpheniramine plus paracetamol; statin with Fv, ST and RN: diphenhydramine plus paracetamol; statin with HF and AR: loratadine; statin with HTN, RN, ST and Fv: dexchlorpheniramine plus paracetamol; elderly patient on an ACEI with Fv and ST: benzydamine spray plus paracetamol.",
+            "B": "Use pseudoephedrine-containing products for all patients with RN, including those with HTN or ACEI therapy, and use loratadine only for sore throat.",
+            "C": "Use diphenhydramine plus paracetamol for every scenario, including hay fever, allergic rhinitis and the elderly patient with sore throat.",
+            "D": "Use loratadine plus paracetamol for every scenario, including fever, sore throat and flu-like symptoms, and reserve benzydamine spray for allergic rhinitis."
+        },
+        "correct_answer": "A",
+        "explanations": {
+            "A": "This option reproduces all of the treatment pairings recorded in the source material, including the use of benzydamine spray plus paracetamol for the elderly patient with fever and sore throat.",
+            "B": "This does not match the source and introduces a sympathomimetic decongestant in patients with hypertension or ACEI therapy, where additional assessment may be required.",
+            "C": "The source differentiates between diphenhydramine, loratadine, dexchlorpheniramine and benzydamine according to the clinical presentation; it does not recommend diphenhydramine for every scenario.",
+            "D": "Loratadine is linked in the source with hay fever and allergic rhinitis, not as the universal treatment for fever, sore throat and flu-like symptoms."
+        },
+        "calculation": null,
+        "source_id": 93,
+        "source_classification": "unknown",
+        "source_text": "Statin + ACEI + Flu/RN → Dexchlorpheniramine spray + PCM -statin + ACE + RN + ST → dexchlorpheniramine + PCM -statins + Fv + ST + RN → diphenhydramine + PCM -statin + HF + AR → Loratadine\n-statin + HTN + RN + ST + Fv → dexchlorpheniramine + PCM\n-Elder pt + ACEI + Fv + ST → Benzydamine Spray + PCM \nCorrect all",
+        "ai_result": {
+            "status": "needs_review",
+            "review_required": true,
+            "review_reason": "The source uses ambiguous abbreviations and includes a potentially uncommon formulation ('dexchlorpheniramine spray'). The intended answer appears to be that all listed treatment pairings are correct, but the clinical appropriateness and exact product formulations should be verified.",
+            "confidence": 0.7,
+            "question_type": "factual",
+            "options_source": "ai_generated",
+            "source_answer": null,
+            "category": "Therapeutics & Patient Care",
+            "topic": "Symptomatic treatment of upper respiratory and allergic symptoms",
+            "difficulty": "medium",
+            "question": "According to the remembered source material, which option correctly matches all of the listed patient scenarios with their recommended symptomatic treatments? RN = runny nose, ST = sore throat, Fv = fever, HTN = hypertension, ACEI = angiotensin-converting enzyme inhibitor, HF = hay fever, and AR = allergic rhinitis.",
+            "options": {
+                "A": "Statin plus ACEI with flu-like symptoms/RN: dexchlorpheniramine spray plus paracetamol; statin plus ACEI with RN and ST: dexchlorpheniramine plus paracetamol; statin with Fv, ST and RN: diphenhydramine plus paracetamol; statin with HF and AR: loratadine; statin with HTN, RN, ST and Fv: dexchlorpheniramine plus paracetamol; elderly patient on an ACEI with Fv and ST: benzydamine spray plus paracetamol.",
+                "B": "Use pseudoephedrine-containing products for all patients with RN, including those with HTN or ACEI therapy, and use loratadine only for sore throat.",
+                "C": "Use diphenhydramine plus paracetamol for every scenario, including hay fever, allergic rhinitis and the elderly patient with sore throat.",
+                "D": "Use loratadine plus paracetamol for every scenario, including fever, sore throat and flu-like symptoms, and reserve benzydamine spray for allergic rhinitis."
+            },
+            "correct_answer": "A",
+            "explanations": {
+                "A": "This option reproduces all of the treatment pairings recorded in the source material, including the use of benzydamine spray plus paracetamol for the elderly patient with fever and sore throat.",
+                "B": "This does not match the source and introduces a sympathomimetic decongestant in patients with hypertension or ACEI therapy, where additional assessment may be required.",
+                "C": "The source differentiates between diphenhydramine, loratadine, dexchlorpheniramine and benzydamine according to the clinical presentation; it does not recommend diphenhydramine for every scenario.",
+                "D": "Loratadine is linked in the source with hay fever and allergic rhinitis, not as the universal treatment for fever, sore throat and flu-like symptoms."
+            },
+            "calculation": null
+        },
+        "human_status": "rejected",
+        "human_reviewed": true,
+        "human_review_note": ""
+    },
+    {
+        "status": "needs_review",
+        "review_required": true,
+        "review_reason": "The question is clinically ambiguous because temazepam and lorazepam have overlapping intermediate durations, and withdrawal risk depends on half-life, potency, dose, and duration of use. Lorazepam is the best answer among these options based on its relatively short/intermediate duration and high potency, but the item would benefit from clarification.",
+        "confidence": 0.68,
+        "question_type": "factual",
+        "options_source": "source_preserved",
+        "source_answer": null,
+        "category": "Pharmacology & Toxicology",
+        "topic": "Benzodiazepine withdrawal and duration of action",
+        "difficulty": "medium",
+        "question": "Which of the following benzodiazepines is most associated with withdrawal symptoms?",
+        "options": {
+            "A": "Temazepam",
+            "B": "Lorazepam",
+            "C": "Flunitrazepam",
+            "D": "Diazepam"
+        },
+        "correct_answer": "B",
+        "explanations": {
+            "A": "Temazepam is an intermediate-acting benzodiazepine and can cause withdrawal, but lorazepam is generally considered more likely to produce prominent withdrawal because of its relatively short duration and high potency.",
+            "B": "Lorazepam is a potent intermediate-acting benzodiazepine; withdrawal symptoms may occur relatively quickly and can be clinically significant after regular use.",
+            "C": "Flunitrazepam has a longer duration of action than lorazepam, which generally produces a less abrupt withdrawal syndrome.",
+            "D": "Diazepam is long-acting, so its withdrawal symptoms typically begin later and may be less abrupt than those associated with shorter-acting benzodiazepines."
+        },
+        "calculation": null,
+        "source_id": 98,
+        "source_classification": "mcq",
+        "source_text": "Which benzodiazepines causes the most withdrawal symptoms?\na. Temazepam \nb. Lorazepam \nc. Flunitrazepam \nd. Diazepam \nImages \n\nVancomycin and penems \n\n* A A) Nicotine \nA \n\nChoose sle 1st B \n Sitagliptin✅\n\nThe July 2025\nHuge thanks to everyone who shared recalls\nAnswered by Mariam Nader",
+        "ai_result": {
+            "status": "needs_review",
+            "review_required": true,
+            "review_reason": "The question is clinically ambiguous because temazepam and lorazepam have overlapping intermediate durations, and withdrawal risk depends on half-life, potency, dose, and duration of use. Lorazepam is the best answer among these options based on its relatively short/intermediate duration and high potency, but the item would benefit from clarification.",
+            "confidence": 0.68,
+            "question_type": "factual",
+            "options_source": "source_preserved",
+            "source_answer": null,
+            "category": "Pharmacology & Toxicology",
+            "topic": "Benzodiazepine withdrawal and duration of action",
+            "difficulty": "medium",
+            "question": "Which of the following benzodiazepines is most associated with withdrawal symptoms?",
+            "options": {
+                "A": "Temazepam",
+                "B": "Lorazepam",
+                "C": "Flunitrazepam",
+                "D": "Diazepam"
+            },
+            "correct_answer": "B",
+            "explanations": {
+                "A": "Temazepam is an intermediate-acting benzodiazepine and can cause withdrawal, but lorazepam is generally considered more likely to produce prominent withdrawal because of its relatively short duration and high potency.",
+                "B": "Lorazepam is a potent intermediate-acting benzodiazepine; withdrawal symptoms may occur relatively quickly and can be clinically significant after regular use.",
+                "C": "Flunitrazepam has a longer duration of action than lorazepam, which generally produces a less abrupt withdrawal syndrome.",
+                "D": "Diazepam is long-acting, so its withdrawal symptoms typically begin later and may be less abrupt than those associated with shorter-acting benzodiazepines."
+            },
+            "calculation": null
+        },
+        "human_status": "rejected",
+        "human_reviewed": true,
+        "human_review_note": ""
     }
 ]

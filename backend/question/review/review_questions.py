@@ -79,6 +79,20 @@ def normalize_review_record(record):
     return normalized
 
 
+def record_key(record):
+    """
+    Create an internal identity for a question without changing
+    the JSON validation schema.
+
+    source_id alone is not unique in the prepared dataset.
+    """
+    return (
+        record.get("source_id"),
+        (record.get("source_text") or "").strip(),
+        (record.get("question") or "").strip(),
+    )
+
+
 # ============================================================
 # LOAD QUESTIONS
 # ============================================================
@@ -409,13 +423,13 @@ def main():
         except Exception:
             rejected = []
 
-    approved_ids = {
-        record.get("source_id")
+    approved_keys = {
+        record_key(record)
         for record in approved
     }
 
-    rejected_ids = {
-        record.get("source_id")
+    rejected_keys = {
+        record_key(record)
         for record in rejected
     }
 
@@ -439,12 +453,12 @@ def main():
 
     for index, record in enumerate(questions):
 
-        source_id = record.get("source_id")
+        key = record_key(record)
 
-        if source_id in approved_ids:
+        if key in approved_keys:
             continue
 
-        if source_id in rejected_ids:
+        if key in rejected_keys:
             continue
 
         display_question(
@@ -457,9 +471,11 @@ def main():
 
         if result == "approved":
             approved.append(record)
+            approved_keys.add(key)
 
         elif result == "rejected":
             rejected.append(record)
+            rejected_keys.add(key)
 
         elif result == "pending":
             pending.append(record)
@@ -469,11 +485,11 @@ def main():
             remaining = []
 
             for remaining_record in questions[index:]:
-                remaining_id = remaining_record.get("source_id")
+                remaining_key = record_key(remaining_record)
 
                 if (
-                    remaining_id not in approved_ids
-                    and remaining_id not in rejected_ids
+                    remaining_key not in approved_keys
+                    and remaining_key not in rejected_keys
                 ):
                     remaining.append(remaining_record)
 
